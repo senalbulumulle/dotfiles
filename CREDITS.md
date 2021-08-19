@@ -10,3 +10,9 @@
 #### Fish
 
 - Website: [https://fishshell.com/] [https://github.com/fish-shell/fish-shell]
+
+
+
+#### i3
+
+- Website: [https://i3wm.org/] [https://i3wm.org/]
