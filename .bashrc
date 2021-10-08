@@ -78,20 +78,6 @@ function boilerplate.generate.html(){
 	""" > name.html
 }
 
-## Generates the full HTML Template. 
-function boilerplate.generate.html.full(){
-	echo "hello world"
-}
-
-
-
-
-## Generates the CSS File
-function boilerplate.generate.css() {
-	echo "hello world"
-}
-
-
 
 
 
