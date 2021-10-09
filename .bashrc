@@ -75,7 +75,7 @@ function boilerplate.generate.html(){
 	</html>
 
 
-	""" > name.html
+	""" > main.html
 }
 
 
@@ -104,13 +104,6 @@ int main() {
 
 	""" > main.c
 	
-}
-
-
-
-
-function boilerplate.generate.js() {
-	echo "hello world"
 }
 
 

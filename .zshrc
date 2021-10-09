@@ -53,21 +53,7 @@ function mac.single.app.mode.off() {
 #		Generates boilerplates for project files 
 ########################################################
 
-function boilerplate() {
-    clear 
-	echo "	Welcome to the help screen of Boilerplates \n"
-	echo "	This is where you can generate many templates of programming languages and more.\n"
-	echo "* boilerplate.generate.html(): Generates an HTML file. \n"
-	echo "* boilerplate.generate.html(): Generates an HTML file.\n"
-	echo "* boilerplate.generate.html(): Generates an HTML file.\n"
-	echo "* boilerplate.generate.html(): Generates an HTML file.\n"
-	echo "* boilerplate.generate.html(): Generates an HTML file.\n"
-	echo "* boilerplate.generate.html(): Generates an HTML file.\n"
-	echo "* boilerplate.generate.html(): Generates an HTML file.\n"
-	echo "* boilerplate.generate.html(): Generates an HTML file.\n"
-	echo "* boilerplate.generate.html(): Generates an HTML file.\n"
-	echo "* boilerplate.generate.html(): Generates an HTML file.\n"
-}
+
 
 ## Generates HTML Template. 
 
@@ -85,28 +71,14 @@ function boilerplate.generate.html(){
 	</html>
 
 
-	""" > name.html
+	""" > main.html
 }
-
-## Generates the full HTML Template. 
-function boilerplate.generate.html.full(){
-	echo "hello world"
-}
-
-
-
-
-## Generates the CSS File
-function boilerplate.generate.css() {
-	echo "hello world"
-}
-
 
 
 
 
 function boilerplate.generate.c() {
-	touch main.c
+	touch name.c
 		echo """
 /*************************************************************
 *		Title: 
@@ -131,8 +103,27 @@ int main() {
 }
 
 
+function boilerplate.generate.python() {
+		touch main.py		
+		echo """
+###############################################################
+#		Title: 
+#        
+#		Author: 
+#
+# 		Description: 
+###############################################################/
+def main():
+	## Program Here 
+    
+# Call the Main Function 
+main()		
+		
 
 
-function boilerplate.generate.js() {
-	echo "hello world"
+
+
+	""" > main.py
+}
+	
 }
