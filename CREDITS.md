@@ -44,3 +44,8 @@
 ### ZSH
 
 - Website [https://www.zsh.org/] [https://github.com/zsh-users/zsh]
+
+
+### Libreoffice
+
+- Website [https://www.libreoffice.org/] [https://github.com/LibreOffice]

@@ -51,7 +51,26 @@ function mac.single.app.mode.off() {
 }
 
 
+##################################################################
+#   	This Section converts from any document files 
+#       to html
+#       Credits to Libreoffice and soffice cli
+##################################################################
 
+senal.convert.lecture.notes.pptx() {
+	soffice --headless --convert-to html *.pptx
+}
+
+
+
+senal.convert.lecture.notes.docx() {
+	soffice --headless --convert-to html *.docx
+}
+
+
+senal.convert.lecture.notes.pdf() {
+	soffice --headless --convert-to html *.pdf
+}
 
 
 

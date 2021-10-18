@@ -128,10 +128,27 @@ main()
     	
     	
     end
+    
+
+
+    ########################################################
+    #		Turns on or off Hidden Files in Apple macOS
+    #		Finder
+    ########################################################
+    function senal.convert.lecture.notes.pptx
+    	soffice --headless --convert-to html *.pptx
+    end 
+
+    function senal.convert.lecture.notes.docx
+    	soffice --headless --convert-to html *.docx
+    end 
+
+    function senal.convert.lecture.notes.pdf
+    	soffice --headless --convert-to html *.pdf
+    end 
 
 
 
     
     
 end
-
