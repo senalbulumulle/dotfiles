@@ -128,6 +128,37 @@ main()
     	
     	
     end
+
+
+
+
+
+    function boilerplate.generate.readme.md
+    touch README.md
+	echo """
+# Title
+
+
+
+#### Introduction
+
+
+#### Requirements
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] D
+
+
+
+#### Installation
+
+
+	""" > README.md 
+
+
+	end
     
 
 

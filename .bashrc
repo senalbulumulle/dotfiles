@@ -148,3 +148,31 @@ main()
 
 	""" > main.py
 }
+
+
+
+
+
+function boilerplate.generate.README.md {
+		touch README.md		
+		echo """
+# Title
+
+
+
+#### Introduction
+
+
+#### Requirements
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] D
+
+
+
+#### Installation
+
+	""" > README.md
+}
