@@ -12,4 +12,4 @@
 
 cd ../config/
 
-cp .config ../../.config/kitty/
+cp .config ../../.config/
