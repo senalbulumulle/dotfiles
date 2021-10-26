@@ -13,3 +13,7 @@
 cd ../config/
 
 cp .config ../../.config/
+
+cp .bashrc ../../.bashrc
+
+cp .zshrc ../../.zshrc
