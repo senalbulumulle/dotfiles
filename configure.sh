@@ -12,13 +12,4 @@
 
 cd ../config/
 
-cp kitty ../../.config/kitty/
-
-cp fish  ../../.config/fish/
-
-cp neofetch ../../.config/neofetch/
-
-cp micro ../../.config/micro/
-
-
-
+cp .config ../../.config/kitty/
