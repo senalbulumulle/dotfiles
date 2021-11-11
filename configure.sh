@@ -10,9 +10,11 @@
 ## Instructions: Please Make sure the repository is cloned on the 
 ##				 home-directory in order for this to work. 
 
-cd ../config/
+cd ../.config/
 
 cp -R .config ../.config
+
+cd ../ 
 
 cp .bashrc ../.bashrc
 
