@@ -12,10 +12,10 @@
 
 cd ../.config/
 
-cp -R .config ../.config
+sudo cp -R .config ../.config
 
 cd ../ 
 
-cp .bashrc ../.bashrc
+sudo cp .bashrc ../.bashrc
 
-cp .zshrc ../.zshrc
+sudo cp .zshrc ../.zshrc
