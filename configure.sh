@@ -12,8 +12,8 @@
 
 cd ../config/
 
-cp .config ../../.config/
+cp -R .config ../.config
 
-cp .bashrc ../../.bashrc
+cp .bashrc ../.bashrc
 
-cp .zshrc ../../.zshrc
+cp .zshrc ../.zshrc
