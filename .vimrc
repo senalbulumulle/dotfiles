@@ -7,3 +7,4 @@
 
 
 syntax on
+:set cindent 
