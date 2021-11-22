@@ -178,3 +178,5 @@ function boilerplate.generate.README.md() {
 
 	""" > README.md
 }
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

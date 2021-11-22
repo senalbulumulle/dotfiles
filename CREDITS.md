@@ -21,7 +21,7 @@
 
 #### Micro
 
-- Website: [https://micro-editor.github.io/] [https://github.com/zyedidia/micro]
+- Website: [https://micro-editor.github.io/] [https://github.com/zyedidia/micro] 
 
 
 
@@ -54,3 +54,8 @@
 ### VIM
 
 - Website [https://www.vim.org/] [https://github.com/vim/vim]
+
+
+### neovim
+
+- Website [https://neovim.io/] [https://github.com/neovim/neovim]

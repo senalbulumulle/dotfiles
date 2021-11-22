@@ -15,12 +15,15 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 #			
 ########################################################
 
-
+########################################################
+#	Functions to make the workflow easier
+#
+########################################################
 
 
 ########################################################
-#		Turns on or off Hidden Files in Apple macOS
-#		Finder
+#	Turns on or off Hidden Files in Apple macOS
+#	Finder
 ########################################################
 function mac.hidden.files.on() {
 	defaults write com.apple.finder AppleShowAllFiles YES;
@@ -39,7 +42,7 @@ function mac.hidden.files.off() {
 
 
 ########################################################
-#		Turns on or off Single App Mode in Apple macOS
+#	Turns on or off Single App Mode in Apple macOS
 ########################################################
 function mac.single.app.mode.on() {
 	defaults write com.apple.dock single-app -bool true;killall Dock
@@ -176,3 +179,4 @@ function boilerplate.generate.README.md {
 
 	""" > README.md
 }
+
