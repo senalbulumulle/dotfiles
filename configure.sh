@@ -11,8 +11,8 @@
 ##				 home-directory in order for this to work. 
 
 
-sudo cp -R .config ../
+cp -R .config ../
 
-sudo cp .bashrc ../.bashrc
+cp .bashrc ../.bashrc
 
-sudo cp .zshrc ../.zshrc
+cp .zshrc ../.zshrc
