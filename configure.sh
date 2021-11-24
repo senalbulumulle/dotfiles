@@ -11,7 +11,7 @@
 ##				 home-directory in order for this to work. 
 
 
-sudo cp -R .config ../.config
+sudo cp -R .config ../
 
 sudo cp .bashrc ../.bashrc
 
