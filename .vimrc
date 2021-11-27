@@ -7,4 +7,5 @@
 
 
 syntax on
-:set cindent 
+set cindent 
+set number
