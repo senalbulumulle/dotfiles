@@ -59,3 +59,11 @@
 ### neovim
 
 - Website [https://neovim.io/] [https://github.com/neovim/neovim]
+
+
+### i3-gaps
+https://github.com/Airblader/i3
+
+
+### Rofi
+https://github.com/davatorium/rofi/
