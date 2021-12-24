@@ -11,7 +11,7 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 
 
 ########################################################
-#		Functions to make the workflow easier. 
+#	Functions to make the workflow easier. 
 #			
 ########################################################
 
@@ -78,7 +78,7 @@ senal.convert.lecture.notes.pdf() {
 
 
 ########################################################
-#		Generates boilerplates for project files 
+#	Generates boilerplates for project files 
 ########################################################
 
 ## Generates HTML Template. 
@@ -133,25 +133,46 @@ function boilerplate.generate.python() {
 		touch main.py		
 		echo """
 ###############################################################
-#		Title: 
+#	Title: 
 #        
-#		Author: 
+#	Author: 
 #
-# 		Description: 
+# 	Description: 
 ###############################################################/
 def main():
 	## Program Here 
     
 # Call the Main Function 
 main()		
-		
-
-
-
-
+	
+	
+	
 	""" > main.py
 }
 
+function boilerplate.generate.java() {
+	touch main.java
+		echo """
+/**************************************************************
+*	Title: 
+*	
+*	Author:
+*
+*	Description:
+*
+***************************************************************/
+public class Main {
+	
+	public static void main(String[] args) {
+
+		// Program Here
+	}
+}
+		
+		
+		""" > main.java
+
+}
 
 
 

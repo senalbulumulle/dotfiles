@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 
     ########################################################
-    #				Senal's config.fish Config
+    #	  Senal's config.fish Config
     #
     ########################################################
     
@@ -12,7 +12,7 @@ if status is-interactive
     
     
     ########################################################
-    #		Functions to make the workflow easier. 
+    #	  Functions to make the workflow easier. 
     #			
     ########################################################
     
@@ -20,8 +20,8 @@ if status is-interactive
     
     
     ########################################################
-    #		Turns on or off Hidden Files in Apple macOS
-    #		Finder
+    #	  Turns on or off Hidden Files in Apple macOS
+    #	  Finder
     ########################################################
     function mac.hidden.files.on
     	defaults write com.apple.finder AppleShowAllFiles YES;
@@ -43,18 +43,18 @@ if status is-interactive
 
 
     ########################################################
-    #    Boilerplates
+    #	  Boilerplates
     #		
     ########################################################
     function boilerplate.generate.c 
     	touch main.c
 		echo """
 /*************************************************************
-*		Title: 
+*	Title: 
 *        
-* 		Author: 
+* 	Author: 
 *
-* 		Description: 
+* 	Description: 
 **************************************************************/
 		
 		
@@ -102,13 +102,37 @@ main()
 
 
 
+
+
+
 	""" > main.py
     	
     	
     end
 
+    function boilerplate.generate.java
+    touch main.java
+    echo """
+/**************************************************************
+*	Title: 
+*	
+*	Author:
+*
+*	Description:
+*
+***************************************************************/
+public class Main {
+	
+	public static void main(String[] args) {
 
+		// Program Here
+	}
+}
+    """ > main.java 
 
+    end 
+
+    
     function boilerplate.generate.html
     touch main.html
 	echo """
@@ -163,8 +187,8 @@ main()
 
 
     ########################################################
-    #		Turns on or off Hidden Files in Apple macOS
-    #		Finder
+    #	Turns on or off Hidden Files in Apple macOS
+    #	Finder
     ########################################################
     function senal.convert.lecture.notes.pptx
     	soffice --headless --convert-to html *.pptx
