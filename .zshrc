@@ -4,17 +4,26 @@
 ########################################################
 
 
+## Make the Micro Editor Default to use it on Ranger File Manager
+VISUAL=micro; export VISUAL EDITOR=micro; export micro
+
+
+
+
 ########################################################
-#		Functions to make the workflow easier. 
+#	Functions to make the workflow easier. 
 #			
 ########################################################
 
-
+########################################################
+#	Functions to make the workflow easier
+#
+########################################################
 
 
 ########################################################
-#		Turns on or off Hidden Files in Apple macOS
-#		Finder
+#	Turns on or off Hidden Files in Apple macOS
+#	Finder
 ########################################################
 function mac.hidden.files.on() {
 	defaults write com.apple.finder AppleShowAllFiles YES;
@@ -33,7 +42,7 @@ function mac.hidden.files.off() {
 
 
 ########################################################
-#		Turns on or off Single App Mode in Apple macOS
+#	Turns on or off Single App Mode in Apple macOS
 ########################################################
 function mac.single.app.mode.on() {
 	defaults write com.apple.dock single-app -bool true;killall Dock
@@ -43,7 +52,6 @@ function mac.single.app.mode.on() {
 function mac.single.app.mode.off() {
 	defaults write com.apple.dock single-app -bool no;killall Dock
 }
-
 
 
 ##################################################################
@@ -69,13 +77,9 @@ senal.convert.lecture.notes.pdf() {
 
 
 
-
-
 ########################################################
-#		Generates boilerplates for project files 
+#	Generates boilerplates for project files 
 ########################################################
-
-
 
 ## Generates HTML Template. 
 
@@ -129,34 +133,52 @@ function boilerplate.generate.python() {
 		touch main.py		
 		echo """
 ###############################################################
-#		Title: 
+#	Title: 
 #        
-#		Author: 
+#	Author: 
 #
-# 		Description: 
+# 	Description: 
 ###############################################################/
 def main():
 	## Program Here 
     
 # Call the Main Function 
 main()		
-		
-
-
-
-
+	
+	
+	
 	""" > main.py
 }
+
+function boilerplate.generate.java() {
+	touch main.java
+		echo """
+/**************************************************************
+*	Title: 
+*	
+*	Author:
+*
+*	Description:
+*
+***************************************************************/
+public class Main {
 	
+	public static void main(String[] args) {
+
+		// Program Here
+	}
+}
+		
+		
+		""" > main.java
+
+}
 
 
 
 
-
-
-
-function boilerplate.generate.README.md() {
-		touch README.md		
+function boilerplate.generate.README.md {
+	touch README.md		
 		echo """
 # Title
 
@@ -178,5 +200,4 @@ function boilerplate.generate.README.md() {
 
 	""" > README.md
 }
-
 
