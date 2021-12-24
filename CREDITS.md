@@ -70,7 +70,3 @@ https://github.com/davatorium/rofi/
 
 
 
-### polybar 
-https://github.com/polybar/polybar
-
-https://polybar.github.io/
