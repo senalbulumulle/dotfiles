@@ -62,11 +62,15 @@
 
 
 ### i3-gaps
-https://github.com/Airblader/i3
+* https://github.com/Airblader/i3
 
 
 ### Rofi
-https://github.com/davatorium/rofi/
+* https://github.com/davatorium/rofi/
 
 
 
+### Nitrogen
+* https://nitrogenproject.com/
+
+* https://github.com/nitrogen/nitrogen
