@@ -3,74 +3,105 @@
 
 #### Kitty
 
-- Website: [https://sw.kovidgoyal.net/kitty/] [https://github.com/kovidgoyal/kitty]
+* https://sw.kovidgoyal.net/kitty/
+
+* https://github.com/kovidgoyal/kitty]
 
 
 
 #### Fish
 
-- Website: [https://fishshell.com/] [https://github.com/fish-shell/fish-shell]
+* https://fishshell.com/ 
+
+* https://github.com/fish-shell/fish-shell
 
 
 
 #### i3
 
-- Website: [https://i3wm.org/] [https://i3wm.org/]
+ 
+* https://i3wm.org/ 
+
+* https://i3wm.org/
 
 
 
 #### Micro
 
-- Website: [https://micro-editor.github.io/] [https://github.com/zyedidia/micro] 
+* https://micro-editor.github.io/ 
+
+* https://github.com/zyedidia/micro
 
 
 
 #### Neofetch 
 
-- Website: [https://github.com/dylanaraps/neofetch/]
+* https://github.com/dylanaraps/neofetch/ 
 
 
 #### Ranger
 
-- Website: [https://github.com/ranger/ranger] [https://ranger.github.io/] 
+* https://github.com/ranger/ranger 
+
+* https://ranger.github.io/ 
 
 
 
 #### Bash
 
-- Website: [https://www.gnu.org/software/bash/]
+* https://www.gnu.org/software/bash/
 
 
 ### ZSH
 
-- Website [https://www.zsh.org/] [https://github.com/zsh-users/zsh]
+* https://www.zsh.org/ 
+
+* https://github.com/zsh-users/zsh
 
 
 ### Libreoffice
 
-- Website [https://www.libreoffice.org/] [https://github.com/LibreOffice]
+* https://www.libreoffice.org/ 
+
+* https://github.com/LibreOffice
 
 
 ### VIM
 
-- Website [https://www.vim.org/] [https://github.com/vim/vim]
+* https://www.vim.org/ 
+
+* https://github.com/vim/vim
 
 
 ### neovim
 
-- Website [https://neovim.io/] [https://github.com/neovim/neovim]
+* https://neovim.io/ 
+
+* https://github.com/neovim/neovimß
 
 
 ### i3-gaps
+
 * https://github.com/Airblader/i3
 
 
 ### Rofi
+
 * https://github.com/davatorium/rofi/
 
 
 
 ### Nitrogen
+
 * https://nitrogenproject.com/
 
 * https://github.com/nitrogen/nitrogen
+
+
+
+### Arch Linux 
+
+* https://archlinux.org/
+
+* https://github.com/archlinux
+
