@@ -81,3 +81,9 @@ sudo pacman -S vim
 
 
 
+
+## Installs rofi
+
+## https://github.com/davatorium/rofi
+
+sudo pacman -S rofi
