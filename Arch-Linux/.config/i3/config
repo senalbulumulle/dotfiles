@@ -34,7 +34,9 @@ font pango:Arial 11
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+
+## This is set to nothing, just to get the window border to not show up
+font pango:Arial
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -56,6 +58,15 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+
+
+###############################################################################
+#	Window Gaps
+#	
+#
+###############################################################################
+gaps inner 15
+gaps outer 15
 
 
 ###############################################################################
@@ -216,6 +227,9 @@ mode "resize" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
+
+default_border pixel 1
+default_floating_border pixel 1
 
 bindsym $mod+r mode "resize"
 
