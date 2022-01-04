@@ -9,6 +9,9 @@
 ## This script installs apps/dependencies for my config and more
 
 
+## Making sure the pacman repositories/packages are updated
+sudo pacman -Su
+
 ## Installs Librewolf 
 
 ## https://librewolf.net/ 
@@ -87,3 +90,383 @@ sudo pacman -S vim
 ## https://github.com/davatorium/rofi
 
 sudo pacman -S rofi
+
+
+
+## Installs tint2
+
+## https://gitlab.com/o9000/tint2
+## https://github.com/o9000/tint2
+
+
+sudo pacman -S tint2
+
+
+
+
+
+## Installs i3
+
+## https://github.com/i3/i3
+## https://github.com/Airblader/i3
+## https://i3wm.org/
+
+
+sudo pacman -S i3
+
+
+
+
+## Installs OpenBox
+
+## https://github.com/danakj/openbox
+
+
+sudo pacman -S openbox
+
+
+
+
+
+
+## Informs the user the system is rebooting. 
+## This will ensure that my config files are fully working
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (10)
+#
+#
+#
+#################################################################
+"""
+
+
+sleep 1
+
+clear
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (9)
+#
+#
+#
+#################################################################
+"""
+
+
+sleep 1
+
+clear
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (8)
+#
+#
+#
+#################################################################
+"""
+
+
+sleep 1
+
+clear
+
+
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (7)
+#
+#
+#
+#################################################################
+"""
+
+
+sleep 1
+
+clear
+
+
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (6)
+#
+#
+#
+#################################################################
+"""
+
+
+sleep 1
+
+clear
+
+
+
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (5)
+#
+#
+#
+#################################################################
+"""
+
+
+sleep 1
+
+clear
+
+
+
+
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (4)
+#
+#
+#
+#################################################################
+"""
+
+
+sleep 1
+
+clear
+
+
+
+
+
+
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (3)
+#
+#
+#
+#################################################################
+"""
+
+
+sleep 1
+
+clear
+
+
+
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (2)
+#
+#
+#
+#################################################################
+"""
+
+
+sleep 1
+
+clear
+
+
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (1)
+#
+#
+#
+#################################################################
+"""
+
+
+sleep 1
+
+clear
+
+
+
+
+
+
+## Make an animation before rebooting the system
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (0)
+#
+#
+#
+###############################
+"""
+clear
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (0)
+#
+#
+#
+#################
+"""
+clear
+
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (0)
+#
+#
+#
+########
+"""
+clear
+
+
+
+
+echo """
+
+#################################################################
+#	Your system will be rebooted in (0)
+#
+#
+#
+"""
+clear
+
+
+
+
+echo """
+
+##############################################
+#	Your system will be rebooted in (0)
+#
+#
+#
+"""
+clear
+
+
+
+
+
+
+echo """
+
+######################
+#	Your system will be rebooted in (0)
+#
+#
+#
+"""
+clear
+
+
+
+
+echo """
+
+###########
+#	Your system will be rebooted in (0)
+#
+#
+#
+"""
+clear
+
+
+
+
+
+
+echo """
+
+
+#	Your system will be rebooted in (0)
+#
+#
+"""
+clear
+
+
+
+echo """
+
+
+#	Your system will be rebooted in (0)
+#
+"""
+clear
+
+
+
+
+echo """
+
+
+#	Your system will be rebooted in (0)
+"""
+
+clear
+
+
+
+echo """
+"""
+
+
+clear
+
+
+
+## Reboots the system
+
+sudo reboot
