@@ -137,3 +137,25 @@ http://openbox.org/wiki/Main_Page
 
 * https://github.com/archlinux
 
+
+
+### Debian
+
+* https://www.debian.org/
+
+* https://github.com/debian
+
+
+
+
+### Pop!_OS
+
+* https://pop.system76.com/
+
+* https://system76.com/
+
+* https://github.com/pop-os
+
+* https://github.com/system76
+
+
