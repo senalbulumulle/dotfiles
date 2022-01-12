@@ -26,6 +26,7 @@
 
 
 
+
 #### Micro
 
 * https://micro-editor.github.io/ 
@@ -34,9 +35,12 @@
 
 
 
+
 #### Neofetch 
 
 * https://github.com/dylanaraps/neofetch/ 
+
+
 
 
 #### Ranger
@@ -52,11 +56,15 @@
 * https://www.gnu.org/software/bash/
 
 
+
+
 ### ZSH
 
 * https://www.zsh.org/ 
 
 * https://github.com/zsh-users/zsh
+
+
 
 
 ### Libreoffice
@@ -66,6 +74,8 @@
 * https://github.com/LibreOffice
 
 
+
+
 ### VIM
 
 * https://www.vim.org/ 
@@ -73,11 +83,15 @@
 * https://github.com/vim/vim
 
 
+
+
 ### neovim
 
 * https://neovim.io/ 
 
-* https://github.com/neovim/neovimß
+* https://github.com/neovim/neovim
+
+
 
 
 ### i3-gaps
@@ -85,9 +99,12 @@
 * https://github.com/Airblader/i3
 
 
+
+
 ### Rofi
 
 * https://github.com/davatorium/rofi/
+
 
 
 
@@ -99,19 +116,24 @@
 
 
 
+
 ### Tint2
 
 * https://gitlab.com/o9000/tint2
+
+
 
 
 ### OpenBox
 
 http://openbox.org/wiki/Main_Page
 
+
+
+
 ### Arch Linux 
 
 * https://archlinux.org/
 
 * https://github.com/archlinux
-
 
