@@ -139,6 +139,22 @@ http://openbox.org/wiki/Main_Page
 
 
 
+
+### Red Hat 
+
+* https://www.redhat.com/en
+
+* https://github.com/RedHatOfficial
+
+
+
+
+### Fedora
+
+* https://getfedora.org/
+
+
+
 ### Debian
 
 * https://www.debian.org/
