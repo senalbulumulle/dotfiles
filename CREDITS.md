@@ -5,7 +5,18 @@
 
 * https://sw.kovidgoyal.net/kitty/
 
-* https://github.com/kovidgoyal/kitty]
+* https://github.com/kovidgoyal/kitty
+
+
+
+
+#### Librewolf 
+
+* https://librewolf.net/
+
+* https://librewolf.net/
+
+* https://librewolf.net/installation/fedora/
 
 
 
@@ -58,7 +69,7 @@
 
 
 
-### ZSH
+#### ZSH
 
 * https://www.zsh.org/ 
 
@@ -67,7 +78,7 @@
 
 
 
-### Libreoffice
+#### Libreoffice
 
 * https://www.libreoffice.org/ 
 
@@ -76,7 +87,7 @@
 
 
 
-### VIM
+#### VIM
 
 * https://www.vim.org/ 
 
@@ -85,7 +96,7 @@
 
 
 
-### neovim
+#### neovim
 
 * https://neovim.io/ 
 
@@ -94,21 +105,21 @@
 
 
 
-### i3-gaps
+#### i3-gaps
 
 * https://github.com/Airblader/i3
 
 
 
 
-### Rofi
+#### Rofi
 
 * https://github.com/davatorium/rofi/
 
 
 
 
-### Nitrogen
+#### Nitrogen
 
 * https://nitrogenproject.com/
 
@@ -117,21 +128,21 @@
 
 
 
-### Tint2
+#### Tint2
 
 * https://gitlab.com/o9000/tint2
 
 
 
 
-### OpenBox
+#### OpenBox
 
 http://openbox.org/wiki/Main_Page
 
 
 
 
-### Arch Linux 
+#### Arch Linux 
 
 * https://archlinux.org/
 
@@ -140,7 +151,7 @@ http://openbox.org/wiki/Main_Page
 
 
 
-### Red Hat 
+#### Red Hat 
 
 * https://www.redhat.com/en
 
@@ -149,13 +160,13 @@ http://openbox.org/wiki/Main_Page
 
 
 
-### Fedora
+#### Fedora
 
 * https://getfedora.org/
 
 
 
-### Debian
+#### Debian
 
 * https://www.debian.org/
 
@@ -164,7 +175,7 @@ http://openbox.org/wiki/Main_Page
 
 
 
-### Pop!_OS
+#### Pop!_OS
 
 * https://pop.system76.com/
 
