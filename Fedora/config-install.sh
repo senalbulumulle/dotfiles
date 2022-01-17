@@ -28,6 +28,9 @@ sudo dnf install kitty
 sudo dnf install neofetch
 
 
+## Removes Firefox 
+
+sudo dnf erase firefox
 
 ## Installs Ranger 
 
