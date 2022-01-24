@@ -18,6 +18,7 @@
 
 * https://librewolf.net/installation/fedora/
 
+* https://librewolf.net/installation/debian/
 
 
 #### Fish
@@ -138,6 +139,17 @@
 #### OpenBox
 
 http://openbox.org/wiki/Main_Page
+
+
+
+#### Wget
+
+https://www.gnu.org/software/wget/
+
+https://github.com/mirror/wget
+
+https://gitlab.com/gnuwget/wget
+
 
 
 
