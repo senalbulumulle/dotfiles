@@ -111,7 +111,7 @@ while :
 			
 				* Pop!_OS		(4)
 
-				* Exit the Program      (exit)
+				* Exit the Program      (5)
 
 				
 			*****************************************************
