@@ -193,7 +193,7 @@ https://gitlab.com/gnuwget/wget
 
 * https://github.com/debian
 
-
+* https://gist.github.com/marjacob/7bbfc44af9bc53606343908f6c48eb97
 
 
 #### Pop!_OS
