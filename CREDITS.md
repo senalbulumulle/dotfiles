@@ -217,3 +217,10 @@ https://gitlab.com/gnuwget/wget
 * https://git-scm.com/
 
 * https://github.com/git
+
+
+#### Stow
+
+* https://www.gnu.org/software/stow/
+
+* https://github.com/aspiers/stow/
