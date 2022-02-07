@@ -231,3 +231,10 @@ https://gitlab.com/gnuwget/wget
 * https://github.com/tmux/tmux
 
 * https://github.com/tmux/tmux/wiki
+
+
+#### libevdev
+
+* https://github.com/freedesktop/libevdev
+
+* https://www.freedesktop.org/wiki/Software/libevdev/
