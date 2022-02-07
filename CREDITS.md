@@ -238,3 +238,83 @@ https://gitlab.com/gnuwget/wget
 * https://github.com/freedesktop/libevdev
 
 * https://www.freedesktop.org/wiki/Software/libevdev/
+
+
+#### libpango1.0-dev
+
+* https://packages.debian.org/sid/libpango1.0-dev
+
+
+#### libstartup-notification0-dev
+
+* https://packages.debian.org/buster/libstartup-notification0-dev
+
+
+#### libxcb-cursor-dev
+
+* https://packages.debian.org/nl/buster/amd64/libxcb-cursor-dev
+
+
+#### libxcb-icccm4-dev
+
+* https://packages.debian.org/sid/libxcb-icccm4-dev
+
+
+#### libxcb-keysyms1-dev
+
+* https://packages.debian.org/sid/libxcb-keysyms1-dev
+
+
+#### libxcb-randr0-dev
+
+* https://packages.debian.org/sid/libxcb-randr0-dev
+
+
+#### libxcb-util0-dev
+
+* https://packages.debian.org/sid/libxcb-util0-dev
+
+
+#### libxcb-xinerama0-dev
+
+* https://packages.debian.org/sid/libxcb-xinerama0-dev
+
+
+#### libxcb-xkb-dev
+
+* https://packages.debian.org/sid/libxcb-xkb-dev
+
+
+#### libxcb-xrm-dev
+
+* https://packages.debian.org/sid/libxcb-xrm-dev
+
+
+#### libxcb-xrm0
+
+* https://packages.debian.org/sid/libxcb-xrm0
+
+
+#### libxcb1-dev 
+
+* https://packages.debian.org/sid/libxcb1-dev
+
+
+#### libxkbcommon-dev
+
+* https://packages.debian.org/sid/libxkbcommon-dev
+
+
+#### libxkbcommon-x11-dev
+
+* https://packages.debian.org/sid/libxkbcommon-x11-dev
+
+
+#### libyajl-dev
+
+* https://packages.debian.org/sid/libyajl-dev
+
+
+#### xcb
+
+* https://packages.debian.org/sid/xcb
