@@ -318,3 +318,30 @@ https://gitlab.com/gnuwget/wget
 #### xcb
 
 * https://packages.debian.org/sid/xcb
+
+
+#### feh
+
+* https://feh.finalrewind.org/
+
+* https://github.com/derf/feh
+
+* https://packages.debian.org/sid/feh
+
+
+
+#### suckless-tools
+
+* https://tools.suckless.org/
+
+* https://packages.debian.org/sid/suckless-tools
+
+
+
+#### xorg
+
+* https://www.x.org/wiki/
+
+* https://packages.debian.org/sid/xorg
+
+
