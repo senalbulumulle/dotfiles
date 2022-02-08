@@ -18,6 +18,7 @@ sudo apt update && sudo apt upgrade
 ## https://librewolf.net/
 ## https://gitlab.com/librewolf-community
 ## https://librewolf.net/installation/debian/
+## 
 
 echo "deb [arch=amd64] http://deb.librewolf.net $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/librewolf.list
 sudo wget https://deb.librewolf.net/keyring.gpg -O /etc/apt/trusted.gpg.d/librewolf.gpg
@@ -106,16 +107,134 @@ sudo apt install tint2
 
 
 
-
-
-## Installs i3
+## Installs i3 (installs i3-gaps manually)
 
 ## https://github.com/i3/i3
 ## https://github.com/Airblader/i3
 ## https://i3wm.org/
 
 
-sudo apt install i3 
+
+
+## Installs autoconf 
+sudo apt install autoconf 
+
+## Installs build-essential
+sudo apt install build-essential
+
+## Installs git 
+sudo apt install stow 
+
+## Installs stow
+sudo apt install stow
+
+## Installs tmux 
+sudo apt install tmux
+
+## Installs tree
+sudo apt install tree
+
+## Adds the Debian backports 
+echo "deb http://ftp.debian.org/debian stretch-backports main" > /etc/apt/sources.list.d/backports.list
+apt update
+
+
+## Installs libev-dev
+sudo apt install libev-dev
+
+## Installs libpango1.0-dev
+sudo apt install libpango1.0-dev
+
+## Installs libstartup-notification0-dev
+sudo apt install libstartup-notification0-dev
+
+## Installs libxcb-cursor-dev
+sudo apt install libxcb-cursor-dev
+
+## Installs libxcb-icccm4-dev
+sudo apt install libxcb-icccm4-dev
+
+## Installs libxcb-keysyms1-dev
+sudo apt install libxcb-keysyms1-dev
+
+## Installs libxcb-randr0-dev
+sudo apt install libxcb-randr0-dev
+
+## Installs libxcb-util0-dev
+sudo apt install libxcb-util0-dev
+
+## Installs libxcb-xinerama0-dev
+sudo apt install libxcb-xinerama0-dev
+
+## Installs libxcb-xkb-dev
+sudo apt install libxcb-xkb-dev
+
+## Installs libxcb-xrm-dev
+sudo apt install libxcb-xrm-dev
+
+## Installs libxcb-xrm0
+sudo apt install libxcb-xrm0
+
+## Installs libxcb1-dev
+sudo apt install libxcb1-dev
+
+## Installs libxkbcommon-dev
+sudo apt install libxkbcommon-dev
+
+## Installs libxkbcommon-x11-dev
+sudo apt install libxkbcommon-x11-dev
+
+## Installs libyajl-dev
+sudo apt install libyajl-dev
+
+## Installs xcb
+sudo apt install xcb
+
+
+## Change the directory to /usr/local/src/
+cd /usr/local/src
+
+## Clone the i3-gaps repository
+git clone https://github.com/Airblader/i3 i3-gaps
+cd i3-gaps
+
+
+## Build the source 
+hash=$(git rev-parse --short HEAD)
+autoreconf --force --install
+mkdir build && cd "$_"
+../configure --prefix=/usr/local --sysconfdir=/etc --disable-sanitizers
+make PREFIX=/usr/local
+make install prefix=/usr/local/stow/i3-gaps-$(hash)
+
+
+## Set some permissions in order to work 
+find /usr/local/stow/i3-gaps-$(hash) -type d -exec chmod 755 {} \;
+find /usr/local/stow/i3-gaps-$(hash) -type f -exec chmod 644 {} \;
+chmod -R 755 /usr/local/stow/i3-gaps-$(hash)/bin
+
+
+## Install sym links 
+cd /usr/local/stow
+stow i3-gaps-$(hash)
+
+
+## Installs feh
+sudo apt install feh
+
+## Installs i3blocks
+sudo apt install i3blocks
+
+## Installs i3lock
+sudo apt install i3lock
+
+## Installs suckless-tools
+sudo apt install suckless-tools
+
+## Installs xorg 
+sudo apt install xorg 
+
+
 
 
 
