@@ -17,4 +17,4 @@ cp .bashrc ../../.bashrc
 
 cp .zshrc ../../.zshrc
 
-cp .vimrc ../.vimrc
+cp .vimrc ../../.vimrc
