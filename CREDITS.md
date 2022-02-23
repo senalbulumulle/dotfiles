@@ -226,6 +226,13 @@ https://gitlab.com/gnuwget/wget
 * https://github.com/git
 
 
+#### GitHub-CLI
+
+* https://cli.github.com/
+
+* https://github.com/cli/cli
+
+
 #### Stow
 
 * https://www.gnu.org/software/stow/
