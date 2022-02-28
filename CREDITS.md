@@ -87,6 +87,14 @@
 
 
 
+#### Starship
+
+* https://starship.rs/
+
+* https://github.com/starship/starship
+
+
+
 
 #### Libreoffice
 
