@@ -127,6 +127,13 @@ sudo pacman -S openbox
 
 
 
+## Installs GitHub-CLI
+
+## https://cli.github.com/
+## https://github.com/cli/cli
+
+
+sudo pacman -S github-cli
 
 
 ## Informs the user the system is rebooting. 

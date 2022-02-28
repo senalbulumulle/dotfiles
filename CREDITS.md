@@ -152,6 +152,13 @@
 
 
 
+#### Dunst
+
+* https://dunst-project.org/
+
+* https://github.com/dunst-project/dunst
+
+
 
 #### OpenBox
 
@@ -225,6 +232,13 @@ https://gitlab.com/gnuwget/wget
 * https://git-scm.com/
 
 * https://github.com/git
+
+
+#### GitHub-CLI
+
+* https://cli.github.com/
+
+* https://github.com/cli/cli
 
 
 #### Stow
