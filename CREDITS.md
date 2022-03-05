@@ -187,6 +187,16 @@ https://gitlab.com/gnuwget/wget
 
 
 
+#### yay
+
+* https://aur.archlinux.org/packages/yay
+
+* https://github.com/Jguer/yay
+
+
+
+
+
 #### Red Hat 
 
 * https://www.redhat.com/en
