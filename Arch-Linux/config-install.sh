@@ -139,6 +139,30 @@ sudo pacman -S openbox
 sudo pacman -S github-cli
 
 
+
+
+
+
+## Installs yay
+
+## https://cli.github.com/
+## https://github.com/cli/cli
+
+
+## Clone the yay-bin repository
+git clone https://aur.archlinux.org/yay-bin.git
+
+
+## Change directory to yay-bin repository
+cd yay-bin
+
+
+
+## Install yay
+makepkg -si
+
+
+
 ## Informs the user the system is rebooting. 
 ## This will ensure that my config files are fully working
 
