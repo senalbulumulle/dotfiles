@@ -12,6 +12,9 @@
 ## Making sure the pacman repositories/packages are updated
 sudo pacman -Su
 
+## Installs base-devel
+sudo pacman -S base-devel
+
 ## Installs Librewolf 
 
 ## https://librewolf.net/ 
