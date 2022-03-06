@@ -82,7 +82,7 @@ sudo pacman -S fish
 ## https://micro-editor.github.io/
 ## https://github.com/zyedidia/micro
 
-yay -S micro 
+sudo pacman -S micro
 
 
 
@@ -155,7 +155,7 @@ sudo pacman -S openbox
 ## https://github.com/cli/cli
 
 
-sudo pacman -S github-cli
+yay -S github-cli
 
 
 
