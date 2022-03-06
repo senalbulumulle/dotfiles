@@ -15,12 +15,31 @@ sudo pacman -Su
 ## Installs base-devel
 sudo pacman -S base-devel
 
+## Installs yay
+
+## https://cli.github.com/
+## https://github.com/cli/cli
+
+
+## Clone the yay-bin repository
+git clone https://aur.archlinux.org/yay-bin.git
+
+
+## Change directory to yay-bin repository
+cd yay-bin
+
+
+
+## Install yay
+makepkg -si
+
+
 ## Installs Librewolf 
 
 ## https://librewolf.net/ 
 ## https://gitlab.com/librewolf-community
 
-sudo pacman -S librewolf 
+yay -S librewolf-bin
 
 
 ## Installs Kitty
@@ -28,14 +47,14 @@ sudo pacman -S librewolf
 ## https://sw.kovidgoyal.net/kitty/
 ## https://github.com/kovidgoyal/kitty	
 
-sudo pacman -S kitty 
+yay -S kitty 
 
 
 ## Installs Neofetch 
 
 ## https://github.com/dylanaraps/neofetch
 
-sudo pacman -S neofetch
+yay -S neofetch
 
 
 
@@ -44,7 +63,7 @@ sudo pacman -S neofetch
 ## https://github.com/ranger/ranger
 ## https://ranger.github.io/
 
-sudo pacman -S ranger
+yay -S ranger
 
 
 ## Installs fish 
@@ -63,7 +82,7 @@ sudo pacman -S fish
 ## https://micro-editor.github.io/
 ## https://github.com/zyedidia/micro
 
-sudo pacman -S micro 
+yay -S micro 
 
 
 
@@ -143,23 +162,7 @@ sudo pacman -S github-cli
 
 
 
-## Installs yay
 
-## https://cli.github.com/
-## https://github.com/cli/cli
-
-
-## Clone the yay-bin repository
-git clone https://aur.archlinux.org/yay-bin.git
-
-
-## Change directory to yay-bin repository
-cd yay-bin
-
-
-
-## Install yay
-makepkg -si
 
 
 
