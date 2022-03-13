@@ -377,3 +377,9 @@ https://gitlab.com/gnuwget/wget
 * https://packages.debian.org/sid/xorg
 
 
+
+#### brew
+
+* https://brew.sh/
+
+* https://github.com/Homebrew
