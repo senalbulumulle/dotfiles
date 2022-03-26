@@ -9,15 +9,30 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 
 
 
+########################################################
+#	Aliases 
+#			
+########################################################
+
+
+
+
+## Updates packages
+alias update-packages="sudo pacman -Syyu"
+
+
+## Revert Git Commits 
+alias undo-change=”git reset --hard HEAD~1“
+alias confirm-undo-change=“git push origin -f”
+
+
+
+
+
 
 ########################################################
 #	Functions to make the workflow easier. 
 #			
-########################################################
-
-########################################################
-#	Functions to make the workflow easier
-#
 ########################################################
 
 

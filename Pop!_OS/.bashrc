@@ -18,7 +18,13 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 
 
 ## Updates packages
-alias update-packages="sudo apt update && sudo apt upgrade"
+alias update-packages="sudo pacman -Syyu"
+
+
+## Revert Git Commits 
+alias undo-change=”git reset --hard HEAD~1“
+alias confirm-undo-change=“git push origin -f”
+
 
 
 
