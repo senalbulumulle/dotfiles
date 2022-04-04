@@ -22,7 +22,7 @@ alias update-packages='sudo dnf upgrade --refresh'
 
 
 ## Revert Git Commits 
-alias undo-change='git reset --hard HEAD'
+alias undo-change='git reset --hard HEAD~1'
 alias confirm-undo-change='git push origin -f'
 
 
