@@ -18,7 +18,7 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 
 
 ## Updates packages
-alias update-packages='sudo pacman -Syyu'
+alias update-packages='sudo dnf upgrade --refresh'
 
 
 ## Revert Git Commits 
