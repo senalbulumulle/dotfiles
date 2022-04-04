@@ -31,7 +31,7 @@ alias confirm-undo-change='git push origin -f'
 alias push='git push origin'
 alias pull='git pull'
 alias clone='git clone'
-alias message = 'git commit -m'
+alias message='git commit -m'
 
 
 
