@@ -210,6 +210,8 @@ https://gitlab.com/gnuwget/wget
 
 * https://getfedora.org/
 
+* https://docs.fedoraproject.org/en-US/quick-docs/dnf-system-upgrade/
+
 
 
 #### Debian
