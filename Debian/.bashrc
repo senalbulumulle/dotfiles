@@ -27,6 +27,12 @@ alias confirm-undo-change='git push origin -f'
 
 
 
+## Git Shortcuts 
+alias push='git push origin'
+alias pull='git pull'
+alias clone='git clone'
+alias message = 'git commit -m'
+
 
 
 
