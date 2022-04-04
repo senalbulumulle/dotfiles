@@ -391,3 +391,23 @@ https://gitlab.com/gnuwget/wget
 #### Apple
 
 * https://www.apple.com/
+
+
+
+#### macOS
+
+* https://www.apple.com/mac/
+
+* https://support.apple.com/macos
+
+
+
+#### SketchyBar
+
+* https://github.com/FelixKratz/SketchyBar
+
+
+
+#### dmenu-mac
+
+* https://github.com/oNaiPs/dmenu-mac
