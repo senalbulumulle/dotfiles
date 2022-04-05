@@ -166,6 +166,15 @@ http://openbox.org/wiki/Main_Page
 
 
 
+#### awesomeWM
+
+* https://awesomewm.org/
+
+* https://github.com/awesomeWM/awesome
+
+
+
+
 #### Wget
 
 https://www.gnu.org/software/wget/
