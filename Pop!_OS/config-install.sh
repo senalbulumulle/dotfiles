@@ -147,6 +147,29 @@ sudo apt install openbox
 sudo apt install nitrogen
 
 
+
+
+
+## Installs spacevim 
+
+## https://spacevim.org/
+
+## https://github.com/SpaceVim/SpaceVim
+
+
+curl -sLf https://spacevim.org/install.sh | bash
+
+
+
+
+
+
+
+
+
+
+
+
 ## Informs the user the system is rebooting. 
 ## This will ensure that my config files are fully working
 
