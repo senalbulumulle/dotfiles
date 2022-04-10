@@ -123,6 +123,15 @@
 
 
 
+#### spacevim
+
+* https://spacevim.org/
+
+* https://github.com/SpaceVim/SpaceVim
+
+
+
+
 #### i3-gaps
 
 * https://github.com/Airblader/i3
