@@ -89,13 +89,7 @@ sudo dnf install rofi
 
 
 
-## Installs tint2
 
-## https://gitlab.com/o9000/tint2
-## https://github.com/o9000/tint2
-
-
-sudo dnf install rofi
 
 
 
