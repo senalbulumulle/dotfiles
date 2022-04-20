@@ -81,20 +81,6 @@ sudo dnf install vim
 
 
 
-## Installs rofi
-
-## https://github.com/davatorium/rofi
-
-sudo dnf install rofi
-
-
-
-
-
-
-
-
-
 
 
 
