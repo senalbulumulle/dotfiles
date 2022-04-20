@@ -101,14 +101,6 @@ sudo dnf install rofi
 
 
 
-## Installs i3
-
-## https://github.com/i3/i3
-## https://github.com/Airblader/i3
-## https://i3wm.org/
-
-
-sudo dnf install i3-gaps
 
 
 
