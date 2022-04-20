@@ -261,19 +261,6 @@ sudo apt install nitrogen
 
 
 
-## Installs spacevim 
-
-## https://spacevim.org/
-
-## https://github.com/SpaceVim/SpaceVim
-
-
-curl -sLf https://spacevim.org/install.sh | bash
-
-
-
-
-
 
 
 
