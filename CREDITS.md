@@ -40,6 +40,15 @@
 
 
 
+#### bspwm
+
+* https://github.com/baskerville/bspwm
+
+* https://madnight.github.io/bspwm/
+
+
+
+
 #### Yabai
 
 * https://github.com/koekeishiya/yabai
