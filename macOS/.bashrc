@@ -105,75 +105,70 @@ senal.convert.lecture.notes.pdf() {
 ## Generates HTML Template. 
 
 function boilerplate.generate.html(){
-	echo """
-	<html>
-	  <head>
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <title>Your Web Application</title>
-	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/senalbulumulle/FOIL-UI-Framework-Library/FOIL-UI.css">
-	  </head>
-	  <body>
-		<!-- Content here --> 
-	  </body>
-	</html>
-
-
-	""" > main.html
+echo """
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Web Application</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/senalbulumulle/FOIL-UI-Framework-Library/FOIL-UI.css">
+</head>
+<body>
+<!-- Content here --> 
+</body>
+</html>
+""" > main.html
 }
 
 
 
 
 function boilerplate.generate.c() {
-	touch name.c
-		echo """
-/*************************************************************
-*		Title: 
-*        
-* 		Author: 
+touch name.c
+echo """
+/**************************************************************
+*	Title:
+*	
+*	Author: 
 *
-* 		Description: 
-**************************************************************/
+*	Description:
+***************************************************************/
 		
 		
 
 #include <stdio.h>
 
 int main() {
-   // Program here
-   return 0;
+
+	// Program here 
+
+	return 0;
 }		
-
-
-	""" > main.c
+""" > main.c
 	
 }
 
 
 function boilerplate.generate.python() {
-		touch main.py		
-		echo """
-###############################################################
-#	Title: 
-#        
-#	Author: 
+touch main.py		
+echo """
+################################################################
+#	Title
 #
-# 	Description: 
-###############################################################/
+#	Author
+#
+#	Description:
+#################################################################
 def main():
 	## Program Here 
     
 # Call the Main Function 
 main()		
-	
-	
-	
-	""" > main.py
+""" > main.py
 }
 
 function boilerplate.generate.java() {
-	touch main.java
-		echo """
+touch main.java
+echo """
 /**************************************************************
 *	Title: 
 *	
@@ -185,13 +180,12 @@ function boilerplate.generate.java() {
 public class Main {
 	
 	public static void main(String[] args) {
-
 		// Program Here
 	}
-}
-		
-		
-		""" > main.java
+
+public static void main(String[])
+}		
+""" > main.java
 
 }
 
@@ -199,8 +193,8 @@ public class Main {
 
 
 function boilerplate.generate.README.md {
-		touch README.md		
-		echo """
+touch README.md		
+echo """
 # Title
 
 
@@ -218,7 +212,6 @@ function boilerplate.generate.README.md {
 
 
 #### Installation
-
-	""" > README.md
+""" > README.md
 }
 
