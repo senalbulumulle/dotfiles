@@ -16,5 +16,5 @@ git clone https://github.com/senalbulumulle/dotfiles/
 
 
 ```sh 
-sh configure.sh
+sh config-install.sh
 ```
