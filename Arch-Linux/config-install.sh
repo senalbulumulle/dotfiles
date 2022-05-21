@@ -10,10 +10,10 @@
 
 
 ## Making sure the pacman repositories/packages are updated
-sudo pacman -Su
+sudo pacman -Su --no-confirm
 
 ## Installs base-devel
-sudo pacman -S base-devel
+sudo pacman -S base-devel --no-confirm
 
 ## Installs yay
 
@@ -39,22 +39,22 @@ makepkg -si
 ## https://librewolf.net/ 
 ## https://gitlab.com/librewolf-community
 
-yay -S librewolf-bin
+yay -S librewolf-bin --no-confirm
 
 
-## Installs Kitty
+## Installs Kitty   
 
 ## https://sw.kovidgoyal.net/kitty/
 ## https://github.com/kovidgoyal/kitty	
 
-yay -S kitty 
+yay -S kitty --no-confirm
 
 
 ## Installs Neofetch 
 
 ## https://github.com/dylanaraps/neofetch
 
-yay -S neofetch
+yay -S neofetch --no-confirm
 
 
 
@@ -63,7 +63,7 @@ yay -S neofetch
 ## https://github.com/ranger/ranger
 ## https://ranger.github.io/
 
-yay -S ranger
+yay -S ranger --no-confirm
 
 
 ## Installs fish 
@@ -72,7 +72,7 @@ yay -S ranger
 ## https://github.com/fish-shell/fish-shell
 
 
-sudo pacman -S fish
+sudo pacman -S fish --no-confirm
 
 
 
@@ -82,7 +82,7 @@ sudo pacman -S fish
 ## https://micro-editor.github.io/
 ## https://github.com/zyedidia/micro
 
-sudo pacman -S micro
+sudo pacman -S micro --no-confirm
 
 
 
@@ -92,7 +92,7 @@ sudo pacman -S micro
 ## https://neovim.io/
 ## https://github.com/neovim
 
-sudo pacman -S neovim
+sudo pacman -S neovim --no-confirm
 
 
 
@@ -102,7 +102,7 @@ sudo pacman -S neovim
 ## https://www.vim.org/
 ## https://github.com/vim
 
-sudo pacman -S vim
+sudo pacman -S vim --no-confirm
 
 
 
@@ -111,7 +111,7 @@ sudo pacman -S vim
 
 ## https://github.com/davatorium/rofi
 
-sudo pacman -S rofi
+sudo pacman -S rofi --no-confirm
 
 
 
@@ -121,7 +121,7 @@ sudo pacman -S rofi
 ## https://github.com/o9000/tint2
 
 
-sudo pacman -S tint2
+sudo pacman -S tint2 --no-confirm
 
 
 
@@ -134,7 +134,7 @@ sudo pacman -S tint2
 ## https://i3wm.org/
 
 
-sudo pacman -S i3
+sudo pacman -S i3 --no-confirm
 
 
 
@@ -144,7 +144,7 @@ sudo pacman -S i3
 ## https://github.com/danakj/openbox
 
 
-sudo pacman -S openbox
+sudo pacman -S openbox --no-confirm
 
 
 
@@ -155,7 +155,7 @@ sudo pacman -S openbox
 ## https://github.com/cli/cli
 
 
-yay -S github-cli
+yay -S github-cli --no-confirm
 
 
 
