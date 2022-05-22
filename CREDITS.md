@@ -287,6 +287,15 @@ https://gitlab.com/gnuwget/wget
 * https://github.com/cli/cli
 
 
+#### npm 
+
+* https://github.com/npm
+
+* https://www.npmjs.com/
+
+
+
+
 #### Stow
 
 * https://www.gnu.org/software/stow/
@@ -445,3 +454,20 @@ https://gitlab.com/gnuwget/wget
 #### dmenu-mac
 
 * https://github.com/oNaiPs/dmenu-mac
+
+
+
+#### openjdk 
+
+* https://openjdk.java.net/
+
+* https://github.com/openjdk
+
+
+
+
+#### nodejs
+
+* https://nodejs.org/en/
+
+* https://github.com/nodejs
