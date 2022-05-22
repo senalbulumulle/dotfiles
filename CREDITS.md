@@ -261,6 +261,13 @@ https://gitlab.com/gnuwget/wget
 * https://github.com/system76
 
 
+#### Ubuntu Multipass
+
+* https://multipass.run/
+
+* https://github.com/canonical/multipass
+
+
 #### Autoconf
 
 * https://www.gnu.org/software/autoconf/
