@@ -34,7 +34,7 @@ cd yay-bin
 makepkg -si
 
 
-## Remove the yay-bin folder 
+## Remove the yay-bin folder after installing yay
 cd ../
 rm -rf yay-bin
 
