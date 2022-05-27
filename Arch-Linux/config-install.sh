@@ -34,6 +34,11 @@ cd yay-bin
 makepkg -si
 
 
+## Remove the yay-bin folder 
+cd ../
+rm -rf yay-bin
+
+
 ## Installs Librewolf 
 
 ## https://librewolf.net/ 
