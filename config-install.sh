@@ -26,7 +26,9 @@ ____________________________________________________
 
 	* Pop!_OS		(4)
 
-	* EXIT THE PROGRAM 	(5)	
+	* macOS 		(5)	
+
+	* EXIT THE PROGRAM 	(6)	
 	
 
 
@@ -81,9 +83,20 @@ while :
 
 
 
+		## After the user chooses macOS, then it will install the 
+		## dependencies for my config in macOS. 
+
+	
+		5)
+			cd macOS/ && sh config-install.sh
+			cd ../
+			;;		
+
+
+
 		## After the user types 'exit', it will exit the program
 
-		5)
+		6)
 			exit
 			;;
 			
@@ -111,7 +124,9 @@ while :
 			
 				* Pop!_OS		(4)
 
-				* Exit the Program      (5)
+				* macOS			(5)
+
+				* Exit the Program      (6)
 
 				
 			*****************************************************
