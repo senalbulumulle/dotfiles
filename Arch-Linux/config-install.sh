@@ -13,7 +13,7 @@
 sudo pacman -Su 
 
 ## Installs base-devel
-sudo pacman -S base-devel 
+sudo pacman -S --noconfirm base-devel 
 
 ## Installs yay
 
@@ -44,7 +44,7 @@ rm -rf yay-bin
 ## https://librewolf.net/ 
 ## https://gitlab.com/librewolf-community
 
-yay -S librewolf-bin 
+yay -S --noconfirm librewolf-bin 
 
 
 ## Installs Kitty   
@@ -52,14 +52,14 @@ yay -S librewolf-bin
 ## https://sw.kovidgoyal.net/kitty/
 ## https://github.com/kovidgoyal/kitty	
 
-yay -S kitty 
+yay -S --noconfirm kitty 
 
 
 ## Installs Neofetch 
 
 ## https://github.com/dylanaraps/neofetch
 
-yay -S neofetch 
+yay -S --noconfirm neofetch 
 
 
 
@@ -68,7 +68,7 @@ yay -S neofetch
 ## https://github.com/ranger/ranger
 ## https://ranger.github.io/
 
-yay -S ranger 
+yay -S --noconfirm ranger 
 
 
 ## Installs fish 
@@ -77,7 +77,7 @@ yay -S ranger
 ## https://github.com/fish-shell/fish-shell
 
 
-sudo pacman -S fish 
+sudo pacman -S --noconfirm fish 
 
 
 
@@ -87,7 +87,7 @@ sudo pacman -S fish
 ## https://micro-editor.github.io/
 ## https://github.com/zyedidia/micro
 
-sudo pacman -S micro 
+sudo pacman -S --noconfirm micro 
 
 
 
@@ -97,7 +97,7 @@ sudo pacman -S micro
 ## https://neovim.io/
 ## https://github.com/neovim
 
-sudo pacman -S neovim 
+sudo pacman -S --noconfirm neovim 
 
 
 
@@ -107,7 +107,7 @@ sudo pacman -S neovim
 ## https://www.vim.org/
 ## https://github.com/vim
 
-sudo pacman -S vim 
+sudo pacman -S --noconfirm vim 
 
 
 
@@ -116,7 +116,7 @@ sudo pacman -S vim
 
 ## https://github.com/davatorium/rofi
 
-sudo pacman -S rofi 
+sudo pacman -S --noconfirm rofi 
 
 
 
@@ -126,7 +126,7 @@ sudo pacman -S rofi
 ## https://github.com/o9000/tint2
 
 
-sudo pacman -S tint2 
+sudo pacman -S --noconfirm tint2 
 
 
 
@@ -139,7 +139,7 @@ sudo pacman -S tint2
 ## https://i3wm.org/
 
 
-sudo pacman -S i3 
+sudo pacman -S --noconfirm i3 
 
 
 
@@ -149,7 +149,7 @@ sudo pacman -S i3
 ## https://github.com/danakj/openbox
 
 
-sudo pacman -S openbox 
+sudo pacman -S --noconfirm openbox 
 
 
 
@@ -160,7 +160,7 @@ sudo pacman -S openbox
 ## https://github.com/cli/cli
 
 
-yay -S github-cli 
+yay -S --noconfirm github-cli 
 
 
 
