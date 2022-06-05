@@ -471,3 +471,10 @@ https://gitlab.com/gnuwget/wget
 * https://nodejs.org/en/
 
 * https://github.com/nodejs
+
+
+* Polybar 
+
+* https://github.com/Polybar
+
+* https://polybar.github.io/
