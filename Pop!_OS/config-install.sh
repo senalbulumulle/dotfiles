@@ -148,6 +148,12 @@ sudo apt install nitrogen
 
 
 
+## Installs picom
+
+## https://github.com/yshui/picom
+
+sudo apt install picom
+
 
 
 ## Informs the user the system is rebooting. 

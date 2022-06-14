@@ -165,6 +165,15 @@ yay -S --noconfirm github-cli
 
 
 
+## Installs picom
+
+## https://github.com/yshui/picom
+
+yay -S picom
+
+
+
+
 
 
 

@@ -125,6 +125,14 @@ sudo dnf install librewolf
 
 
 
+## Installs picom
+
+## https://github.com/yshui/picom
+
+sudo dnf install picom
+
+
+
 
 
 ## 

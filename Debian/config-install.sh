@@ -259,6 +259,13 @@ sudo apt install nitrogen
 
 
 
+## Installs picom 
+
+## https://github.com/yshui/picom
+
+sudo apt install picom
+
+
 
 
 
