@@ -267,8 +267,12 @@ sudo apt install picom
 
 
 
+## Installs Polybar
 
+## https://github.com/polybar/polybar
+## https://polybar.github.io/
 
+sudo apt install polybar
 
 
 

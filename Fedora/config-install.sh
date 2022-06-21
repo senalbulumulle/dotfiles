@@ -133,7 +133,12 @@ sudo dnf install picom
 
 
 
+## Installs Polybar
 
+## https://github.com/polybar/polybar
+## https://polybar.github.io/
+
+sudo dnf install polybar
 
 ## 
 ## Informs the user the system is rebooting. 

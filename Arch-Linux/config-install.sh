@@ -169,9 +169,16 @@ yay -S --noconfirm github-cli
 
 ## https://github.com/yshui/picom
 
-yay -S picom
+yay -S --no-confirm picom
 
 
+
+## Installs Polybar
+
+## https://github.com/polybar/polybar
+## https://polybar.github.io/
+
+yay -S --no-confirm polybar 
 
 
 

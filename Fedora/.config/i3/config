@@ -55,8 +55,8 @@ exec --no-startup-id nitrogen --restore ../senal-wallpaper/Snake-Sunset.jpg
 
 
 
-# Automatically starts up tint2
-exec --no-startup-id tint2
+# Automatically starts up polybar
+exec --no-startup-id polybar
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status

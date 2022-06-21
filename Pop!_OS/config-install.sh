@@ -156,6 +156,14 @@ sudo apt install picom
 
 
 
+
+## Installs Polybar
+
+## https://github.com/polybar/polybar
+## https://polybar.github.io/
+
+sudo apt install polybar
+
 ## Informs the user the system is rebooting. 
 ## This will ensure that my config files are fully working
 
