@@ -183,6 +183,13 @@ yay -S --no-confirm polybar
 
 
 
+## Installs xfce4
+
+## https://xfce.org/
+
+## https://gitlab.xfce.org/explore/groups?sort=name_desc
+
+sudo pacman -S xfce4
 
 
 
