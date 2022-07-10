@@ -213,6 +213,16 @@ while :
 				## https://gitlab.xfce.org/explore/groups?sort=name_desc
 
 				sudo pacman -S xfce4
+
+
+
+				## Installs Helix-Editor
+
+				## https://helix-editor.com/
+
+				## https://github.com/helix-editor/helix
+
+				sudo pacman -S helix
 			;;
 
 
