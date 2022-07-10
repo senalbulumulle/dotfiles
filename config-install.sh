@@ -35,6 +35,10 @@ while :
 
 	case $CHOICE in 
 
+                ###########################################################
+                ##      Search: Arch-Linuz
+                ###########################################################
+
 		## After the user chooses Arch-Linux, then it will install the 
 		## dependencies for my config in Arch-Linux, if not, it will 
 		## restart the script to go back to the main menu. 
@@ -210,6 +214,12 @@ while :
 
 				sudo pacman -S xfce4
 			;;
+
+
+                ###########################################################
+                ##      Search: Debian
+                ###########################################################
+
 
 
 		## After the user chooses Debian, then it will install the 
@@ -493,7 +503,9 @@ while :
 				sudo apt install xfce4
 			;;
 
-
+                ###########################################################
+                ##      Search: Fedora
+                ###########################################################
 
 			
 		## After the user chooses Fedora, then it will install the 
@@ -645,6 +657,11 @@ while :
 				sudo dnf install xfce4
 			;;
 
+
+
+                ###########################################################
+                ##      Search: Pop!_OS
+                ###########################################################
 
 		## After the user chooses Pop!_OS, then it will install the 
 		## dependencies for my config in Pop!_OS. 
@@ -819,6 +836,10 @@ while :
 				sudo apt install xfce4
 			;;
 
+
+                ###########################################################
+                ##      Search: macOS
+                ###########################################################
 
 
 		## After the user chooses macOS, then it will install the 
