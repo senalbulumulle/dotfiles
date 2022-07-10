@@ -4,9 +4,13 @@
 # Getting started
 
 
+# Status: `UNSTABLE`
+
+> Currently I'm re-modeling my config files. As of right now, my dotfiles are unstable for use. 
+
+
 In order to copy the dotfiles over to your system, make sure the dotfiles is cloned
 in your home directory in-order to get everything working properly. 
-
 
 
 ```sh
