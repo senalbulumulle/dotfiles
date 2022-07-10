@@ -36,7 +36,7 @@ while :
 	case $CHOICE in 
 
                 ###########################################################
-                ##      Search: Arch-Linuz
+                ##      Search: Arch-Linux
                 ###########################################################
 
 		## After the user chooses Arch-Linux, then it will install the 
