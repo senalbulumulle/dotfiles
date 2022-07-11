@@ -223,6 +223,11 @@ while :
 				## https://github.com/helix-editor/helix
 
 				sudo pacman -S helix
+
+                                ## Installs Configuration Files 
+                                cd Arch-Linux 
+                                sh configure.sh
+
 				echo """
 				========================================================================================
 						Welcome to Senal's Config Installer
@@ -532,6 +537,10 @@ while :
 
 				sudo apt install xfce4
 
+                                ## Installs Configuration Files 
+                                cd debian
+                                sh configure.sh
+
 				echo """
 				========================================================================================
 						Welcome to Senal's Config Installer
@@ -706,6 +715,9 @@ while :
 				## https://gitlab.xfce.org/explore/groups?sort=name_desc
 
 				sudo dnf install xfce4
+
+                                ## Installs Configuration Files 
+                                cd Fedora && sh configure.sh
 
 				echo """
 				========================================================================================
@@ -907,6 +919,9 @@ while :
 
 				sudo apt install xfce4
 
+                                ## Installs Configuration Files 
+                                cd Pop!_OS && sh configure.sh
+
 				echo """
 				========================================================================================
 						Welcome to Senal's Config Installer
@@ -1028,6 +1043,11 @@ while :
 
 
 				brew install github-cli	
+
+                                ## Installs Configuration Files 
+                                cd macOS && sh configure.sh
+
+
 
 				echo """
 				========================================================================================
@@ -1172,6 +1192,9 @@ while :
 
 
 				sudo apt install npm
+
+                                ## Installs Configuration Files 
+                                cd 
 
 				echo """
 				========================================================================================
