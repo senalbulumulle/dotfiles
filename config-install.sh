@@ -183,7 +183,7 @@ while :
 				## https://github.com/cli/cli
 
 
-				yay -S --noconfirm github-cli 
+				sudo pacman -S --noconfirm github-cli
 
 
 
@@ -192,7 +192,7 @@ while :
 
 				## https://github.com/yshui/picom
 
-				yay -S --no-confirm picom
+				sudo pacman -S --noconfirm picom
 
 
 
@@ -201,7 +201,7 @@ while :
 				## https://github.com/polybar/polybar
 				## https://polybar.github.io/
 
-				yay -S --no-confirm polybar 
+				sudo pacman -S --noconfirm polybar 
 
 
 
@@ -212,7 +212,7 @@ while :
 
 				## https://gitlab.xfce.org/explore/groups?sort=name_desc
 
-				sudo pacman -S xfce4
+				sudo pacman -S --noconfirm xfce4
 
 
 
@@ -222,7 +222,7 @@ while :
 
 				## https://github.com/helix-editor/helix
 
-				sudo pacman -S helix
+				sudo pacman -S --noconfirm helix
 
                                 ## Installs Configuration Files 
                                 cd Arch-Linux 
