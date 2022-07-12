@@ -1,0 +1,1 @@
+# Senal's Gentoo Config
