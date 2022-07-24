@@ -585,14 +585,14 @@ while :
 				## https://sw.kovidgoyal.net/kitty/
 				## https://github.com/kovidgoyal/kitty	
 
-				sudo dnf install kitty
+				sudo dnf -y install kitty
 
 
 				## Installs Neofetch 
 
 				## https://github.com/dylanaraps/neofetch
 
-				sudo dnf install neofetch
+				sudo dnf -y install neofetch
 
 
 				## Removes Firefox 
@@ -604,7 +604,7 @@ while :
 				## https://github.com/ranger/ranger
 				## https://ranger.github.io/
 
-				sudo dnf install ranger
+				sudo dnf -y install ranger
 
 
 				## Installs fish 
@@ -613,7 +613,7 @@ while :
 				## https://github.com/fish-shell/fish-shell
 
 
-				sudo dnf install fish
+				sudo dnf -y install fish
 
 
 
@@ -623,7 +623,7 @@ while :
 				## https://micro-editor.github.io/
 				## https://github.com/zyedidia/micro
 
-				sudo dnf install micro
+				sudo dnf -y install micro
 
 
 
@@ -633,7 +633,7 @@ while :
 				## https://neovim.io/
 				## https://github.com/neovim
 
-				sudo dnf install neovim
+				sudo dnf -y install neovim
 
 
 
@@ -643,7 +643,7 @@ while :
 				## https://www.vim.org/
 				## https://github.com/vim
 
-				sudo dnf install vim
+				sudo dnf -y install vim
 
 
 
@@ -657,7 +657,7 @@ while :
 				## https://github.com/danakj/openbox
 
 
-				sudo dnf install openbox
+				sudo dnf -y install openbox
 
 
 
@@ -668,7 +668,7 @@ while :
 				## https://github.com/nitrogen/nitrogen
 
 
-				sudo dnf install nitrogen
+				sudo dnf -y install nitrogen
 
 
 
@@ -687,7 +687,7 @@ while :
 
 				sudo dnf update
 
-				sudo dnf install librewolf
+				sudo dnf -y install librewolf
 
 
 
@@ -696,7 +696,7 @@ while :
 
 				## https://github.com/yshui/picom
 
-				sudo dnf install picom
+				sudo dnf -y install picom
 
 
 
@@ -705,7 +705,7 @@ while :
 				## https://github.com/polybar/polybar
 				## https://polybar.github.io/
 
-				sudo dnf install polybar
+				sudo dnf -y install polybar
 
 
 				## Installs xfce4
@@ -714,7 +714,7 @@ while :
 
 				## https://gitlab.xfce.org/explore/groups?sort=name_desc
 
-				sudo dnf install xfce4
+				sudo dnf -y install xfce4
 
                                 ## Installs Configuration Files 
                                 cd Fedora && sh configure.sh
