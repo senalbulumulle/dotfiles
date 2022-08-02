@@ -182,3 +182,27 @@ echo """
 """ > README.md
 }
 
+
+function boilerplate.generate.README.txt {
+touch README.txt	
+echo """
+Title
+
+
+Description: 
+                                Description here 
+
+
+
+
+
+Requirements: 
+                                * Requirement
+
+
+
+
+Installation: 
+                                * Installation
+""" > README.txt
+}
