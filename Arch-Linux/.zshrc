@@ -9,49 +9,37 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 
 
 
+########################################################
+#	Aliases 
+#			
+########################################################
+
+
+
+
+## Updates packages
+alias update-packages='sudo pacman -Syyu'
+
+
+## Revert Git Commits 
+alias undo-change='git reset --hard HEAD~1'
+alias confirm-undo-change='git push origin -f'
+
+
+
+## Git Shortcuts 
+alias push='git push origin'
+alias pull='git pull'
+alias clone='git clone'
+alias message='git commit -m'
+
+
+
 
 ########################################################
 #	Functions to make the workflow easier. 
 #			
 ########################################################
-
-########################################################
-#	Functions to make the workflow easier
-#
-########################################################
-
-
-########################################################
-#	Turns on or off Hidden Files in Apple macOS
-#	Finder
-########################################################
-function mac.hidden.files.on() {
-	defaults write com.apple.finder AppleShowAllFiles YES;
-	killall Finder
-	echo "/!\ The Hidden Files is turned on. "
-}
-
-function mac.hidden.files.off() {
-	defaults write com.apple.Finder AppleShowAllFiles NO; 
-	killall Finder
-	echo "/!\ The Hidden Files is turned off. "
-}
-
-
-
-
-
-########################################################
-#	Turns on or off Single App Mode in Apple macOS
-########################################################
-function mac.single.app.mode.on() {
-	defaults write com.apple.dock single-app -bool true;killall Dock
-}
-
-
-function mac.single.app.mode.off() {
-	defaults write com.apple.dock single-app -bool no;killall Dock
-}
 
 
 ##################################################################
@@ -61,13 +49,13 @@ function mac.single.app.mode.off() {
 ##################################################################
 
 senal.convert.lecture.notes.pptx() {
-	soffice --headless --convert-to html *.pptx
+	        soffice --headless --convert-to html *.pptx
 }
 
 
 
 senal.convert.lecture.notes.docx() {
-	soffice --headless --convert-to html *.docx
+	        soffice --headless --convert-to html *.docx
 }
 
 
@@ -84,75 +72,70 @@ senal.convert.lecture.notes.pdf() {
 ## Generates HTML Template. 
 
 function boilerplate.generate.html(){
-	echo """
-	<html>
-	  <head>
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <title>Your Web Application</title>
-	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/senalbulumulle/FOIL-UI-Framework-Library/FOIL-UI.css">
-	  </head>
-	  <body>
-		<!-- Content here --> 
-	  </body>
-	</html>
-
-
-	""" > main.html
+echo """
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Web Application</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/senalbulumulle/FOIL-UI-Framework-Library/FOIL-UI.css">
+</head>
+<body>
+<!-- Content here --> 
+</body>
+</html>
+""" > main.html
 }
 
 
 
 
 function boilerplate.generate.c() {
-	touch name.c
-		echo """
-/*************************************************************
-*		Title: 
-*        
-* 		Author: 
+touch name.c
+echo """
+/**************************************************************
+*	Title:
+*	
+*	Author: 
 *
-* 		Description: 
-**************************************************************/
+*	Description:
+***************************************************************/
 		
 		
 
 #include <stdio.h>
 
 int main() {
-   // Program here
-   return 0;
+
+	// Program here 
+
+	return 0;
 }		
-
-
-	""" > main.c
+""" > main.c
 	
 }
 
 
 function boilerplate.generate.python() {
-		touch main.py		
-		echo """
-###############################################################
-#	Title: 
-#        
-#	Author: 
+touch main.py		
+echo """
+################################################################
+#	Title
 #
-# 	Description: 
-###############################################################/
+#	Author
+#
+#	Description:
+#################################################################
 def main():
 	## Program Here 
     
 # Call the Main Function 
 main()		
-	
-	
-	
-	""" > main.py
+""" > main.py
 }
 
 function boilerplate.generate.java() {
-	touch main.java
-		echo """
+touch main.java
+echo """
 /**************************************************************
 *	Title: 
 *	
@@ -164,13 +147,12 @@ function boilerplate.generate.java() {
 public class Main {
 	
 	public static void main(String[] args) {
-
 		// Program Here
 	}
-}
-		
-		
-		""" > main.java
+
+public static void main(String[])
+}		
+""" > main.java
 
 }
 
@@ -178,8 +160,8 @@ public class Main {
 
 
 function boilerplate.generate.README.md {
-	touch README.md		
-		echo """
+touch README.md		
+echo """
 # Title
 
 
@@ -197,7 +179,6 @@ function boilerplate.generate.README.md {
 
 
 #### Installation
-
-	""" > README.md
+""" > README.md
 }
 
