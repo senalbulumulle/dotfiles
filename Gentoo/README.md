@@ -7,3 +7,4 @@
 
 `cd /etc/portage/package.unmask`
 
+`cd /usr/ports/gentoo/profiles/package.unmask`
