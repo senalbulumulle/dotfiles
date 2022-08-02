@@ -5,5 +5,5 @@
 
 > Make sure you on root
 
-`cd /etc/portange/package.unmask`
+`cd /etc/portage/package.unmask`
 
