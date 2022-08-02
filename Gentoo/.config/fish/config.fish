@@ -15,8 +15,17 @@ if status is-interactive
     #	  Functions to make the workflow easier. 
     #			
     ########################################################
+
+
     
-    
+    ########################################################
+    #	  Aliases for Gentoo
+    #			
+    ########################################################  
+
+    function unmaskpackage
+        emerge --ask --autounmask-write
+    end    
     
     
     ########################################################
