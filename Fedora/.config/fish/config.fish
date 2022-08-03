@@ -62,8 +62,7 @@ if status is-interactive
         
         
         ########################################################
-        #	  Turns on or off Hidden Files in Apple macOS
-        #	  Finder
+        #	  Description Here
         ########################################################
         function <FUNCTION-NAME>
                         here
