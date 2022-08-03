@@ -8,7 +8,7 @@ if status is-interactive
         
         
         ########################################################
-        #	  Aliases 
+        #	  A L I A S E S 
         #			
         ########################################################
 
@@ -54,8 +54,8 @@ if status is-interactive
 
         
         ########################################################
-        #	  Functions to make the workflow easier. 
-        #			
+        #	  F U N C T I O N S 
+        #	TO MAKE WORKFLOW EASIER
         ########################################################
         
         
