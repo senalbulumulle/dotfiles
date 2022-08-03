@@ -65,5 +65,34 @@ if status is-interactive
         #	  Description Here
         ########################################################
         function <FUNCTION-NAME>
-                        here
+                        
+        end 
+
+
+    ########################################################
+    #	  Boilerplates
+    #		
+    ########################################################
+        function boilerplate.generate.c 
+    	        touch main.c
+		echo """
+/*************************************************************
+*	Title: 
+*        
+* 	Author: 
+*
+* 	Description: 
+**************************************************************/
+		
+		
+
+#include <stdio.h>
+
+int main() {
+   // Program here
+   return 0;
+}		
+
+
+	        """ > main.c
         end 
