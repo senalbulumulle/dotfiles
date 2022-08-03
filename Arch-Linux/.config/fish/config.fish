@@ -23,15 +23,6 @@ if status is-interactive
     #	  Turns on or off Hidden Files in Apple macOS
     #	  Finder
     ########################################################
-    function mac.hidden.files.on
-                defaults write com.apple.finder AppleShowAllFiles YES;
-                killall Finder
-                echo "/!\ The Hidden Files is turned on. "
+    function <FUNCTION-NAME>
+                here
     end 
-
-    
-    function mac.hidden.files.off
-                defaults write com.apple.Finder AppleShowAllFiles NO; 
-                killall Finder
-                echo "/!\ The Hidden Files is turned off. "
-    end
