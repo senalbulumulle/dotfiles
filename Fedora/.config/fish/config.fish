@@ -58,3 +58,5 @@ if status is-interactive
         #	  F U N C T I O N S 
         #	TO MAKE WORKFLOW EASIER
         ########################################################
+
+end
