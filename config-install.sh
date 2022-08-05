@@ -597,7 +597,7 @@ while :
 
 				## Removes Firefox 
 
-				sudo dnf erase firefox
+				sudo dnf -y erase firefox
 
 				## Installs Ranger 
 
@@ -725,7 +725,16 @@ while :
 
                                 sudo dnf -y install i3
 
-                                
+
+
+                                ## Enables the free repository
+
+                                ## https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/
+
+
+                                sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+
+
                                 ## Installs Configuration Files 
                                 cd Fedora && sh configure.sh
 
