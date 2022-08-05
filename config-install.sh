@@ -716,6 +716,16 @@ while :
 
 				sudo dnf -y install xfce4
 
+
+                                ## Installs i3
+
+                                ## https://i3wm.org/
+
+                                ## https://github.com/i3
+
+                                sudo dnf -y install i3
+
+                                
                                 ## Installs Configuration Files 
                                 cd Fedora && sh configure.sh
 
