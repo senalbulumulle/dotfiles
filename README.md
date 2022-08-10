@@ -12,6 +12,9 @@
 In order to copy the dotfiles over to your system, make sure the dotfiles is cloned
 in your home directory in-order to get everything working properly. 
 
+```sh
+cd
+```
 
 ```sh
 git clone https://github.com/senalbulumulle/dotfiles/
