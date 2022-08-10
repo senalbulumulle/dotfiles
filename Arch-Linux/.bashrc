@@ -33,6 +33,9 @@ alias pull='git pull'
 alias clone='git clone'
 alias message='git commit -m'
 
+## Fixing GPG Issues with Arch Linux
+alias fixmykeys='sh fixmykeys.sh'
+
 
 
 
