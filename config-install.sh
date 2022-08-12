@@ -225,11 +225,11 @@ while :
 				sudo pacman -S --noconfirm helix
 
 
-				## Installs nwgbar
+				## Installs nwg-bar
 
 				## https://github.com/nwg-plor/nwg-bar
 
-				sudo pacman -S --noconfirm nwgbar
+				sudo pacman -S --noconfirm nwg-bar
 
 
                                 ## Installs Configuration Files 
