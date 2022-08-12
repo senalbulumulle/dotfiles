@@ -224,6 +224,14 @@ while :
 
 				sudo pacman -S --noconfirm helix
 
+
+				## Installs nwgbar
+
+				## https://github.com/nwg-plor/nwg-bar
+
+				sudo pacman -S --noconfirm nwgbar
+
+
                                 ## Installs Configuration Files 
                                 cd Arch-Linux 
                                 sh configure.sh
