@@ -232,6 +232,11 @@ while :
 				sudo pacman -S --noconfirm nwg-bar
 
 
+				## Installs Nitrogen
+
+				sudo pacman -S --noconfirm nitrogen
+
+
                                 ## Installs Configuration Files 
                                 cd Arch-Linux 
                                 sh configure.sh
