@@ -50,6 +50,10 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 
+# Automatically starts up nitrogen
+exec --no-startup-id nitrogen --restore ../senal-wallpaper/Snake-Sunset.jpg
+
+
 
 # Automatically starts up polybar
 exec --no-startup-id polybar
@@ -92,8 +96,10 @@ bindsym $mod+Shift+q kill
 ###############################################################################
 #	App Launcher
 #
-############################################################################### 
-bindsym $mod+d exec nwggrid
+###############################################################################
+
+# Instead of dmenu, it opens up rofi. 
+bindsym $mod+d exec rofi -show run
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
@@ -220,7 +226,7 @@ bindsym $mod+Shift+r restart
 ###############################################################
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "nwgbar"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 
 

@@ -18,3 +18,5 @@ cp .bashrc ../../.bashrc
 cp .zshrc ../../.zshrc
 
 cp .vimrc ../../.vimrc
+
+cp fixmykeys.sh ../../
