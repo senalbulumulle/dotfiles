@@ -593,6 +593,30 @@ while :
 				sudo dnf update && sudo dnf upgrade 
 
 
+                                ## Enable the free repositories
+
+                                ## https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/
+
+                                sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+
+
+                                ## Enable the non-free repositories 
+
+                                ## https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/
+
+                                sudo dnf -y install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+
+                                ## Installs the RPM Sphere 
+
+                                ## https://rpmsphere.github.io/
+
+                                ## https://github.com/rpmsphere
+
+                                wget https://github.com/rpmsphere/noarch/raw/master/r/rpmsphere-release-36-1.noarch.rpm
+                                sudo rpm -i -y rpmsphere-release-36.1.noarch.rpm
+
+
 				## Installs Kitty
 
 				## https://sw.kovidgoyal.net/kitty/
