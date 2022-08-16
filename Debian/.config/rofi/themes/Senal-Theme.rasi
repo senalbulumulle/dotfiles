@@ -5,9 +5,7 @@
 
 
 configuration {
-	 modi: "window,drun,ssh,combi";
 	 font: "monospace 10";
-	 combi-modi: "window,drun,ssh";
  }
 @theme "solarized"
 
