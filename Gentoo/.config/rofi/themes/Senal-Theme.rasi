@@ -3,10 +3,12 @@
 *
 *********************************************************************/
 
-* {
-	background-color: rgb(49, 24, 20); 	/* Background-Color of the Launcher */
-	text-color: white;			/* Text Color */
-	foreground: yellow;			/* Foreground color */
-	selected-active-foreground: white;	/* Selected Active Foreground Color */
-	active-background: white;		/* Activated Background Color */
-}
+
+configuration {
+	 modi: "window,drun,ssh,combi";
+	 font: "monospace 10";
+	 combi-modi: "window,drun,ssh";
+ }
+@theme "solarized"
+
+
