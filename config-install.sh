@@ -617,6 +617,16 @@ while :
                                 sudo rpm -i -y rpmsphere-release-36.1.noarch.rpm
 
 
+                                ## Installs MarkText
+
+                                ## https://github.com/marktext/marktext
+
+                                ## https://marktext.app/
+
+                                wget https://github.com/marktext/marktext/releases/download/v0.17.1/marktext-x86_64.rpm
+                                sudo rpm -i -y marktext-x86_64.rpm
+
+
 				## Installs Kitty
 
 				## https://sw.kovidgoyal.net/kitty/
