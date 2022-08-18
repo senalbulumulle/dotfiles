@@ -586,12 +586,8 @@ while :
 
 		
 		3)
-				## This script installs apps/dependencies for my config and more
-
-
 				## Making sure the DNF repositories/packages are updated
 				sudo dnf update && sudo dnf upgrade 
-
 
                                 ## Enable the free repositories
 
@@ -774,12 +770,6 @@ while :
 
 
 
-                                ## Enables the free repository
-
-                                ## https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/
-
-
-                                sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 
 
                                 ## Installs Configuration Files 
