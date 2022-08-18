@@ -783,6 +783,14 @@ while :
 
 
 
+				## Installs nwg-launchers 
+
+				## https://github.com/nwg-piotr/nwg-launchers
+
+				sudo dnf -y install nwg-launchers
+
+
+
 
                                 ## Installs Configuration Files 
                                 cd Fedora && sh configure.sh
