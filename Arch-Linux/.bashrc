@@ -15,6 +15,9 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 ########################################################
 
 
+## Automatically shows neofetch
+neofetch
+
 
 
 ## Updates packages
