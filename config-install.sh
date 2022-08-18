@@ -550,6 +550,7 @@ while :
 
 				sudo apt install xfce4
 
+
                                 ## Installs Configuration Files 
                                 cd debian
                                 sh configure.sh
@@ -704,6 +705,10 @@ while :
 
 
 
+
+
+
+
 				## Installs Nitrogen
 
 				## https://nitrogenproject.com/
@@ -768,6 +773,13 @@ while :
 
                                 sudo dnf -y install i3
 
+
+
+				## Installs brightnessctl
+
+				## https://github.com/Hummer12007/brightnessctl
+
+				sudo dnf -y install brightnessctl
 
 
 
