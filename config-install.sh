@@ -10,7 +10,7 @@ echo """
 ========================================================================================
 		Welcome to Senal's Config Installer
 ========================================================================================
-
+=
 	1) Arch Linux
 
 	2) Debian
@@ -304,19 +304,31 @@ while :
 				
 				sudo apt install librewolf -y
 
+
+
+				## Installs ungoogled-chromium-debian
+
+				## https://github.com/ungoogled-software/ungoogled-chromium-debian
+
+				echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Bullseye/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
+				curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Bullseye/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
+				sudo apt update
+				sudo apt install ungoogled-chromium -y
+
+
 				## Installs Kitty
 
 				## https://sw.kovidgoyal.net/kitty/
 				## https://github.com/kovidgoyal/kitty	
 
-				sudo apt install kitty 
+				sudo apt install kitty -y
 
 
 				## Installs Neofetch 
 
 				## https://github.com/dylanaraps/neofetch
 
-				sudo apt install neofetch
+				sudo apt install neofetch -y
 
 
 
@@ -325,7 +337,7 @@ while :
 				## https://github.com/ranger/ranger
 				## https://ranger.github.io/
 
-				sudo apt install ranger 
+				sudo apt install ranger -y
 
 
 				## Installs fish 
@@ -334,7 +346,7 @@ while :
 				## https://github.com/fish-shell/fish-shell
 
 
-				sudo apt install fish
+				sudo apt install fish -y
 
 
 
@@ -344,7 +356,7 @@ while :
 				## https://micro-editor.github.io/
 				## https://github.com/zyedidia/micro
 
-				sudo apt install micro
+				sudo apt install micro -y
 
 
 
@@ -354,7 +366,7 @@ while :
 				## https://neovim.io/
 				## https://github.com/neovim
 
-				sudo apt install neovim
+				sudo apt install neovim -y
 
 
 
@@ -364,7 +376,7 @@ while :
 				## https://www.vim.org/
 				## https://github.com/vim
 
-				sudo apt install vim
+				sudo apt install vim -y
 
 
 
@@ -373,7 +385,7 @@ while :
 
 				## https://github.com/davatorium/rofi
 
-				sudo apt install rofi
+				sudo apt install rofi -y
 
 
 
@@ -383,7 +395,7 @@ while :
 				## https://github.com/o9000/tint2
 
 
-				sudo apt install tint2
+				sudo apt install tint2 -y
 
 
 
@@ -397,22 +409,22 @@ while :
 
 
 				## Installs autoconf 
-				sudo apt install autoconf 
+				sudo apt install autoconf  -y
 
 				## Installs build-essential
-				sudo apt install build-essential
+				sudo apt install build-essential -y
 
 				## Installs git 
-				sudo apt install stow 
+				sudo apt install stow -y
 
 				## Installs stow
-				sudo apt install stow
+				sudo apt install stow -y
 
 				## Installs tmux 
-				sudo apt install tmux
+				sudo apt install tmux -y
 
 				## Installs tree
-				sudo apt install tree
+				sudo apt install tree -y
 
 				## Adds the Debian backports 
 				echo "deb http://ftp.debian.org/debian stretch-backports main" > /etc/apt/sources.list.d/backports.list
@@ -420,55 +432,55 @@ while :
 
 
 				## Installs libev-dev
-				sudo apt install libev-dev
+				sudo apt install libev-dev -y
 
 				## Installs libpango1.0-dev
-				sudo apt install libpango1.0-dev
+				sudo apt install libpango1.0-dev -y
 
 				## Installs libstartup-notification0-dev
-				sudo apt install libstartup-notification0-dev
+				sudo apt install libstartup-notification0-dev -y
 
 				## Installs libxcb-cursor-dev
-				sudo apt install libxcb-cursor-dev
+				sudo apt install libxcb-cursor-dev -y
 
 				## Installs libxcb-icccm4-dev
-				sudo apt install libxcb-icccm4-dev
+				sudo apt install libxcb-icccm4-dev -y
 
 				## Installs libxcb-keysyms1-dev
-				sudo apt install libxcb-keysyms1-dev
+				sudo apt install libxcb-keysyms1-dev -y
 
 				## Installs libxcb-randr0-dev
-				sudo apt install libxcb-randr0-dev
+				sudo apt install libxcb-randr0-dev -y
 
 				## Installs libxcb-util0-dev
-				sudo apt install libxcb-util0-dev
+				sudo apt install libxcb-util0-dev -y
 
 				## Installs libxcb-xinerama0-dev
-				sudo apt install libxcb-xinerama0-dev
+				sudo apt install libxcb-xinerama0-dev -y
 
 				## Installs libxcb-xkb-dev
-				sudo apt install libxcb-xkb-dev
+				sudo apt install libxcb-xkb-dev -y
 
 				## Installs libxcb-xrm-dev
-				sudo apt install libxcb-xrm-dev
+				sudo apt install libxcb-xrm-dev -y
 
 				## Installs libxcb-xrm0
-				sudo apt install libxcb-xrm0
+				sudo apt install libxcb-xrm0 -y
 
 				## Installs libxcb1-dev
-				sudo apt install libxcb1-dev
+				sudo apt install libxcb1-dev -y
 
 				## Installs libxkbcommon-dev
-				sudo apt install libxkbcommon-dev
+				sudo apt install libxkbcommon-dev -y
 
 				## Installs libxkbcommon-x11-dev
-				sudo apt install libxkbcommon-x11-dev
+				sudo apt install libxkbcommon-x11-dev -y
 
 				## Installs libyajl-dev
-				sudo apt install libyajl-dev
+				sudo apt install libyajl-dev -y
 
 				## Installs xcb
-				sudo apt install xcb
+				sudo apt install xcb -y
 
 
 				## Change the directory to /usr/local/src/
@@ -500,7 +512,7 @@ while :
 
 
 				## Installs feh
-				sudo apt install feh
+				sudo apt install feh -y
 
 				## Installs i3blocks
 				sudo apt install i3blocks
@@ -845,11 +857,15 @@ while :
 
 
 				## Making sure the APT repositories/packages are updated
-				sudo apt update && sudo apt upgrade 
+				sudo apt update -y && sudo apt upgrade -y
 
 
 				## Removes the Firefox Browser 
-				sudo apt purge firefox
+				sudo apt purge firefox -y
+
+
+                                ## Removes the Firefox ESR Browser 
+                                sudo apt purge firefox-esr -y
 
 
 
@@ -861,18 +877,7 @@ while :
 
 				echo "deb [arch=amd64] http://deb.librewolf.net $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/librewolf.list
 				sudo wget https://deb.librewolf.net/keyring.gpg -O /etc/apt/trusted.gpg.d/librewolf.gpg
-				sudo apt install librewolf
-
-
-
-				## Installs ungoogled-chromium-debian
-
-				## https://github.com/ungoogled-software/ungoogled-chromium-debian
-
-				echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Bullseye/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
-				curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Bullseye/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
-				sudo apt update
-				sudo apt install -y ungoogled-chromium
+				sudo apt install librewolf -y
 
 
 
@@ -882,14 +887,14 @@ while :
 				## https://sw.kovidgoyal.net/kitty/
 				## https://github.com/kovidgoyal/kitty	
 
-				sudo apt install kitty
+				sudo apt install kitty -y
 
 
 				## Installs Neofetch 
 
 				## https://github.com/dylanaraps/neofetch
 
-				sudo apt install neofetch
+				sudo apt install neofetch -y
 
 
 
@@ -898,7 +903,7 @@ while :
 				## https://github.com/ranger/ranger
 				## https://ranger.github.io/
 
-				sudo apt install ranger 
+				sudo apt install ranger -y
 
 
 				## Installs fish 
@@ -907,7 +912,7 @@ while :
 				## https://github.com/fish-shell/fish-shell
 
 
-				sudo apt install fish
+				sudo apt install fish -y
 
 
 
@@ -917,7 +922,7 @@ while :
 				## https://micro-editor.github.io/
 				## https://github.com/zyedidia/micro
 
-				sudo apt install micro
+				sudo apt install micro -y
 
 
 
@@ -927,7 +932,7 @@ while :
 				## https://neovim.io/
 				## https://github.com/neovim
 
-				sudo apt install neovim
+				sudo apt install neovim -y
 
 
 
@@ -937,7 +942,7 @@ while :
 				## https://www.vim.org/
 				## https://github.com/vim
 
-				sudo apt install vim
+				sudo apt install vim -y
 
 
 
@@ -946,7 +951,7 @@ while :
 
 				## https://github.com/davatorium/rofi
 
-				sudo apt install rofi
+				sudo apt install rofi -y
 
 
 
@@ -956,7 +961,7 @@ while :
 				## https://github.com/o9000/tint2
 
 
-				sudo apt install tint2
+				sudo apt install tint2 -y 
 
 
 
@@ -969,7 +974,7 @@ while :
 				## https://i3wm.org/
 
 
-				sudo apt install i3*
+				sudo apt install i3 -y 
 
 
 
@@ -979,7 +984,7 @@ while :
 				## https://github.com/danakj/openbox
 
 
-				sudo apt install openbox
+				sudo apt install openbox -y 
 
 
 
@@ -990,7 +995,7 @@ while :
 				## https://github.com/nitrogen/nitrogen
 
 
-				sudo apt install nitrogen
+				sudo apt install nitrogen -y 
 
 
 
@@ -998,7 +1003,7 @@ while :
 
 				## https://github.com/yshui/picom
 
-				sudo apt install picom
+				sudo apt install picom -y 
 
 
 
@@ -1008,7 +1013,7 @@ while :
 				## https://github.com/polybar/polybar
 				## https://polybar.github.io/
 
-				sudo apt install polybar
+				sudo apt install polybar -y 
 
 
 				## Installs xfce4
@@ -1017,7 +1022,7 @@ while :
 
 				## https://gitlab.xfce.org/explore/groups?sort=name_desc
 
-				sudo apt install xfce4
+				sudo apt install xfce4 -y 
 
                                 ## Installs Configuration Files 
                                 cd Pop!_OS && sh configure.sh
@@ -1183,7 +1188,7 @@ while :
 
 		6)
 				## Making sure the APT repositories/packages are updated
-				sudo apt update && sudo apt upgrade 
+				sudo apt update -y && sudo apt upgrade -y
 
 
 
@@ -1193,14 +1198,14 @@ while :
 				## https://sw.kovidgoyal.net/kitty/
 				## https://github.com/kovidgoyal/kitty	
 
-				sudo apt install kitty 
+				sudo apt install kitty -y
 
 
 				## Installs Neofetch 
 
 				## https://github.com/dylanaraps/neofetch
 
-				sudo apt install neofetch
+				sudo apt install neofetch -y
 
 
 
@@ -1209,7 +1214,7 @@ while :
 				## https://github.com/ranger/ranger
 				## https://ranger.github.io/
 
-				sudo apt install ranger 
+				sudo apt install ranger -y
 
 
 				## Installs fish 
@@ -1218,7 +1223,7 @@ while :
 				## https://github.com/fish-shell/fish-shell
 
 
-				sudo apt install fish
+				sudo apt install fish -y
 
 
 
@@ -1228,7 +1233,7 @@ while :
 				## https://micro-editor.github.io/
 				## https://github.com/zyedidia/micro
 
-				sudo apt install micro
+				sudo apt install micro -y
 
 
 
@@ -1238,7 +1243,7 @@ while :
 				## https://neovim.io/
 				## https://github.com/neovim
 
-				sudo apt install neovim
+				sudo apt install neovim -y
 
 
 
@@ -1248,13 +1253,13 @@ while :
 				## https://www.vim.org/
 				## https://github.com/vim
 
-				sudo apt install vim
+				sudo apt install vim -y
 
 
 
 
 				## Installs build-essential
-				sudo apt install build-essential
+				sudo apt install build-essential -y
 
 
 
@@ -1262,7 +1267,7 @@ while :
 
 				## https://openjdk.java.net/
 				## https://github.com/openjdk
-				sudo apt install openjdk
+				sudo apt install openjdk -y
 
 
 				## Installs php 
@@ -1271,7 +1276,7 @@ while :
 				## https://github.com/php
 
 
-				sudo apt install php 
+				sudo apt install php -y
 
 
 
@@ -1281,7 +1286,7 @@ while :
 				## https://github.com/nodejs 
 
 
-				sudo apt install nodejs
+				sudo apt install nodejs -y
 
 
 
@@ -1291,7 +1296,7 @@ while :
 				## https://github.com/npm
 
 
-				sudo apt install npm
+				sudo apt install npm -y
 
                                 ## Installs Configuration Files 
                                 cd 
