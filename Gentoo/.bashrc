@@ -17,8 +17,8 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 
 
 
-## Gentoo Aliases
-alias unmaskpackages='emerge --ask --autounmask-write'
+## Updates packages
+alias update-packages='sudo apt update && sudo apt upgrade'
 
 
 ## Revert Git Commits 
@@ -33,6 +33,9 @@ alias pull='git pull'
 alias clone='git clone'
 alias message='git commit -m'
 
+
+## System Information
+alias battery-info='echo -e "Battery Information\n\n" && cat /sys/class/power_supply/BAT0/capacity'
 
 
 

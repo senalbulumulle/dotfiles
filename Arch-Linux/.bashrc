@@ -15,13 +15,10 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 ########################################################
 
 
-## Automatically shows neofetch
-neofetch
-
 
 
 ## Updates packages
-alias update-packages='sudo pacman -Syyu'
+alias update-packages='sudo apt update && sudo apt upgrade'
 
 
 ## Revert Git Commits 
@@ -36,9 +33,9 @@ alias pull='git pull'
 alias clone='git clone'
 alias message='git commit -m'
 
-## Fixing GPG Issues with Arch Linux
-alias fixmykeys='sh fixmykeys.sh'
 
+## System Information
+alias battery-info='echo -e "Battery Information\n\n" && cat /sys/class/power_supply/BAT0/capacity'
 
 
 
@@ -48,6 +45,39 @@ alias fixmykeys='sh fixmykeys.sh'
 ########################################################
 
 
+########################################################
+#	Turns on or off Hidden Files in Apple macOS
+#	Finder
+########################################################
+function mac.hidden.files.on() {
+	defaults write com.apple.finder AppleShowAllFiles YES;
+	killall Finder
+	echo "/!\ The Hidden Files is turned on. "
+}
+
+function mac.hidden.files.off() {
+	defaults write com.apple.Finder AppleShowAllFiles NO; 
+	killall Finder
+	echo "/!\ The Hidden Files is turned off. "
+}
+
+
+
+
+
+########################################################
+#	Turns on or off Single App Mode in Apple macOS
+########################################################
+function mac.single.app.mode.on() {
+	defaults write com.apple.dock single-app -bool true;killall Dock
+}
+
+
+function mac.single.app.mode.off() {
+	defaults write com.apple.dock single-app -bool no;killall Dock
+}
+
+
 ##################################################################
 #   	This Section converts from any document files 
 #       to html
@@ -55,13 +85,13 @@ alias fixmykeys='sh fixmykeys.sh'
 ##################################################################
 
 senal.convert.lecture.notes.pptx() {
-	        soffice --headless --convert-to html *.pptx
+	soffice --headless --convert-to html *.pptx
 }
 
 
 
 senal.convert.lecture.notes.docx() {
-	        soffice --headless --convert-to html *.docx
+	soffice --headless --convert-to html *.docx
 }
 
 
@@ -188,27 +218,3 @@ echo """
 """ > README.md
 }
 
-
-function boilerplate.generate.README.txt {
-touch README.txt	
-echo """
-Title
-
-
-Description: 
-                                Description here 
-
-
-
-
-
-Requirements: 
-                                * Requirement
-
-
-
-
-Installation: 
-                                * Installation
-""" > README.txt
-}

@@ -287,9 +287,22 @@ while :
 				## https://librewolf.net/installation/debian/
 				## 
 
-				echo "deb [arch=amd64] http://deb.librewolf.net $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/librewolf.list
-				sudo wget https://deb.librewolf.net/keyring.gpg -O /etc/apt/trusted.gpg.d/librewolf.gpg
-				sudo apt install librewolf
+				distro=$(if echo " bullseye focal impish jammy uma una " | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
+				
+				wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
+				
+				sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
+				Types: deb
+				URIs: https://deb.librewolf.net
+				Suites: $distro
+				Components: main
+				Architectures: amd64
+				Signed-By: /usr/share/keyrings/librewolf.gpg
+				EOF
+				
+				sudo apt update
+				
+				sudo apt install librewolf -y
 
 				## Installs Kitty
 
@@ -836,7 +849,7 @@ while :
 
 
 				## Removes the Firefox Browser 
-				sudo apt autopurge firefox*
+				sudo apt purge firefox
 
 
 
@@ -849,6 +862,17 @@ while :
 				echo "deb [arch=amd64] http://deb.librewolf.net $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/librewolf.list
 				sudo wget https://deb.librewolf.net/keyring.gpg -O /etc/apt/trusted.gpg.d/librewolf.gpg
 				sudo apt install librewolf
+
+
+
+				## Installs ungoogled-chromium-debian
+
+				## https://github.com/ungoogled-software/ungoogled-chromium-debian
+
+				echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Bullseye/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
+				curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Bullseye/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
+				sudo apt update
+				sudo apt install -y ungoogled-chromium
 
 
 
