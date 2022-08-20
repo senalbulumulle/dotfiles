@@ -599,6 +599,13 @@ while :
 				sudo apt install xfce4
 
 
+				## Installs notes 
+
+				## https://github.com/pimterry/notes
+
+				curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
+
+
                                 ## Installs Configuration Files 
                                 cd debian
                                 sh configure.sh
@@ -838,6 +845,13 @@ while :
 				sudo dnf -y install nwg-launchers
 
 
+				## Installs notes 
+
+				## https://github.com/pimterry/notes
+
+				curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
+
+
 
 
                                 ## Installs Configuration Files 
@@ -1047,6 +1061,15 @@ while :
 
 				sudo apt install xfce4 -y 
 
+
+				## Installs notes 
+
+				## https://github.com/pimterry/notes
+
+				curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
+
+
+
                                 ## Installs Configuration Files 
                                 cd Pop!_OS && sh configure.sh
 
@@ -1171,6 +1194,15 @@ while :
 
 
 				brew install github-cli	
+
+
+				## Installs notes 
+
+				## https://github.com/pimterry/notes
+
+				curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
+
+				
 
                                 ## Installs Configuration Files 
                                 cd macOS && sh configure.sh
