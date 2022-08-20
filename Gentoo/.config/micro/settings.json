@@ -1,7 +1,6 @@
 {
     "backup": false,
     "colorscheme": "solarized",
-    "incsearch": true,
     "initlua": true,
     "pluginchannels": [
         "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
