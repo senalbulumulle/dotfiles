@@ -253,6 +253,13 @@ while :
 				sudo pacman -S --noconfirm nitrogen
 
 
+				## Installs notes 
+
+				## https://github.com/pimterry/notes
+
+				curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
+
+
                                 ## Installs Configuration Files 
                                 cd Arch-Linux 
                                 sh configure.sh
