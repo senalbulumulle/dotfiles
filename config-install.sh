@@ -11,17 +11,17 @@ echo """
 		Welcome to Senal's Config Installer
 ========================================================================================
 =
-	1) Arch Linux
+	1) Arch Linux                           [Status: STABLE]
 
-	2) Debian
+	2) Debian                               [Status: KINDA STABLE]
 
-	3) Fedora
+	3) Fedora                               [Status: STABLE]
 
-	4) Pop!_OS
+	4) Pop!_OS                              [Status: NOT TESTED]
 
-	5) macOS
+	5) macOS                                [Status: TESTED/STABLE]
 
-	6) Ubuntu-Multipass
+	6) Ubuntu-Multipass                     [STATUS: STABLE]
 
 	7) Exit
 ========================================================================================
@@ -253,6 +253,14 @@ while :
 				sudo pacman -S --noconfirm nitrogen
 
 
+				## Installs PHP
+
+				## https://www.php.net/
+				## https://github.com/php/
+
+				sudo pacman -S --noconfirm php
+
+
 				## Installs notes 
 
 				## https://github.com/pimterry/notes
@@ -268,18 +276,18 @@ while :
 				========================================================================================
 						Welcome to Senal's Config Installer
 				========================================================================================
+				=
+					1) Arch Linux                           [Status: STABLE]
 
-					1) Arch Linux
+					2) Debian                               [Status: KINDA STABLE]
 
-					2) Debian
+					3) Fedora                               [Status: STABLE]
 
-					3) Fedora
+					4) Pop!_OS                              [Status: NOT TESTED]
 
-					4) Pop!_OS
+					5) macOS                                [Status: TESTED/STABLE]
 
-					5) macOS
-
-					6) Ubuntu-Multipass
+					6) Ubuntu-Multipass                     [STATUS: STABLE]
 
 					7) Exit
 				========================================================================================
@@ -301,31 +309,6 @@ while :
 		2)
 				## Making sure the APT repositories/packages are updated
 				sudo apt update && sudo apt upgrade 
-
-
-				## Installs Librewolf 
-
-				## https://librewolf.net/
-				## https://gitlab.com/librewolf-community
-				## https://librewolf.net/installation/debian/
-				## 
-
-				distro=$(if echo " bullseye focal impish jammy uma una " | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
-				
-				wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
-				
-				sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
-				Types: deb
-				URIs: https://deb.librewolf.net
-				Suites: $distro
-				Components: main
-				Architectures: amd64
-				Signed-By: /usr/share/keyrings/librewolf.gpg
-				EOF
-				
-				sudo apt update
-				
-				sudo apt install librewolf -y
 
 
 
@@ -422,14 +405,6 @@ while :
 
 
 
-				## Installs i3 (installs i3-gaps manually)
-
-				## https://github.com/i3/i3
-				## https://github.com/Airblader/i3
-				## https://i3wm.org/
-
-
-
 
 				## Installs autoconf 
 				sudo apt install autoconf  -y
@@ -504,50 +479,40 @@ while :
 
 				## Installs xcb
 				sudo apt install xcb -y
-
-
-				## Change the directory to /usr/local/src/
-				cd /usr/local/src
-
-				## Clone the i3-gaps repository
-				git clone https://github.com/Airblader/i3 i3-gaps
-				cd i3-gaps
-
-
-				## Build the source 
-				hash=$(git rev-parse --short HEAD)
-				autoreconf --force --install
-				mkdir build && cd "$_"
-				../configure --prefix=/usr/local --sysconfdir=/etc --disable-sanitizers
-				make PREFIX=/usr/local
-				make install prefix=/usr/local/stow/i3-gaps-$(hash)
-
-
-				## Set some permissions in order to work 
-				find /usr/local/stow/i3-gaps-$(hash) -type d -exec chmod 755 {} \;
-				find /usr/local/stow/i3-gaps-$(hash) -type f -exec chmod 644 {} \;
-				chmod -R 755 /usr/local/stow/i3-gaps-$(hash)/bin
-
-
-				## Install sym links 
-				cd /usr/local/stow
-				stow i3-gaps-$(hash)
+				
+				
+				## Installs i3-gaps 
+				
+				## https://github.com/maestrogerardo/i3-gaps-deb
+				## https://github.com/Airblader/i3
+				## https://lottalinuxlinks.com/how-to-build-and-install-i3-gaps-on-debian/
+				
+			        sudo apt install apt install meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev libxcb-shape0 libxcb-shape0-dev -y	
+			        
+			        cd /home/$USER  
+			        git clone https://github.com/Airblader/i3 i3-gaps
+			        cd i3-gaps  
+			        mkdir -p build && cd build  
+			        meson --prefix /usr/local  
+			        ninja  
+			        sudo ninja install
+				
 
 
 				## Installs feh
 				sudo apt install feh -y
 
 				## Installs i3blocks
-				sudo apt install i3blocks
+				sudo apt install i3blocks -y
 
 				## Installs i3lock
-				sudo apt install i3lock
+				sudo apt install i3lock -y
 
 				## Installs suckless-tools
-				sudo apt install suckless-tools
+				sudo apt install suckless-tools -y
 
 				## Installs xorg 
-				sudo apt install xorg 
+				sudo apt install xorg -y
 
 
 
@@ -559,7 +524,7 @@ while :
 				## https://github.com/danakj/openbox
 
 
-				sudo apt install openbox
+				sudo apt install openbox -y
 
 
 
@@ -570,7 +535,7 @@ while :
 				## https://github.com/nitrogen/nitrogen
 
 
-				sudo apt install nitrogen
+ 				sudo apt install nitrogen -y
 
 
 
@@ -578,7 +543,7 @@ while :
 
 				## https://github.com/yshui/picom
 
-				sudo apt install picom
+				sudo apt install picom -y
 
 
 
@@ -587,7 +552,7 @@ while :
 				## https://github.com/polybar/polybar
 				## https://polybar.github.io/
 
-				sudo apt install polybar
+				sudo apt install polybar -y
 
 
 				## Installs xfce4
@@ -596,7 +561,15 @@ while :
 
 				## https://gitlab.xfce.org/explore/groups?sort=name_desc
 
-				sudo apt install xfce4
+				sudo apt install xfce4 -y
+
+
+				## Installs PHP
+
+				## https://www.php.net/
+				## https://github.com/php/
+
+				sudo apt install php -y
 
 
 				## Installs notes 
@@ -614,18 +587,18 @@ while :
 				========================================================================================
 						Welcome to Senal's Config Installer
 				========================================================================================
+				=
+					1) Arch Linux                           [Status: STABLE]
 
-					1) Arch Linux
+					2) Debian                               [Status: KINDA STABLE]
 
-					2) Debian
+					3) Fedora                               [Status: STABLE]
 
-					3) Fedora
+					4) Pop!_OS                              [Status: NOT TESTED]
 
-					4) Pop!_OS
+					5) macOS                                [Status: TESTED/STABLE]
 
-					5) macOS
-
-					6) Ubuntu-Multipass
+					6) Ubuntu-Multipass                     [STATUS: STABLE]
 
 					7) Exit
 				========================================================================================
@@ -861,18 +834,18 @@ while :
 				========================================================================================
 						Welcome to Senal's Config Installer
 				========================================================================================
+				=
+					1) Arch Linux                           [Status: STABLE]
 
-					1) Arch Linux
+					2) Debian                               [Status: KINDA STABLE]
 
-					2) Debian
+					3) Fedora                               [Status: STABLE]
 
-					3) Fedora
+					4) Pop!_OS                              [Status: NOT TESTED]
 
-					4) Pop!_OS
+					5) macOS                                [Status: TESTED/STABLE]
 
-					5) macOS
-
-					6) Ubuntu-Multipass
+					6) Ubuntu-Multipass                     [STATUS: STABLE]
 
 					7) Exit
 				========================================================================================
@@ -1077,18 +1050,18 @@ while :
 				========================================================================================
 						Welcome to Senal's Config Installer
 				========================================================================================
+				=
+					1) Arch Linux                           [Status: STABLE]
 
-					1) Arch Linux
+					2) Debian                               [Status: KINDA STABLE]
 
-					2) Debian
+					3) Fedora                               [Status: STABLE]
 
-					3) Fedora
+					4) Pop!_OS                              [Status: NOT TESTED]
 
-					4) Pop!_OS
+					5) macOS                                [Status: TESTED/STABLE]
 
-					5) macOS
-
-					6) Ubuntu-Multipass
+					6) Ubuntu-Multipass                     [STATUS: STABLE]
 
 					7) Exit
 				========================================================================================
@@ -1213,18 +1186,18 @@ while :
 				========================================================================================
 						Welcome to Senal's Config Installer
 				========================================================================================
+				=
+					1) Arch Linux                           [Status: STABLE]
 
-					1) Arch Linux
+					2) Debian                               [Status: KINDA STABLE]
 
-					2) Debian
+					3) Fedora                               [Status: STABLE]
 
-					3) Fedora
+					4) Pop!_OS                              [Status: NOT TESTED]
 
-					4) Pop!_OS
+					5) macOS                                [Status: TESTED/STABLE]
 
-					5) macOS
-
-					6) Ubuntu-Multipass
+					6) Ubuntu-Multipass                     [STATUS: STABLE]
 
 					7) Exit
 				========================================================================================
@@ -1360,18 +1333,18 @@ while :
 				========================================================================================
 						Welcome to Senal's Config Installer
 				========================================================================================
+				=
+					1) Arch Linux                           [Status: STABLE]
 
-					1) Arch Linux
+					2) Debian                               [Status: KINDA STABLE]
 
-					2) Debian
+					3) Fedora                               [Status: STABLE]
 
-					3) Fedora
+					4) Pop!_OS                              [Status: NOT TESTED]
 
-					4) Pop!_OS
+					5) macOS                                [Status: TESTED/STABLE]
 
-					5) macOS
-
-					6) Ubuntu-Multipass
+					6) Ubuntu-Multipass                     [STATUS: STABLE]
 
 					7) Exit
 				========================================================================================
