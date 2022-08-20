@@ -59,7 +59,15 @@ while :
 				sudo pacman-key --lsign-key FBA220DFC880C036                                                                                                                         && \        
 				sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 				sudo cp pacman.conf /etc/pacman.conf	
-				sudo pacman -Sy				
+				sudo pacman -Sy			
+
+
+				## Installs pamac-classic
+
+				## https://wiki.manjaro.org/index.php/Pamac
+				## https://gitlab.manjaro.org/applications/pamac
+
+				sudo pacman -S --noconfirm pamac-classic
 
 
 				## Installs Librewolf 
