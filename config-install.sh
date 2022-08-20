@@ -70,6 +70,14 @@ while :
 				sudo pacman -S --noconfirm librewolf
 
 
+				## Installs ungoogled-chromium
+
+				##  https://github.com/ungoogled-software/ungoogled-chromium-archlinux
+				##  https://ungoogled-software.github.io/
+
+				sudo pacman -S --noconfirm ungoogled-chromium
+
+
 				## Installs Kitty   
 
 				## https://sw.kovidgoyal.net/kitty/
