@@ -50,7 +50,8 @@ function run-php
 
                         case e
                                 clear
-                                exit
+                                return 0
                 end
           end
 end
+
