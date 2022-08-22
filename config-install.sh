@@ -1564,7 +1564,7 @@ while :
 
 
                                 ## Installs Configuration Files 
-                                cd Pop!_OS && sh configure.sh
+                                cd Kali-Linux && sh configure.sh
 
 				echo """
 ========================================================================================
