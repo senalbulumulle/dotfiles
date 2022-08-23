@@ -1156,6 +1156,16 @@ while :
 
 
 
+				## Installs rofi
+
+				## https://github.com/davatorium/rofi
+
+				sudo apt install rofi -y
+
+                                
+
+
+
 
                                 ## Installs openjdk
 
@@ -1174,6 +1184,13 @@ while :
 
 				sudo apt install fish -y
 
+
+
+				## Removes some default .configs
+				cd /home/$USER/.config
+				rm -rf *
+
+				
 
 
 
