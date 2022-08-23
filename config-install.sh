@@ -7,26 +7,9 @@
 clear
 
 echo """
-========================================================================================
-		Welcome to Senal's Config Installer
-========================================================================================
-=
-	1) Arch Linux                           [Status: STABLE]
-
-	2) Debian                               [Status: KINDA STABLE]
-
-	3) Fedora                               [Status: STABLE]
-
-	4) Pop!_OS                              [Status: NOT TESTED]
-
-	5) macOS                                [Status: TESTED/STABLE]
-
-	6) Ubuntu-Multipass                     [STATUS: STABLE]
-        
-        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
-
-	8) Exit
-========================================================================================
+Welcome to Senal's Config Installer 
+------------------------------------
+Type [options] to see more information
 	
 
 
@@ -276,26 +259,9 @@ while :
 
 				clear
 				echo """
-========================================================================================
-		Welcome to Senal's Config Installer
-========================================================================================
-=
-	1) Arch Linux                           [Status: STABLE]
-
-	2) Debian                               [Status: KINDA STABLE]
-
-	3) Fedora                               [Status: STABLE]
-
-	4) Pop!_OS                              [Status: NOT TESTED]
-
-	5) macOS                                [Status: TESTED/STABLE]
-
-	6) Ubuntu-Multipass                     [STATUS: STABLE]
-        
-        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
-
-	8) Exit
-========================================================================================
+Welcome to Senal's Config Installer 
+------------------------------------
+Type [options] to see more information
 				"""
 			;;
 
@@ -341,26 +307,9 @@ while :
                                 
                                 clear
 				echo """
-========================================================================================
-		Welcome to Senal's Config Installer
-========================================================================================
-=
-	1) Arch Linux                           [Status: STABLE]
-
-	2) Debian                               [Status: KINDA STABLE]
-
-	3) Fedora                               [Status: STABLE]
-
-	4) Pop!_OS                              [Status: NOT TESTED]
-
-	5) macOS                                [Status: TESTED/STABLE]
-
-	6) Ubuntu-Multipass                     [STATUS: STABLE]
-        
-        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
-
-	8) Exit
-========================================================================================
+Welcome to Senal's Config Installer 
+------------------------------------
+Type [options] to see more information
 				"""
 			;;
 
