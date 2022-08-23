@@ -1142,6 +1142,10 @@ while :
 				sudo apt update -y && sudo apt upgrade -y
 
 
+				## Uninstall XFCE4-desktop
+				sudo apt purge xfce4
+
+
                                 ## Installs i3
 
                                 ## https://i3wm.org/
