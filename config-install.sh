@@ -274,6 +274,7 @@ while :
                                 cd Arch-Linux 
                                 sh configure.sh
 
+				clear
 				echo """
 ========================================================================================
 		Welcome to Senal's Config Installer
@@ -336,12 +337,9 @@ while :
 
                                 ## Installs Configuration Files 
                                 cd debian
-                                sh configure.sh
-
-                                ## Stash the temp repositories 
-                                git stash -u 
+                                sh configure. 
                                 
-                                
+                                clear
 				echo """
 ========================================================================================
 		Welcome to Senal's Config Installer
@@ -591,6 +589,7 @@ while :
                                 ## Installs Configuration Files 
                                 cd Fedora && sh configure.sh
 
+				clear
 				echo """
 ========================================================================================
 		Welcome to Senal's Config Installer
@@ -809,6 +808,7 @@ while :
                                 ## Installs Configuration Files 
                                 cd Pop!_OS && sh configure.sh
 
+				clear
 				echo """
 ========================================================================================
 		Welcome to Senal's Config Installer
@@ -946,7 +946,7 @@ while :
                                 cd macOS && sh configure.sh
 
 
-
+				clear
 				echo """
 ========================================================================================
 		Welcome to Senal's Config Installer
@@ -1096,6 +1096,7 @@ while :
                                 ## Installs Configuration Files 
                                 cd 
 
+				clear
 				echo """
 ========================================================================================
 		Welcome to Senal's Config Installer
@@ -1164,6 +1165,8 @@ while :
                                 ## Installs Configuration Files 
                                 cd Kali-Linux && sh configure.sh
 
+
+				clear
 				echo """
 ========================================================================================
 		Welcome to Senal's Config Installer
@@ -1192,6 +1195,7 @@ while :
 
 		8)
 			exit
+			clear
 			;;
 
 
