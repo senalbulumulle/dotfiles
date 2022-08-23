@@ -1152,6 +1152,15 @@ while :
 
 
 
+                                ## Installs openjdk
+
+                                ## https://jdk.java.net/
+
+                                ## https://github.com/openjdk
+
+
+
+
                                 ## Installs Configuration Files 
                                 cd Kali-Linux && sh configure.sh
 
