@@ -1390,13 +1390,14 @@ while :
 				sudo apt update -y && sudo apt upgrade -y
 
 
-				
+                                ## Installs i3
 
-				## Installs notes 
+                                ## https://i3wm.org/
 
-				## https://github.com/pimterry/notes
+                                ## https://github.com/i3
 
-				curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
+                                sudo apt install i3 -y
+
 
 
 
