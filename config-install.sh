@@ -1389,6 +1389,9 @@ while :
 				## Making sure the APT repositories/packages are updated
 				sudo apt update -y && sudo apt upgrade -y
 
+
+				
+
 				## Installs notes 
 
 				## https://github.com/pimterry/notes
