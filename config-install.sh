@@ -1158,6 +1158,17 @@ while :
                                 ## https://jdk.java.net/
 
                                 ## https://github.com/openjdk
+                                sudo apt install openjdk -y
+
+
+
+				## Installs fish 
+
+				## https://fishshell.com/
+				## https://github.com/fish-shell/fish-shell
+
+
+				sudo apt install fish -y
 
 
 
