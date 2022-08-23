@@ -54,6 +54,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id nitrogen --restore ../senal-wallpaper/Snake-Sunset.jpg
 
 
+# Automatically starts up polybar
+exec --no-startup-id polybar
 
 # Automatically starts up xfce4-panel
 exec --no-startup-id xfce4-panel
