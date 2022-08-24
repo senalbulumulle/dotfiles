@@ -144,7 +144,11 @@ while :
                                 sh install-Kali-Linux-configs.sh
 			;;
 
-			
+
+		options)
+			sh options.sh	
+			;;
+
 
 		8)
 			exit
