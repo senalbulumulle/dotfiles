@@ -1,241 +1,248 @@
-############################################################
-#       Installation Script
+#########################################################
+#	Senal's Config Installer Script
 #
 #
-############################################################
+#########################################################
 
+clear
 
-# !bin/env bash
+echo """
+========================================================================================
+		Welcome to Senal's Config Installer
+========================================================================================
+=
+	1) Arch Linux                           [Status: STABLE]
 
-function introduction() {
-	clear
-	echo """
-	########################################################################################
-	##      Welcome to Senal's dotfiles                                                    #
-	########################################################################################
-	########################################################################################
-	##      Options                                                                        #
-	##                                                                                     #
-	########################################################################################
-	########################################################################################
-	##	Exiting the program
-	##
-	##
-	##	Type 'exit' to exit the program
-	########################################################################################
-	"""
+	2) Debian                               [Status: NOT STABLE/RE-MODELING]
 
-}
+	3) Fedora                               [Status: STABLE]
 
+	4) Pop!_OS                              [Status: NOT TESTED]
 
+	5) macOS                                [Status: TESTED/STABLE]
 
-function getChoices() {
-	while :
-		do
-		read CHOICE
-
-		case $CHOICE in
-			##################################################################
-			##      Search: options
-			##
-			##################################################################
-			## If the user types options, then it display the list of options
-
-			options)
-				sh options.sh
-				;;
-
-
-			##################################################################
-			##      Search: install-gnome-desktop
-			##
-			##################################################################
-			## If the user presses 1), then it will install the GNOME-Desktop Environment.
-
-			1)
-				sh install-gnome-desktop.sh
-
-				;;
-			##################################################################
-			##      Search: uninstall-gnome-desktop
-			##
-			##################################################################
-
-			## If the user presses 2), then it will uninstall the GNOME-Desktop Environment.
-
-			2)
-
-				sh uninstall-gnome-desktop.sh
-
-				;;
-			##################################################################
-			##      Search: install-kde-desktop
-			##
-			##################################################################
-
-                        ## If the user presses 3), then it will install the KDE-Desktop Environment.
-
-			3)
-
-				sh install-kde-desktop.sh
-				;;
-
-			##################################################################
-			##      Search: uninstall-kde-desktop
-			##
-			##################################################################
-
-                        ## If the user presses 4), then it will uninstall the KDE-Desktop-Environment
-
-			4)
-				sh uninstall-kde-desktop.sh
-
-				;;
-
-			##################################################################
-			##      Search: install-lxqt-desktop
-			##
-			##################################################################
-
-                        ## If the user presses 4), then it will install the LXQT-Desktop-Environment
-
-			5)
-				sh install-lxqt-desktop.sh
-
-				;;
-
-			##################################################################
-			##      Search: uninstall-lxqt-desktop
-			##
-			##################################################################
-
-                        ## If the user presses 4), then it will uninstall the LXQT-Desktop-Environment
-
-			6)
-				sh uninstall-lxqt-desktop.sh
-
-				;;
-
-			##################################################################
-			##      Search: install-xfce4-desktop
-			##
-			##################################################################
-
-                        ## If the user presses 4), then it will install the XFCE4-Desktop-Environment
-
-			7)
-				sh install-xfce4-desktop.sh
-
-				;;
-
-
-			##################################################################
-			##      Search: uninstall-xfce4-desktop
-			##
-			##################################################################
-
-                        ## If the user presses 4), then it will uninstall the XFCE4-Desktop-Environment
-
-			8)
-				sh uninstall-xfce4-desktop.sh
-
-				;;
-
-			##################################################################
-			##      Search: install-cinnamon-desktop
-			##
-			##################################################################
-
-                        ## If the user presses 4), then it will install the Cinnamon-Desktop-Environment
-
-			9)
-				sh install-cinnamon-desktop.sh
-
-				;;
-
+	6) Ubuntu-Multipass                     [STATUS: STABLE]
         
-			##################################################################
-			##      Search: uninstall-cinnamon-desktop
-			##
-			##################################################################
+        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
 
-                        ## If the user presses 4), then it will uninstall the Cinnamon-Desktop-Environment
-
-			10)
-				sh uninstall-cinnamon-desktop.sh
-
-				;;
+	8) Exit
+========================================================================================
+	
 
 
+"""
+while :
+	do 
+	read CHOICE
+
+	case $CHOICE in 
+
+                ###########################################################
+                ##      Search: Arch-Linux
+                ###########################################################
+
+		## After the user chooses Arch-Linux, then it will install the 
+		## dependencies for my config in Arch-Linux, if not, it will 
+		## restart the script to go back to the main menu. 
+		
+		1)
+				
+                                sh install-Arch-Linux-configs.sh
+			;;
 
 
-
-
-
-
-
-
-
-
-
-
-	#			▼▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲►        ▲ ▼▼           ▼▲▲▼      ►▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲►           ►▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲►
-	#			◄▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼►         ▼▲▼▼▼         ◄▼▼▼▼      ►▼▼▼▼►►►►►▼▼▼▼▼▼►           ►▼▼►►►►►►▼▼▼▼►►►▼▼►
-	#			◄▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼          ▼▼▼▼▼      ▼▼ ◄▼▼            ◄▼▼▼▼►                    ▼▼▼▼►►▼▼▼▼▼▼▼
-	#			◄▼▼▼▼►                           ▼▼▼▼▼    ▼▼▼▲▼              ◄▼▼▼▼►                        ◄▼▼►
-	#			◄▼▼▼▼►                            ▼▼▼▼▼  ▼▼▼▼▼               ◄▼▼▼▼►                        ◄▼▼►
-	#			◄▼▼▼▼►                             ▼▼▼▼▲▲▼▼▼▼                ◄▼▼▼▼►                        ◄▼►►
-	#			◄▼▼▼▼►                              ▼▼▼▼▼▼▼                  ◄▼▼▼▼►                        ◄▼►►
-	#			◄▼▼▼▼▼▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲►              ▼ ◄▼▼                   ◄▼▼▼▼►                        ◄▼►►
-	#			◄▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼►                ▼▼▼                    ◄▼▼▼▼►                        ◄▼►►
-	#			◄▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼                ◄►                     ◄▼▼▼▼►                        ◄▼►►
-	#			◄▼▼▼▼►                              ▼▲▼▼▼                    ◄▼▼▼▼►                        ◄▼►►
-	#			◄▼▼▼▼►                             ▼▼▼▼▼▼▼                   ◄▼▼▼▼►                        ◄▼►►
-	#			◄▼▼▼▼►                             ◄▼▼▼▼▼▼▼                  ◄▼▼▼▼►                        ◄▼►►
-	#			◄▼▼▼▼▼▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▼         ▼▲▼▼▼▼▼▼▼▼▼                 ◄▼▼▼▼►                        ◄▼►►
-	#			◄▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼►        ▼▼▼▼▼▼ ▼▼► ▼                 ◄▼▼▼▼►                        ◄▼▼►
-	#			◄▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼►       ▼▼▼▼▼    ▼▼▲▼▼           ►▲▲▲▲▼▲►►►▲▲▲▲▲▲►                  ◄▼▼►
-	#			▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼     ◄►▼▼▼       ▼▼▼▼►          ◄▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼►                  ◄▼▼►
+                ###########################################################
+                ##      Search: Debian
+                ###########################################################
 
 
 
+		## After the user chooses Debian, then it will install the 
+		## dependencies for my config in Debian, if not, it will 
+		## restart the script to go back to the main menu. 
 
-
-			## After the user types 'exit', it will exit the program
-
-			exit)
-				exit
-				;;
-
-
-
-			## If the user presses a unknown character, it will inform
-			## the user to choose the correct commands.
-			*)
+		
+		2)
+                                sh install-Debian-configs.sh
+                                
+                                
 				echo """
+========================================================================================
+		Welcome to Senal's Config Installer
+========================================================================================
+=
+	1) Arch Linux                           [Status: STABLE]
 
-	########################################################################################
-	##      Welcome to Senal's dotfiles                                                    #
-	########################################################################################
-	########################################################################################
-	##      Options                                                                        #
-	##                                                                                     #
-	########################################################################################
-	########################################################################################
-	##	Exiting the program
-	##
-	##
-	##	Type 'exit' to exit the program
-	########################################################################################				
+	2) Debian                               [Status: NOT STABLE/RE-MODELING]
+
+	3) Fedora                               [Status: STABLE]
+
+	4) Pop!_OS                              [Status: NOT TESTED]
+
+	5) macOS                                [Status: TESTED/STABLE]
+
+	6) Ubuntu-Multipass                     [STATUS: STABLE]
+        
+        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
+
+	8) Exit
+========================================================================================
 				"""
-	esac
-	done
+			;;
+
+                ###########################################################
+                ##      Search: Fedora
+                ###########################################################
+
+			
+		## After the user chooses Fedora, then it will install the 
+		## dependencies for my config in Fedora.
+
+		
+		3)
+                                sh install-Fedora-configs.sh
+
+				echo """
+========================================================================================
+		Welcome to Senal's Config Installer
+========================================================================================
+=
+	1) Arch Linux                           [Status: STABLE]
+
+	2) Debian                               [Status: NOT STABLE/RE-MODELING]
+
+	3) Fedora                               [Status: STABLE]
+
+	4) Pop!_OS                              [Status: NOT TESTED]
+
+	5) macOS                                [Status: TESTED/STABLE]
+
+	6) Ubuntu-Multipass                     [STATUS: STABLE]
+        
+        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
+
+	8) Exit
+========================================================================================
+				"""
+			;;
 
 
-}
+
+                ###########################################################
+                ##      Search: Pop!_OS
+                ###########################################################
+
+		## After the user chooses Pop!_OS, then it will install the 
+		## dependencies for my config in Pop!_OS. 
+
+	
+		4)
+                                sh install-Pop!_OS-configs.sh
+
+				echo """
+========================================================================================
+		Welcome to Senal's Config Installer
+========================================================================================
+=
+	1) Arch Linux                           [Status: STABLE]
+
+	2) Debian                               [Status: NOT STABLE/RE-MODELING]
+
+	3) Fedora                               [Status: STABLE]
+
+	4) Pop!_OS                              [Status: NOT TESTED]
+
+	5) macOS                                [Status: TESTED/STABLE]
+
+	6) Ubuntu-Multipass                     [STATUS: STABLE]
+        
+        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
+
+	8) Exit
+========================================================================================
+				"""
+			;;
+
+
+                ###########################################################
+                ##      Search: macOS
+                ###########################################################
+
+
+		## After the user chooses macOS, then it will install the 
+		## dependencies for my config in macOS. 
+
+	
+		5)
+                                sh install-macOS-configs.sh
+
+
+
+				echo """
+========================================================================================
+		Welcome to Senal's Config Installer
+========================================================================================
+=
+	1) Arch Linux                           [Status: STABLE]
+
+	2) Debian                               [Status: NOT STABLE/RE-MODELING]
+
+	3) Fedora                               [Status: STABLE]
+
+	4) Pop!_OS                              [Status: NOT TESTED]
+
+	5) macOS                                [Status: TESTED/STABLE]
+
+	6) Ubuntu-Multipass                     [STATUS: STABLE]
+        
+        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
+
+	8) Exit
+========================================================================================
+				"""		
+			;;		
+
+
+
+                ###########################################################
+                ##      Search: Ubuntu-Multipass
+                ###########################################################
+
+
+		## After the user chooses Ubuntu-Multipass, then it will install the 
+		## dependencies for my config in Ubuntu-Multipass. 
+
+		6)
+                                sh install-Ubuntu-Multipass.sh
+			;;
 
 
 
 
-introduction
-getChoices
+
+
+                ###########################################################
+                ##      Search: Kali-Linux
+                ###########################################################
+
+		## After the user chooses Kali-Linux, then it will install the 
+		## dependencies for my config in Kali-Linux. 
+
+	
+		7)
+                                sh install-Kali-Linux-configs.sh
+			;;
+
+			
+
+		8)
+			exit
+			;;
+
+
+		*)
+			echo """
+			
+			"""
+esac
+done
