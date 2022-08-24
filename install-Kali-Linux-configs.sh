@@ -43,3 +43,13 @@ sudo apt install openjdk -y
 
 
 sudo apt install fish -y
+
+
+
+
+## Installs Kitty
+
+## https://sw.kovidgoyal.net/kitty/
+## https://github.com/kovidgoyal/kitty	
+
+sudo apt install kitty -y
