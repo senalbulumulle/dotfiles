@@ -7,26 +7,32 @@
 clear
 
 echo """
-========================================================================================
-		Welcome to Senal's Config Installer
-========================================================================================
-=
-	1) Arch Linux                           [Status: STABLE]
+=====================================
+Welcome to Senal's Config Installer
+=====================================
 
-	2) Debian                               [Status: NOT STABLE/RE-MODELING]
+1) Arch Linux                           
+		[Status: STABLE]
 
-	3) Fedora                               [Status: STABLE]
+2) Debian                               
+		[Status: NOT STABLE/RE-MODELING]
 
-	4) Pop!_OS                              [Status: NOT TESTED]
+3) Fedora                               
+		[Status: STABLE]
 
-	5) macOS                                [Status: TESTED/STABLE]
+4) Pop!_OS                              [
+		Status: NOT TESTED]
 
-	6) Ubuntu-Multipass                     [STATUS: STABLE]
+5) macOS                                
+		[Status: TESTED/STABLE]
+
+6) Ubuntu-Multipass                     
+		[STATUS: STABLE]
         
-        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
+7) Kali-Linux                           
+		[STATUS: NOT STABLE] [NEW]
 
-	8) Exit
-========================================================================================
+8) Exit
 	
 
 
