@@ -1,4 +1,3 @@
-
 ## This script installs apps/dependencies for my config and more
 
 
