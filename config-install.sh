@@ -64,30 +64,6 @@ while :
 		
 		2)
                                 sh install-Debian-configs.sh
-                                
-                                
-				echo """
-========================================================================================
-		Welcome to Senal's Config Installer
-========================================================================================
-=
-	1) Arch Linux                           [Status: STABLE]
-
-	2) Debian                               [Status: NOT STABLE/RE-MODELING]
-
-	3) Fedora                               [Status: STABLE]
-
-	4) Pop!_OS                              [Status: NOT TESTED]
-
-	5) macOS                                [Status: TESTED/STABLE]
-
-	6) Ubuntu-Multipass                     [STATUS: STABLE]
-        
-        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
-
-	8) Exit
-========================================================================================
-				"""
 			;;
 
                 ###########################################################
@@ -101,29 +77,6 @@ while :
 		
 		3)
                                 sh install-Fedora-configs.sh
-
-				echo """
-========================================================================================
-		Welcome to Senal's Config Installer
-========================================================================================
-=
-	1) Arch Linux                           [Status: STABLE]
-
-	2) Debian                               [Status: NOT STABLE/RE-MODELING]
-
-	3) Fedora                               [Status: STABLE]
-
-	4) Pop!_OS                              [Status: NOT TESTED]
-
-	5) macOS                                [Status: TESTED/STABLE]
-
-	6) Ubuntu-Multipass                     [STATUS: STABLE]
-        
-        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
-
-	8) Exit
-========================================================================================
-				"""
 			;;
 
 
@@ -138,29 +91,6 @@ while :
 	
 		4)
                                 sh install-Pop!_OS-configs.sh
-
-				echo """
-========================================================================================
-		Welcome to Senal's Config Installer
-========================================================================================
-=
-	1) Arch Linux                           [Status: STABLE]
-
-	2) Debian                               [Status: NOT STABLE/RE-MODELING]
-
-	3) Fedora                               [Status: STABLE]
-
-	4) Pop!_OS                              [Status: NOT TESTED]
-
-	5) macOS                                [Status: TESTED/STABLE]
-
-	6) Ubuntu-Multipass                     [STATUS: STABLE]
-        
-        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
-
-	8) Exit
-========================================================================================
-				"""
 			;;
 
 
@@ -174,32 +104,7 @@ while :
 
 	
 		5)
-                                sh install-macOS-configs.sh
-
-
-
-				echo """
-========================================================================================
-		Welcome to Senal's Config Installer
-========================================================================================
-=
-	1) Arch Linux                           [Status: STABLE]
-
-	2) Debian                               [Status: NOT STABLE/RE-MODELING]
-
-	3) Fedora                               [Status: STABLE]
-
-	4) Pop!_OS                              [Status: NOT TESTED]
-
-	5) macOS                                [Status: TESTED/STABLE]
-
-	6) Ubuntu-Multipass                     [STATUS: STABLE]
-        
-        7) Kali-Linux                           [STATUS: NOT STABLE] [NEW]
-
-	8) Exit
-========================================================================================
-				"""		
+                                sh install-macOS-configs.sh		
 			;;		
 
 
