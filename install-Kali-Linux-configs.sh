@@ -43,16 +43,3 @@ sudo apt install openjdk -y
 
 
 sudo apt install fish -y
-
-
-
-## Removes some default .configs
-cd /home/$USER/.config
-rm -rf *
-
-				
-
-
-
-## Installs Configuration Files 
-cd Kali-Linux && sh configure.sh
