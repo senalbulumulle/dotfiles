@@ -133,7 +133,7 @@ while :
 
 
 		off)
-			return 0	
+			exit	
 			;;
 
 
