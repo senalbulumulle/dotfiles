@@ -13,7 +13,7 @@ Welcome to Senal's Config Installer
 Please type [options]
 to see the list of options
 
-To exit, please type [exit]
+To exit, please type [off]
 	
 
 
@@ -122,6 +122,7 @@ while :
 
 	
 		7)
+					
                                 sh install-Kali-Linux-configs.sh
 			;;
 
@@ -131,8 +132,8 @@ while :
 			;;
 
 
-		8)
-			exit
+		off)
+			return 0	
 			;;
 
 
