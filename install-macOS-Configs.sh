@@ -1,110 +1,101 @@
-                ###########################################################
-                ##      Search: macOS
-                ###########################################################
+
+## Install the Brew Package Manager
+
+## https://brew.sh
+## https://github.com/Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
-		## After the user chooses macOS, then it will install the 
-		## dependencies for my config in macOS. 
+## Installs Librewolf 
 
-	
-		5)
-				## Install the Brew Package Manager
+## https://librewolf.net/ 
+## https://gitlab.com/librewolf-community
 
-				## https://brew.sh
-				## https://github.com/Homebrew
-				/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install librewolf
 
 
-				## Installs Librewolf 
+## Installs Kitty
 
-				## https://librewolf.net/ 
-				## https://gitlab.com/librewolf-community
+## https://sw.kovidgoyal.net/kitty/
+## https://github.com/kovidgoyal/kitty	
 
-				brew install librewolf
-
-
-				## Installs Kitty
-
-				## https://sw.kovidgoyal.net/kitty/
-				## https://github.com/kovidgoyal/kitty	
-
-				brew install kitty 
+brew install kitty 
 
 
-				## Installs Neofetch 
+## Installs Neofetch 
 
-				## https://github.com/dylanaraps/neofetch
+## https://github.com/dylanaraps/neofetch
 
-				brew install neofetch
+brew install neofetch
 
 
 
-				## Installs Ranger 
+## Installs Ranger 
 
-				## https://github.com/ranger/ranger
-				## https://ranger.github.io/
+## https://github.com/ranger/ranger
+## https://ranger.github.io/
 
-				brew install ranger
-
-
-				## Installs fish 
-
-				## https://fishshell.com/
-				## https://github.com/fish-shell/fish-shell
+brew install ranger
 
 
-				brew install fish
+## Installs fish 
+
+## https://fishshell.com/
+## https://github.com/fish-shell/fish-shell
+
+
+brew install fish
 
 
 
 
-				## Installs Micro Editor 
+## Installs Micro Editor 
 
-				## https://micro-editor.github.io/
-				## https://github.com/zyedidia/micro
+## https://micro-editor.github.io/
+## https://github.com/zyedidia/micro
 
-				brew install micro
-
-
-
-
-				## Installs neovim
-
-				## https://neovim.io/
-				## https://github.com/neovim
-
-				brew install neovim
+brew install micro
 
 
 
 
-				## Installs vim
+## Installs neovim
 
-				## https://www.vim.org/
-				## https://github.com/vim
+## https://neovim.io/
+## https://github.com/neovim
 
-				brew install vim
+brew install neovim
+
+
+
+
+## Installs vim
+
+## https://www.vim.org/
+## https://github.com/vim
+
+brew install vim
 
 
 
 
 
-				## Installs GitHub-CLI
+## Installs GitHub-CLI
 
-				## https://cli.github.com/
-				## https://github.com/cli/cli
-
-
-				brew install github-cli	
+## https://cli.github.com/
+## https://github.com/cli/cli
 
 
-				## Installs notes 
+brew install github-cli	
 
-				## https://github.com/pimterry/notes
 
-				curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
+## Installs notes 
+
+## https://github.com/pimterry/notes
+
+curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
 
 				
 
-                                ## Installs Configuration Files 
-                                cd macOS && sh configure.sh
+## Installs Configuration Files 
+cd macOS && sh configure.sh
