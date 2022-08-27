@@ -53,10 +53,6 @@ exec --no-startup-id nm-applet
 # Automatically starts up nitrogen
 exec --no-startup-id nitrogen --restore ../senal-wallpaper/Snake-Sunset.jpg
 
-
-# Automatically starts up xfce4-panel
-exec --no-startup-id xfce4-panel
-
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -78,7 +74,7 @@ gaps outer 0
 
 
 ###############################################################################
-#	Opens up the terminal
+#	Shortcuts
 #	
 #	
 #
