@@ -14,7 +14,7 @@ sudo cp pacman.conf /etc/pacman.conf
 sudo pacman -Sy			
 
 
-## Installs pamac-classic
+## unUnUninstalls pamac-classic
 
 ## https://wiki.manjaro.org/index.php/Pamac
 ## https://gitlab.manjaro.org/applications/pamac
@@ -22,7 +22,7 @@ sudo pacman -Sy
 sudo pacman -Rcns --noconfirm pamac-classic
 
 
-## Installs Librewolf 
+## unUninstalls Librewolf 
 
 ## https://librewolf.net/ 
 ## https://gitlab.com/librewolf-community
@@ -30,7 +30,7 @@ sudo pacman -Rcns --noconfirm pamac-classic
 sudo pacman -Rcns --noconfirm librewolf
 
 
-## Installs ungoogled-chromium
+## unUninstalls ungoogled-chromium
 
 ##  https://github.com/ungoogled-software/ungoogled-chromium-archlinux
 ##  https://ungoogled-software.github.io/
@@ -38,7 +38,7 @@ sudo pacman -Rcns --noconfirm librewolf
 sudo pacman -Rcns --noconfirm ungoogled-chromium
 
 
-## Installs Kitty   
+## unUninstalls Kitty   
 
 ## https://sw.kovidgoyal.net/kitty/
 ## https://github.com/kovidgoyal/kitty	
@@ -46,7 +46,7 @@ sudo pacman -Rcns --noconfirm ungoogled-chromium
 sudo pacman -Rcns --noconfirm kitty 
 
 
-## Installs Neofetch 
+## unUninstalls Neofetch 
 
 ## https://github.com/dylanaraps/neofetch
 
@@ -54,7 +54,7 @@ sudo pacman --Rcns --noconfirm neofetch
 
 
 
-## Installs Ranger 
+## unUninstalls Ranger 
 
 ## https://github.com/ranger/ranger
 ## https://ranger.github.io/
@@ -62,7 +62,7 @@ sudo pacman --Rcns --noconfirm neofetch
 sudo pacman  -Rcns --noconfirm ranger 
 
 
-## Installs fish 
+## unUninstalls fish 
 
 ## https://fishshell.com/
 ## https://github.com/fish-shell/fish-shell
@@ -73,7 +73,7 @@ sudo pacman -Rcns --noconfirm fish
 
 
 
-## Installs Micro Editor 
+## unUninstalls Micro Editor 
 
 ## https://micro-editor.github.io/
 ## https://github.com/zyedidia/micro
@@ -83,7 +83,7 @@ sudo pacman -Rcns --noconfirm micro
 
 
 
-## Installs neovim
+## unUninstalls neovim
 
 ## https://neovim.io/
 ## https://github.com/neovim
@@ -93,7 +93,7 @@ sudo pacman -Rcns --noconfirm neovim
 
 
 
-## Installs vim
+## unUninstalls vim
 
 ## https://www.vim.org/
 ## https://github.com/vim
@@ -103,7 +103,7 @@ sudo pacman -Rcns --noconfirm vim
 
 
 
-## Installs rofi
+## unUninstalls rofi
 
 ## https://github.com/davatorium/rofi
 
@@ -111,7 +111,7 @@ sudo pacman -Rcns --noconfirm rofi
 
 
 
-## Installs tint2
+## unUninstalls tint2
 
 ## https://gitlab.com/o9000/tint2
 ## https://github.com/o9000/tint2
@@ -123,7 +123,7 @@ sudo pacman -Rcns --noconfirm tint2
 
 
 
-## Installs i3
+## unUninstalls i3
 
 ## https://github.com/i3/i3
 ## https://github.com/Airblader/i3
@@ -134,7 +134,7 @@ sudo pacman -Rcns --noconfirm i3
 
 
 
-## Installs OpenBox
+## unUninstalls OpenBox
 
 ## https://github.com/danakj/openbox
 
@@ -144,7 +144,7 @@ sudo pacman -Rcns --noconfirm openbox
 
 
 
-## Installs GitHub-CLI
+## Uninstalls GitHub-CLI
 
 ## https://cli.github.com/
 ## https://github.com/cli/cli
@@ -155,7 +155,7 @@ sudo pacman -Rcns --noconfirm github-cli
 
 
 
-## Installs picom
+## unUninstalls picom
 
 ## https://github.com/yshui/picom
 
@@ -163,7 +163,7 @@ sudo pacman -Rcns --noconfirm picom
 
 
 
-## Installs Polybar
+## unUninstalls Polybar
 
 ## https://github.com/polybar/polybar
 ## https://polybar.github.io/
@@ -173,7 +173,7 @@ sudo pacman -Rcns --noconfirm polybar
 
 
 
-## Installs xfce4
+## unUninstalls xfce4
 
 ## https://xfce.org/
 
@@ -183,7 +183,7 @@ sudo pacman -Rcns --noconfirm xfce4
 
 
 
-## Installs Helix-Editor
+## Uninstalls Helix-Editor
 
 ## https://helix-editor.com/
 
@@ -192,19 +192,19 @@ sudo pacman -Rcns --noconfirm xfce4
 sudo pacman -Rcns --noconfirm helix
 
 
-## Installs nwg-bar
+## Uninstalls nwg-bar
 
 ## https://github.com/nwg-plor/nwg-bar
 
 sudo pacman -Rcns --noconfirm nwg-bar
 
 
-## Installs Nitrogen
+## Uninstalls Nitrogen
 
 sudo pacman -Rcns --noconfirm nitrogen
 
 
-## Installs PHP
+## Uninstalls PHP
 
 ## https://www.php.net/
 ## https://github.com/php/
