@@ -1,6 +1,7 @@
-q#########################################################
+
+#########################################################
 #	Senal's Config Installer Script
-#
+#		Classic Edition
 #
 #########################################################
 
@@ -10,12 +11,14 @@ echo """
 =====================================
 Welcome to Senal's Config Installer
 =====================================
-Please type [options]
-to see the list of options
-
-To exit, please type [off]
-	
-
+1) Install Arch Linux Configs 
+2) Install Debian Configs
+3) Install Fedora Configs 
+4) Install Pop!_OS Configs
+5) Install macOS Configs
+6) Install Ubuntu-Multipass Configs
+7) Install Kali-Linux Configs
+8) Exit the program
 
 """
 while :
@@ -127,13 +130,8 @@ while :
 			;;
 
 
-		options)
-			sh options.sh	
-			;;
-
-
-		off)
-			return 0	
+		8)
+			return 0
 			;;
 
 

@@ -24,4 +24,5 @@ git clone https://github.com/senalbulumulle/dotfiles/
 
 ```sh 
 sh config-install.sh
+sh config-install-classic.sh
 ```
