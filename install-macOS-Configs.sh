@@ -3,7 +3,7 @@
 
 ## https://brew.sh
 ## https://github.com/Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
 ## Installs Librewolf 
