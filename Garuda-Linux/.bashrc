@@ -18,7 +18,7 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 
 
 ## Updates packages
-alias update-packages='sudo pacman -Syyu --noconfirm'
+alias update-packages='garuda-update'
 
 
 ## Revert Git Commits 

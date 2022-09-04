@@ -1,5 +1,5 @@
 ########################################################
-#	Senal's .bashrc Config
+#	Senal's .zshrc Config
 #
 ########################################################
 
@@ -18,7 +18,7 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 
 
 ## Updates packages
-alias update-packages='sudo pacman -Syyu --noconfirm'
+alias update-packages='garuda-update'
 
 
 ## Revert Git Commits 
@@ -34,48 +34,12 @@ alias clone='git clone'
 alias message='git commit -m'
 
 
-## System Information
-alias battery-info='echo -e "Battery Information\n\n" && cat /sys/class/power_supply/BAT0/capacity'
-
 
 
 ########################################################
 #	Functions to make the workflow easier. 
 #			
 ########################################################
-
-
-########################################################
-#	Turns on or off Hidden Files in Apple macOS
-#	Finder
-########################################################
-function mac.hidden.files.on() {
-	defaults write com.apple.finder AppleShowAllFiles YES;
-	killall Finder
-	echo "/!\ The Hidden Files is turned on. "
-}
-
-function mac.hidden.files.off() {
-	defaults write com.apple.Finder AppleShowAllFiles NO; 
-	killall Finder
-	echo "/!\ The Hidden Files is turned off. "
-}
-
-
-
-
-
-########################################################
-#	Turns on or off Single App Mode in Apple macOS
-########################################################
-function mac.single.app.mode.on() {
-	defaults write com.apple.dock single-app -bool true;killall Dock
-}
-
-
-function mac.single.app.mode.off() {
-	defaults write com.apple.dock single-app -bool no;killall Dock
-}
 
 
 ##################################################################
@@ -85,13 +49,13 @@ function mac.single.app.mode.off() {
 ##################################################################
 
 senal.convert.lecture.notes.pptx() {
-	soffice --headless --convert-to html *.pptx
+	        soffice --headless --convert-to html *.pptx
 }
 
 
 
 senal.convert.lecture.notes.docx() {
-	soffice --headless --convert-to html *.docx
+	        soffice --headless --convert-to html *.docx
 }
 
 
