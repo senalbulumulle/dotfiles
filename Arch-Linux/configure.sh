@@ -20,3 +20,9 @@ cp .zshrc ../../.zshrc
 cp .vimrc ../../.vimrc
 
 cp fixmykeys.sh ../../
+
+
+
+## TODO: 
+## Make a script to backup the pre-configured config files to Backup folder before adding Senal's config files
+## to Garuda Linux
