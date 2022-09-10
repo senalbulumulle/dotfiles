@@ -18,7 +18,7 @@ if status is-interactive
         ########################################################            
         
         function update-packages
-                        sudo pacman -Syyu
+                        sudo apt update -y && sudo apt upgrade -y
         end      
 
 
