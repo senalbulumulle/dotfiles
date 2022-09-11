@@ -187,7 +187,16 @@ sudo apt install polybar -y
 
 ## https://gitlab.xfce.org/explore/groups?sort=name_desc
 
-sudo apt install xfce4 -y 
+sudo apt install xfce4 -y
+
+
+## Installs Curl
+
+## https://curl.se/
+
+## https://github.com/curl/curl
+
+sudo apt install curl -y
 
 
 ## Installs notes 
