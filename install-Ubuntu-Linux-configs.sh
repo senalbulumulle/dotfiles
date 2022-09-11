@@ -206,6 +206,15 @@ sudo apt install curl -y
 curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
 
 
+## Installs Make
+
+## https://www.gnu.org/software/make/
+
+## https://github.com/mirror/make
+
+sudo apt install make -y
+
+
 
 ## Installs Configuration Files 
 cd Ubuntu-Linux && sh configure.sh
