@@ -18,7 +18,8 @@ Welcome to Senal's Config Installer
 5) Install macOS Configs
 6) Install Ubuntu-Multipass Configs
 7) Install Kali-Linux Configs
-8) Exit the program
+8) Install Ubuntu-Linux Configs
+9) Exit the program
 
 """
 while :
@@ -127,6 +128,24 @@ while :
 		7)
 					
                                 sh install-Kali-Linux-configs.sh
+			;;
+
+
+
+
+
+
+                ###########################################################
+                ##      Search: Ubuntu-Linux
+                ###########################################################
+
+		## After the user chooses Ubuntu-Linux, then it will install the 
+		## dependencies for my config in Kali-Linux. 
+
+	
+		7)
+					
+                                sh install-Ubuntu-Linux-configs.sh
 			;;
 
 

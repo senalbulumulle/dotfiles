@@ -127,6 +127,24 @@ while :
 			;;
 
 
+
+
+
+
+                ###########################################################
+                ##      Search: Ubuntu-Linux
+                ###########################################################
+
+		## After the user chooses Ubuntu-Linux, then it will install the 
+		## dependencies for my config in Ubuntu-Linux. 
+
+	
+		8)
+					
+                                sh install-Ubuntu-Linux-configs.sh
+			;;
+
+
 		options)
 			sh options.sh	
 			;;
