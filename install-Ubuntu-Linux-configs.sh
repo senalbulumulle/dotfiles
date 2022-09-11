@@ -17,6 +17,15 @@ sudo apt autopurge gnome -y
 sudo apt autopurge gdm -y
 
 
+## Make sure the lightdm is installed into the system to ensure 
+## user ability to log in to window manager/desktop environment
+
+## Install Lightdm
+sudo apt install lightdm -y
+
+## Enable Lightdm
+sudo systemctl enable lightdm
+
 ## Removes the Firefox Browser 
 sudo apt purge firefox -y
 
@@ -190,4 +199,4 @@ curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install
 
 
 ## Installs Configuration Files 
-cd Pop!_OS && sh configure.sh
+cd Ubuntu-Linux && sh configure.sh
