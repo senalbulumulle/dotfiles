@@ -1,6 +1,6 @@
-# Senal's Pop!_OS Configuration Scripts
+# Senal's Ubuntu-Linux Configuration Scripts
 
-My Configuration Scripts for Pop!_OS
+My Configuration Scripts for Ubuntu-Linux
 
 
 
@@ -26,7 +26,7 @@ sudo make install
 
 # Notes:
 
-> In Ubuntu (Pop!_OS), by default, `git` is not installed. To install git, 
+> In Ubuntu, by default, `git` is not installed. To install git, 
 > please type this command:
 
 > `sudo apt install git`
