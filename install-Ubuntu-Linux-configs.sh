@@ -190,6 +190,11 @@ sudo apt install polybar -y
 sudo apt install xfce4 -y
 
 
+## Installs xfce4-terminal 
+
+sudo apt install xfce4-terminal -y
+
+
 ## Installs Curl
 
 ## https://curl.se/
