@@ -26,3 +26,9 @@ git clone https://github.com/senalbulumulle/dotfiles/
 sh config-install.sh
 sh config-install-classic.sh
 ```
+
+
+# TODO:
+
+Make an if statement using `uname -a` and possibly `grep` to make it easier to 
+install configs for various of distros. 
