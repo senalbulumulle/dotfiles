@@ -26,6 +26,10 @@ function clone
         git clone
 end
 
+function add-all
+        git add *
+end
+
 function message
         git commit -m 
 end   
