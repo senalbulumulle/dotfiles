@@ -1,0 +1,8 @@
+
+	vboxdrv
+
+	 nano /etc/modules-load.d/virtualbox.conf
+
+	vboxdrv
+
+	 nano /etc/modules-load.d/virtualbox.conf
