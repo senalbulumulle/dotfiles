@@ -17,7 +17,7 @@ function configureStuff() {
 }
 
 function reload() {
- 	sudo modprobe
+ 	sudo modprobe vboxdrv
 }
 download
 configureStuff
