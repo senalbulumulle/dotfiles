@@ -225,6 +225,13 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 
+#################################################################################################################
+#       powwr-profiles selection: 
+#
+#       https://github.com/endeavouros-team/endeavouros-i3wm-setup/blob/main/.config/i3/scripts/power-profiles
+#################################################################################################################
+bindsym $mod+Shift+p exec sh ~/.config/i3/scripts/power-profiles
+
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
