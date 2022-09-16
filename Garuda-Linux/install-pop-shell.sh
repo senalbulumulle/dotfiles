@@ -1,6 +1,6 @@
 ## install-pop-shell.sh
 
-## Installs pop shell in Arch Linux 
+## Installs pop shell in Garuda Linux
 
 ## Written by Senal Bulumulle
 
