@@ -22,8 +22,3 @@ sh config-install.sh
 sh config-install-classic.sh
 sh config-install-new.sh
 ```
-
-# TODO:
-
-Make an if statement using `uname -a` and possibly `grep` to make it easier to 
-install configs for various of distros. 
