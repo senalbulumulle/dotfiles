@@ -15,6 +15,14 @@ sudo apt purge xfce4
 sudo apt install i3 -y
 
 
+## Installs Polybar
+
+## https://github.com/polybar/polybar
+## https://polybar.github.io/
+
+sudo apt install polybar -y
+
+
 
 ## Installs rofi
 
