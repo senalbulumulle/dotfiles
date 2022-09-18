@@ -20,5 +20,6 @@ git clone https://github.com/senalbulumulle/dotfiles/
 ```sh
 sh config-install.sh
 sh config-install-classic.sh
+## This one is currently unstable at the moment. 
 sh config-install-new.sh
 ```
