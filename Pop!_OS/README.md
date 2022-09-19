@@ -30,3 +30,10 @@ sudo make install
 > please type this command:
 
 > `sudo apt install git`
+
+
+### BUG: 
+
+#### i3
+
+> Problem when starting i3 since it is not i3-gaps
