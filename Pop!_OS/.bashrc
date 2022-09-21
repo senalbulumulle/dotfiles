@@ -39,6 +39,10 @@ alias battery-info='echo -e "Battery Information\n\n" && cat /sys/class/power_su
 
 
 
+## List files properly
+alias ls='ls -l'
+
+
 ########################################################
 #	Functions to make the workflow easier. 
 #			
@@ -65,17 +69,6 @@ function mac.hidden.files.off() {
 
 
 
-########################################################
-#	Turns on or off Single App Mode in Apple macOS
-########################################################
-function mac.single.app.mode.on() {
-	defaults write com.apple.dock single-app -bool true;killall Dock
-}
-
-
-function mac.single.app.mode.off() {
-	defaults write com.apple.dock single-app -bool no;killall Dock
-}
 
 
 ##################################################################
