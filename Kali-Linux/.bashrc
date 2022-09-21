@@ -6,6 +6,13 @@
 #	Specfically for Kali Linux
 ########################################################
 
+########################################################
+#	
+#	/!\ THIS SHALL BE USED FOR EDUCATIONAL/RESEARCH
+#	    PURPOSES
+#
+#########################################################
+
 
 ## Make the Micro Editor Default to use it on Ranger File Manager
 VISUAL=micro; export VISUAL EDITOR=micro; export micro
