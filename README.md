@@ -23,3 +23,7 @@ sh config-install-classic.sh
 ## This one is currently unstable at the moment. 
 sh config-install-new.sh
 ```
+
+# TODO: 
+
+> Make more boilerplates with examples on them. 
