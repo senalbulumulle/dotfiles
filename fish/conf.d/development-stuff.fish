@@ -79,18 +79,22 @@ function boilerplates
 
          while true
                 read -l -P '''
-                        ####################################################################
-                        #                       GENERATING A BOILERPLATE?
-                        ###################################################################
-                        
-                        Which One? 
+####################################################################
+#                       GENERATING A BOILERPLATE?
+###################################################################
+                       
+Which One? 
 
-                        a) Generate C
-                        b) Generate Python
-                        c) Generate Java
-                        d) Generate HTML
-                        e) Generate README.md 
-                        f) Exit the Prompt 
+Generate C
+b) Generate Python
+c) Generate Java
+ca) 
+cb) 
+cc) 
+cd) 
+d) Generate HTML
+e) Generate README.md 
+f) Exit the Prompt 
 
                 ''' confirm
 
