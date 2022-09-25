@@ -49,6 +49,8 @@ exec --no-startup-id nm-applet
 # Automatically starts up nitrogen
 exec --no-startup-id nitrogen --restore ../senal-wallpaper/Snake-Sunset.jpg
 
+# Automatically starts up picom
+exec --no-startup-id picom
 
 
 # Automatically starts up polybar
