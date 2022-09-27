@@ -86,16 +86,15 @@ function boilerplates
 Which One? 
 
 Generate C
-b) Generate Python
-c) Generate Java
-ca) 
-cb) 
-cc) 
-cd) 
-d) Generate HTML
-e) Generate README.md 
-f) Generate GitHub Actions YAML File
-g) Exit
+b)  Generate Python
+c)  Generate Java
+d)  Generate HTML
+e)  Generate README.md 
+f)  Generate GitHub Actions YAML File
+g)  Generate Vala 
+g1) Generate Vala (Functions)
+g2) Generate Vala (Reading User Input)
+h) Exit
 
 
                 ''' confirm
@@ -187,7 +186,113 @@ jobs:
 
                                 micro blank.yml
 
-                        case g
+
+                        case g 
+                                touch main.vala
+                                echo """
+/******************************************
+ *
+ *      ------Title------
+ *
+ *
+ *
+ *
+ *
+ *      ------Author-----
+ *
+ *
+ *
+ *
+ *
+ *
+ *     -----Description---
+ *
+ *******************************************/
+
+void main() {
+        print("hello world");
+}
+                                """ >> main.vala
+
+micro main.vala
+
+
+
+
+                        case g1 
+                                touch main.vala
+                                echo """
+/******************************************
+ *
+ *      ------Title------
+ *
+ *
+ *
+ *
+ *
+ *      ------Author-----
+ *
+ *
+ *
+ *
+ *
+ *
+ *     -----Description---
+ *
+ *******************************************/
+void myFunction() {
+        print("hello world from function");
+}
+
+
+void main() {
+        myfunction();
+}
+                                """ >> main.vala
+
+micro main.vala
+
+
+
+
+                        case g2
+                                touch main.vala
+                                echo """
+/******************************************
+ *
+ *      ------Title------
+ *
+ *
+ *
+ *
+ *
+ *      ------Author-----
+ *
+ *
+ *
+ *
+ *
+ *
+ *     -----Description---
+ *
+ *******************************************/
+
+void userInput() {
+        stdout.printf (" ");
+        string prompt = stdin.read_line ();
+        if (prompt != null) {
+                stdout.printf ("Here is what you entered:, %s!\n", prompt);
+        }
+}
+
+
+void main() {
+        print("hello world");
+}
+                                """ >> main.vala
+
+micro main.vala
+                        case h
                                 clear
                                 return 0
                 end
