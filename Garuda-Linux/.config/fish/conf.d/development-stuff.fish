@@ -100,6 +100,9 @@ h) Exit
                 ''' confirm
 
             switch $confirm
+
+                        ## If the user selects this, it will allow the system 
+                        ## to generate a main.c file
                         case a
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/c.sh
@@ -107,6 +110,9 @@ h) Exit
                                 micro main.c
                                 return 0
 
+
+                        ## If the user selects this, it will allow the system 
+                        ## to generate a main.py file
                         case b
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/python.sh
@@ -114,6 +120,9 @@ h) Exit
                                 micro main.py
                                 return 0
 
+
+                        ## If the user selects this, it will allow the system 
+                        ## to generate a main.java file                        
                         case c
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/java.sh
@@ -121,6 +130,13 @@ h) Exit
                                 micro main.java
                                 return 0
 
+
+
+                        ## TODO: MAKE EXAMPLES AS BOILERPLATES FOR JAVA
+
+
+                        ## If the user selects this, it will allow the system 
+                        ## to generate a main.html file
                         case d
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/html.sh
@@ -129,6 +145,8 @@ h) Exit
                                 return 0
 
 
+                        ## If the user selects this, it will allow the system
+                        ## to generate a README.md file
                         case e
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/readme-md.sh
@@ -136,6 +154,12 @@ h) Exit
                                 micro README.md
                                 return 0
 
+
+
+
+
+                        ## If the user selects this, it will allow the system 
+                        ## to generate a Github Workflow
                         case f
                                 mkdir .github
                                 cd .github
@@ -187,111 +211,35 @@ jobs:
                                 micro blank.yml
 
 
+
+                        ## If the user selects this, it will allow the system 
+                        ## to generate a main.vala file. Which by default, 
                         case g 
-                                touch main.vala
-                                echo """
-/******************************************
- *
- *      ------Title------
- *
- *
- *
- *
- *
- *      ------Author-----
- *
- *
- *
- *
- *
- *
- *     -----Description---
- *
- *******************************************/
-
-void main() {
-        print("hello world");
-}
-                                """ >> main.vala
-
-micro main.vala
-
+                                clear
+                                sh /home/$USER/.config/fish/conf.d/vala-default.sh
+                                notify-send "Generated Boilerplate: [Vala]"
+                                micro main.vala
+                                return 0                                
 
 
 
                         case g1 
-                                touch main.vala
-                                echo """
-/******************************************
- *
- *      ------Title------
- *
- *
- *
- *
- *
- *      ------Author-----
- *
- *
- *
- *
- *
- *
- *     -----Description---
- *
- *******************************************/
-void myFunction() {
-        print("hello world from function");
-}
-
-
-void main() {
-        myfunction();
-}
-                                """ >> main.vala
-
-micro main.vala
+                                clear
+                                sh /home/$USER/.config/fish/conf.d/vala-1.sh
+                                notify-send "Generated Boilerplate: [Vala FUNCTIONS TEMPLATE]"
+                                micro main.vala
+                                return 0  
 
 
 
 
                         case g2
-                                touch main.vala
-                                echo """
-/******************************************
- *
- *      ------Title------
- *
- *
- *
- *
- *
- *      ------Author-----
- *
- *
- *
- *
- *
- *
- *     -----Description---
- *
- *******************************************/
-
-void userInput() {
-        stdout.printf (" ");
-        string prompt = stdin.read_line ();
-        if (prompt != null) {
-                stdout.printf ("Here is what you entered:, %s!\n", prompt);
-        }
-}
-
-
-void main() {
-        print("hello world");
-}
-                                """ >> main.vala
-
-micro main.vala
+                                clear
+                                sh /home/$USER/.config/fish/conf.d/vala-2.sh
+                                notify-send "Generated Boilerplate: [Vala READING USER INPUT TEMPLATE]"
+                                micro main.vala
+                                return 0  
+                                
                         case h
                                 clear
                                 return 0
