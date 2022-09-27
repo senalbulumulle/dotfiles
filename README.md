@@ -1,5 +1,9 @@
 <img src="dotfiles-logo.png"></img>
 
+<img title="" src="senal-config-garuda-linux.png" alt="" width="775">
+
+*Source: [https://garudalinux.org/] [https://github.com/senalbulumulle/dotfiles/tree/main/Garuda-Linux]*
+
 # Getting started
 
 # Status: `UNSTABLE`
@@ -24,6 +28,6 @@ sh config-install-classic.sh
 sh config-install-new.sh
 ```
 
-# TODO: 
+# TODO:
 
 > Make more boilerplates with examples on them. 
