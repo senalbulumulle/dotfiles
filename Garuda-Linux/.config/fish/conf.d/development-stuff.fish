@@ -85,8 +85,9 @@ function boilerplates
                        
 Which One? 
 
-Generate C
+a)  Generate C
 b)  Generate Python
+ba) Generate Python If-Statements with Bash and OS module
 c)  Generate Java
 d)  Generate HTML
 e)  Generate README.md 
@@ -116,6 +117,18 @@ h) Exit
                         case b
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/python.sh
+                                notify-send "Generated Boilerplate: [PYTHON]"
+                                micro main.py
+                                return 0
+
+
+
+                        ## If the user selects this, it will allow the system 
+                        ## to generate a main.py file with an example of 
+                        ## an if statement with os module with bash. 
+                        case b1
+                                clear
+                                sh /home/$USER/.config/fish/conf.d/python-with-if-statement-with-os-module-with-bash.sh
                                 notify-send "Generated Boilerplate: [PYTHON]"
                                 micro main.py
                                 return 0
