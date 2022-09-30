@@ -87,7 +87,7 @@ Which One?
 
 a)  Generate C
 b)  Generate Python
-ba) Generate Python If-Statements with Bash and OS module
+b1) Generate Python If-Statements with Bash and OS module
 c)  Generate Java
 d)  Generate HTML
 e)  Generate README.md 
