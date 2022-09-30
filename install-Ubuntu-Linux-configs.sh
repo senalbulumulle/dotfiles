@@ -4,20 +4,20 @@
 ## Making sure the APT repositories/packages are updated
 sudo apt update -y && sudo apt upgrade -y
 
-## Make sure the GNOME Desktop Environment, which is the default 
-## desktop environment for Ubuntu Linux, is removed from the 
+## Make sure the GNOME Desktop Environment, which is the default
+## desktop environment for Ubuntu Linux, is removed from the
 ## System
 sudo systemctl stop gdm
 sudo systemctl disable gdm
 
 ## Remove GNOME-Desktop
-sudo apt autopurge gnome -y 
+sudo apt autopurge gnome -y
 
 ## Remove GDM
 sudo apt autopurge gdm -y
 
 
-## Make sure the lightdm is installed into the system to ensure 
+## Make sure the lightdm is installed into the system to ensure
 ## user ability to log in to window manager/desktop environment
 
 ## Install Lightdm
@@ -26,15 +26,15 @@ sudo apt install lightdm -y
 ## Enable Lightdm
 sudo systemctl enable lightdm
 
-## Removes the Firefox Browser 
+## Removes the Firefox Browser
 sudo apt purge firefox -y
 
 
-## Removes the Firefox ESR Browser 
+## Removes the Firefox ESR Browser
 sudo apt purge firefox-esr -y
 
 
-## Installs Librewolf 
+## Installs Librewolf
 
 ## https://librewolf.net/
 ## https://gitlab.com/librewolf-community
@@ -50,12 +50,12 @@ sudo apt install librewolf -y
 ## Installs Kitty
 
 ## https://sw.kovidgoyal.net/kitty/
-## https://github.com/kovidgoyal/kitty	
+## https://github.com/kovidgoyal/kitty
 
 sudo apt install kitty -y
 
 
-## Installs Neofetch 
+## Installs Neofetch
 
 ## https://github.com/dylanaraps/neofetch
 
@@ -63,7 +63,7 @@ sudo apt install neofetch -y
 
 
 
-## Installs Ranger 
+## Installs Ranger
 
 ## https://github.com/ranger/ranger
 ## https://ranger.github.io/
@@ -71,7 +71,7 @@ sudo apt install neofetch -y
 sudo apt install ranger -y
 
 
-## Installs fish 
+## Installs fish
 
 ## https://fishshell.com/
 ## https://github.com/fish-shell/fish-shell
@@ -82,7 +82,7 @@ sudo apt install fish -y
 
 
 
-## Installs Micro Editor 
+## Installs Micro Editor
 
 ## https://micro-editor.github.io/
 ## https://github.com/zyedidia/micro
@@ -126,7 +126,7 @@ sudo apt install rofi -y
 ## https://github.com/o9000/tint2
 
 
-sudo apt install tint2 -y 
+sudo apt install tint2 -y
 
 
 
@@ -139,7 +139,7 @@ sudo apt install tint2 -y
 ## https://i3wm.org/
 
 
-sudo apt install i3 -y 
+sudo apt install i3 -y
 
 
 
@@ -149,7 +149,7 @@ sudo apt install i3 -y
 ## https://github.com/danakj/openbox
 
 
-sudo apt install openbox -y 
+sudo apt install openbox -y
 
 
 
@@ -160,7 +160,7 @@ sudo apt install openbox -y
 ## https://github.com/nitrogen/nitrogen
 
 
-sudo apt install nitrogen -y 
+sudo apt install nitrogen -y
 
 
 
@@ -168,7 +168,7 @@ sudo apt install nitrogen -y
 
 ## https://github.com/yshui/picom
 
-sudo apt install picom -y 
+sudo apt install picom -y
 
 
 
@@ -178,7 +178,7 @@ sudo apt install picom -y
 ## https://github.com/polybar/polybar
 ## https://polybar.github.io/
 
-sudo apt install polybar -y 
+sudo apt install polybar -y
 
 
 ## Installs xfce4
@@ -190,7 +190,7 @@ sudo apt install polybar -y
 sudo apt install xfce4 -y
 
 
-## Installs xfce4-terminal 
+## Installs xfce4-terminal
 
 sudo apt install xfce4-terminal -y
 
@@ -204,7 +204,7 @@ sudo apt install xfce4-terminal -y
 sudo apt install curl -y
 
 
-## Installs notes 
+## Installs notes
 
 ## https://github.com/pimterry/notes
 
@@ -220,6 +220,13 @@ curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install
 sudo apt install make -y
 
 
+## Installs Oh My Fish
 
-## Installs Configuration Files 
+## https://github.com/oh-my-fish/oh-my-fish
+
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
+
+
+## Installs Configuration Files
 cd Ubuntu-Linux && sh configure.sh

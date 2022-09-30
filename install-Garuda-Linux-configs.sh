@@ -1,11 +1,11 @@
 ## Making sure the pacman repositories/packages are updated
 sudo pacman -Syyu
-sudo pacman -Sy			
+sudo pacman -Sy
 
 
-## Installs Librewolf 
+## Installs Librewolf
 
-## https://librewolf.net/ 
+## https://librewolf.net/
 ## https://gitlab.com/librewolf-community
 
 sudo pacman -S --noconfirm librewolf
@@ -19,47 +19,47 @@ sudo pacman -S --noconfirm librewolf
 sudo pacman -S --noconfirm ungoogled-chromium
 
 
-## Installs Kitty   
+## Installs Kitty
 
 ## https://sw.kovidgoyal.net/kitty/
-## https://github.com/kovidgoyal/kitty	
+## https://github.com/kovidgoyal/kitty
 
-sudo pacman -S --noconfirm kitty 
+sudo pacman -S --noconfirm kitty
 
 
-## Installs Neofetch 
+## Installs Neofetch
 
 ## https://github.com/dylanaraps/neofetch
 
-sudo pacman --S --noconfirm neofetch 
+sudo pacman --S --noconfirm neofetch
 
 
 
-## Installs Ranger 
+## Installs Ranger
 
 ## https://github.com/ranger/ranger
 ## https://ranger.github.io/
 
-sudo pacman  -S --noconfirm ranger 
+sudo pacman  -S --noconfirm ranger
 
 
-## Installs fish 
+## Installs fish
 
 ## https://fishshell.com/
 ## https://github.com/fish-shell/fish-shell
 
 
-sudo pacman -S --noconfirm fish 
+sudo pacman -S --noconfirm fish
 
 
 
 
-## Installs Micro Editor 
+## Installs Micro Editor
 
 ## https://micro-editor.github.io/
 ## https://github.com/zyedidia/micro
 
-sudo pacman -S --noconfirm micro 
+sudo pacman -S --noconfirm micro
 
 
 
@@ -69,7 +69,7 @@ sudo pacman -S --noconfirm micro
 ## https://neovim.io/
 ## https://github.com/neovim
 
-sudo pacman -S --noconfirm neovim 
+sudo pacman -S --noconfirm neovim
 
 
 
@@ -79,7 +79,7 @@ sudo pacman -S --noconfirm neovim
 ## https://www.vim.org/
 ## https://github.com/vim
 
-sudo pacman -S --noconfirm vim 
+sudo pacman -S --noconfirm vim
 
 
 
@@ -88,7 +88,7 @@ sudo pacman -S --noconfirm vim
 
 ## https://github.com/davatorium/rofi
 
-sudo pacman -S --noconfirm rofi 
+sudo pacman -S --noconfirm rofi
 
 
 
@@ -98,7 +98,7 @@ sudo pacman -S --noconfirm rofi
 ## https://github.com/o9000/tint2
 
 
-sudo pacman -S --noconfirm tint2 
+sudo pacman -S --noconfirm tint2
 
 
 
@@ -111,7 +111,7 @@ sudo pacman -S --noconfirm tint2
 ## https://i3wm.org/
 
 
-sudo pacman -S --noconfirm i3 
+sudo pacman -S --noconfirm i3
 
 
 
@@ -120,7 +120,7 @@ sudo pacman -S --noconfirm i3
 ## https://github.com/danakj/openbox
 
 
-sudo pacman -S --noconfirm openbox 
+sudo pacman -S --noconfirm openbox
 
 
 
@@ -149,7 +149,7 @@ sudo pacman -S --noconfirm picom
 ## https://github.com/polybar/polybar
 ## https://polybar.github.io/
 
-sudo pacman -S --noconfirm polybar 
+sudo pacman -S --noconfirm polybar
 
 
 
@@ -193,13 +193,19 @@ sudo pacman -S --noconfirm nitrogen
 sudo pacman -S --noconfirm php
 
 
-## Installs notes 
+## Installs notes
 
 ## https://github.com/pimterry/notes
 
 curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
 
 
-## Installs Configuration Files 
+## Installs Oh My Fish
+
+## https://github.com/oh-my-fish/oh-my-fish
+
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
+## Installs Configuration Files
 cd Garuda-Linux
 sh configure.sh

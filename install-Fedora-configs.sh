@@ -1,5 +1,5 @@
 ## Making sure the DNF repositories/packages are updated
-sudo dnf update && sudo dnf upgrade 
+sudo dnf update && sudo dnf upgrade
 
 ## Enable the free repositories
 
@@ -7,14 +7,14 @@ sudo dnf update && sudo dnf upgrade
 
 sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 
-## Enable the non-free repositories 
+## Enable the non-free repositories
 
 ## https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/
 
 sudo dnf -y install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 
-## Installs the RPM Sphere 
+## Installs the RPM Sphere
 
 ## https://rpmsphere.github.io/
 
@@ -37,23 +37,23 @@ sudo rpm -i -y marktext-x86_64.rpm
 ## Installs Kitty
 
 ## https://sw.kovidgoyal.net/kitty/
-## https://github.com/kovidgoyal/kitty	
+## https://github.com/kovidgoyal/kitty
 
 sudo dnf -y install kitty
 
 
-## Installs Neofetch 
+## Installs Neofetch
 
 ## https://github.com/dylanaraps/neofetch
 
 sudo dnf -y install neofetch
 
 
-## Removes Firefox 
+## Removes Firefox
 
 sudo dnf -y erase firefox
 
-## Installs Ranger 
+## Installs Ranger
 
 ## https://github.com/ranger/ranger
 ## https://ranger.github.io/
@@ -61,7 +61,7 @@ sudo dnf -y erase firefox
 sudo dnf -y install ranger
 
 
-## Installs fish 
+## Installs fish
 
 ## https://fishshell.com/
 ## https://github.com/fish-shell/fish-shell
@@ -72,7 +72,7 @@ sudo dnf -y install fish
 
 
 
-## Installs Micro Editor 
+## Installs Micro Editor
 
 ## https://micro-editor.github.io/
 ## https://github.com/zyedidia/micro
@@ -192,14 +192,21 @@ sudo dnf -y install i3
 sudo dnf -y install brightnessctl
 
 
-## Installs notes 
+## Installs notes
 
 ## https://github.com/pimterry/notes
 
 curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | sudo bash
 
 
+## Installs Oh My Fish
+
+## https://github.com/oh-my-fish/oh-my-fish
+
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 
-## Installs Configuration Files 
+
+
+## Installs Configuration Files
 cd Fedora && sh configure.sh
