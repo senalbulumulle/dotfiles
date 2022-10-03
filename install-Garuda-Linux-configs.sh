@@ -206,6 +206,14 @@ curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
+
+
+## Installs Doom Vim
+## https://github.com/NTBBloodbath/doom-nvim
+bash <(curl -s https://raw.githubusercontent.com/NTBBloodbath/doom-nvim/main/tools/install.sh)
+
+
+
 ## Installs Configuration Files
 cd Garuda-Linux
 sh configure.sh
