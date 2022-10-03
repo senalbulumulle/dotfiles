@@ -52,6 +52,9 @@ exec --no-startup-id nitrogen --restore ../senal-wallpaper/Snake-Sunset.jpg
 # Automatically starts up picom
 exec --no-startup-id picom
 
+# Automatically starts up plasma 
+exec --no-startup-id startplasma-x11
+
 
 # Automatically starts up polybar
 exec --no-startup-id polybar
@@ -264,3 +267,14 @@ default_border pixel 1
 default_floating_border pixel 1
 
 bindsym $mod+r mode "resize"
+
+
+
+
+###############################################################################
+#		Floating Window
+#
+#
+###############################################################################
+
+
