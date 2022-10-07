@@ -1,5 +1,7 @@
 ## This script installs apps/dependencies for my config and more
 
+## Enable Flathub
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 ## Installs Flatpak 
 sudo apt install flatpak -y
