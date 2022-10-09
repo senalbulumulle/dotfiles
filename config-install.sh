@@ -146,12 +146,12 @@ while :
 
 
 		options)
-			sh options.sh	
+			bash options.sh
 			;;
 
 
 		off)
-			return 0	
+			exit	
 			;;
 
 
