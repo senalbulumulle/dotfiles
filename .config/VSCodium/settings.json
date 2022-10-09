@@ -1,0 +1,7 @@
+{
+    "editor.detectIndentation": false,
+"editor.tabSize": 8,
+"workbench.startupEditor": "none",
+"workbench.colorTheme": "Kimbie Dark",
+"editor.minimap.enabled": false
+}
