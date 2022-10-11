@@ -34,7 +34,7 @@ while :
 		
 		1)
 				
-                                sh install-Arch-Linux-configs.sh
+                                sh Install/install-Arch-Linux-configs.sh
 			;;
 
 
@@ -50,7 +50,7 @@ while :
 
 		
 		2)
-                                sh install-Debian-configs.sh
+                                sh Install/install-Debian-configs.sh
 			;;
 
                 ###########################################################
@@ -63,7 +63,7 @@ while :
 
 		
 		3)
-                                sh install-Fedora-configs.sh
+                                sh Install/install-Fedora-configs.sh
 			;;
 
 
@@ -77,7 +77,7 @@ while :
 
 	
 		4)
-                                sh install-Pop!_OS-configs.sh
+                                sh Install/install-Pop!_OS-configs.sh
 			;;
 
 
@@ -91,7 +91,7 @@ while :
 
 	
 		5)
-                                sh install-macOS-configs.sh		
+                                sh Install/install-macOS-configs.sh		
 			;;		
 
 
@@ -105,7 +105,7 @@ while :
 		## dependencies for my config in Ubuntu-Multipass. 
 
 		6)
-                                sh install-Ubuntu-Multipass.sh
+                                sh Install/install-Ubuntu-Multipass.sh
 			;;
 
 
@@ -123,7 +123,7 @@ while :
 	
 		7)
 					
-                                sh install-Kali-Linux-configs.sh
+                                sh Install/install-Kali-Linux-configs.sh
 			;;
 
 
@@ -141,7 +141,22 @@ while :
 	
 		8)
 					
-                                sh install-Ubuntu-Linux-configs.sh
+                                sh Install/install-Ubuntu-Linux-configs.sh
+			;;
+
+
+
+                ###########################################################
+                ##      Search: Garuda-Linux
+                ###########################################################
+
+		## After the user chooses Garuda-Linux, then it will install the 
+		## dependencies for my config in Garuda-Linux. 
+
+	
+		9)
+					
+                                sh Install/install-Garuda-Linux-configs.sh
 			;;
 
 
