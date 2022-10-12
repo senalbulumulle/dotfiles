@@ -115,9 +115,9 @@ h) Exit
                         ## to generate a main.py file
                         case b
                                 clear
-                                sh /home/$USER/.config/fish/conf.d/python.sh
+                                sh /home/$USER/.config/fish/conf.d/PYTHON/python.sh
                                 notify-send "Generated Boilerplate: [PYTHON]"
-                                micro main.py
+                                micro PYTHON/main.py
                                 return 0
 
 
@@ -129,7 +129,7 @@ h) Exit
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/python-with-if-statement-with-os-module-with-bash.sh
                                 notify-send "Generated Boilerplate: [PYTHON]"
-                                micro main.py
+                                micro PYTHON/main.py
                                 return 0
 
 
@@ -139,7 +139,7 @@ h) Exit
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/java.sh
                                 notify-send "Generated Boilerplate: [JAVA]"
-                                micro main.java
+                                micro JAVA/main.java
                                 return 0
 
 
@@ -153,7 +153,7 @@ h) Exit
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/html.sh
                                 notify-send "Generated Boilerplate: [HTML]"
-                                micro main.html
+                                micro HTML/main.html
                                 return 0
 
 
@@ -163,7 +163,7 @@ h) Exit
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/readme-md.sh
                                 notify-send "Generated Boilerplate: [README.md]"
-                                micro README.md
+                                micro MARKDOWN/README.md
                                 return 0
 
 
@@ -230,7 +230,7 @@ jobs:
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/vala-default.sh
                                 notify-send "Generated Boilerplate: [Vala]"
-                                micro main.vala
+                                micro VALA/main.vala
                                 return 0                                
 
 
@@ -239,7 +239,7 @@ jobs:
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/vala-1.sh
                                 notify-send "Generated Boilerplate: [Vala FUNCTIONS TEMPLATE]"
-                                micro main.vala
+                                micro VALA/main.vala
                                 return 0  
 
 
@@ -249,7 +249,7 @@ jobs:
                                 clear
                                 sh /home/$USER/.config/fish/conf.d/vala-2.sh
                                 notify-send "Generated Boilerplate: [Vala READING USER INPUT TEMPLATE]"
-                                micro main.vala
+                                micro VALA/main.vala
                                 return 0  
                                 
                         case h

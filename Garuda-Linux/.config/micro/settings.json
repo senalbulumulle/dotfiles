@@ -6,6 +6,7 @@
         "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
     ],
     "pluginrepos": [],
+    "ruler": false,
     "scrollbar": true,
     "statusline": false,
     "tabsize": 8

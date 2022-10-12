@@ -193,6 +193,14 @@ sudo pacman -S --noconfirm nitrogen
 sudo pacman -S --noconfirm php
 
 
+## Installs Ulauncher 
+
+## https://ulauncher.io/
+## https://github.com/Ulauncher/Ulauncher/
+
+sudo pacman -S --noconfirm Ulauncher
+
+
 ## Installs notes
 
 ## https://github.com/pimterry/notes

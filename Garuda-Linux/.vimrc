@@ -7,5 +7,4 @@
 
 
 syntax on
-set cindent 
-set number
+set cindent

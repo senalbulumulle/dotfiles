@@ -103,6 +103,7 @@ Modules are grouped into 3 categories:
 - [`kotlin`](../lua/doom/modules/langs/kotlin)
 - [`java`](../lua/doom/modules/langs/java)
 - [`go`](../lua/doom/modules/langs/go)
+- [`nix`](../lua/doom/modules/langs/nix/init.lua)
 - [`config`](../lua/doom/modules/langs/config) Adds JSON, YAML, TOML support
 - Missing a language? Submit a feature request issue.
 
@@ -184,15 +185,18 @@ print(vim.inspect(doom.features.telescope.binds())) -- You must execute the func
 
 #### Module spec
 
-These are the possible values a
+These are values a module can export.
 
 ```lua
-module.settings:  table                             -- Table of settings that can be tweaked
-module.packages:      table<string,table<PackerSpec>>   -- Table of packer specs
-module.configs:   table<string,function>            -- Table of plugin config functions relating to the packer specs
+module.settings:  table                                           -- Table of settings that can be tweaked
+module.packages:  table<string,table<PackerSpec>>                 -- Table of packer specs
+module.configs:   table<string,function>                          -- Table of plugin config functions relating to the packer specs
 module.binds:     table<NestConfig>|function -> table<NestConfig> -- Table of NestConfig or function that returns Table of NestConfig
 module.autocmds:  table<AutoCmd>|function -> table<AutoCmd>       -- Table of AutoCmds (see below) or function that returns a table of AutoCmds
 ```
+
+Use the function form of `module.binds` and `module.autocmds` when values from `module.settings` are referenced on them.
+This allows consumers of the module to change the settings first and only them the binds and autocommands will be generated and configured.
 
 ```lua
 local example = {}
