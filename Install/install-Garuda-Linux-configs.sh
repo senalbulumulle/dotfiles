@@ -215,6 +215,15 @@ curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 
+## Installs Starship 
+
+## https://starship.rs/
+
+## https://github.com/starship/starship
+curl -sS https://starship.rs/install.sh | sh
+
+
+
 
 ## Installs Doom Vim
 ## https://github.com/NTBBloodbath/doom-nvim
