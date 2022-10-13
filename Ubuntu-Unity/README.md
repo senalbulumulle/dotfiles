@@ -1,28 +1,18 @@
 # Senal's Ubuntu-Unity Configuration Scripts
 
-My Configuration Scripts for Ubuntu-Unity
+My Configuration Scripts for Ubuntu-Unity. 
 
+This particular configuration does not include these configurations
 
+* openbox 
 
-# Configuring `dwm`
+* i3
 
-> Configuring `DWM` is easy as 123. 
+* xfce4
 
-```shell
-cd dwm
-sudo make install
-```
-
-```shell
-cd st
-sudo make install
-```
-
-```shell
-cd slstatus
-sudo make install
-```
-
+Other configurations are also deleted as well. Since it is intended
+for beginners who are beginning to use linux or just want something
+out of the box. 
 
 # Notes:
 
