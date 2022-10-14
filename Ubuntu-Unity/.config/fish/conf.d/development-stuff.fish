@@ -2,8 +2,25 @@
 #	  Development-Stuff
 ########################################################  
 
+########################################################
+#	  Aliases for Docker
+########################################################
+function dockerlist
+        docker container ls
+end     
 
-
+function dockerreference 
+        echo """
+################
+DOCKER REFERENCE 
+#################
+------------------------------------------------------------
+docker run -it -d --name <CONTAINER NAME> <DISTRO>  <SHELL>
+docker exec -it <CONTAINER NAME>  /bin/bash
+------------------------------------------------------------
+        
+        """
+end
 
 ########################################################
 #	  Options for PHP
