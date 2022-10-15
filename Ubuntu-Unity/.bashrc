@@ -51,6 +51,10 @@ alias battery-info='echo -e "Battery Information\n\n" && cat /sys/class/power_su
 alias dockerlist='docker container ls'
 
 
+## Flatpak shortcut
+alias vscodium='flatpak run com.vscodium.codium'
+
+
 ##################################################################
 #   	This Section converts from any document files 
 #       to html
