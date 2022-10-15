@@ -6,6 +6,8 @@
 ########################################################
 
 
+export PS1="\n\n\n\n\n\[$(tput sgr0)\]\[\033[38;5;6m\][\w]\[$(tput sgr0)\]: \[$(tput sgr0)\]"
+
 ## Make the Micro Editor Default to use it on Ranger File Manager
 ## If you vim, uncomment it. 
 
@@ -20,7 +22,8 @@ VISUAL=micro; export VISUAL EDITOR=micro; export micro
 #			
 ########################################################
 
-
+## Lists files using ls -l
+alias ls='ls -l'
 
 ## Updates packages
 alias update-packages='sudo apt update -y  && sudo apt upgrade -y'
@@ -41,6 +44,11 @@ alias message='git commit -m'
 
 ## System Information
 alias battery-info='echo -e "Battery Information\n\n" && cat /sys/class/power_supply/BAT0/capacity'
+
+
+
+## Docker stuff 
+alias dockerlist='docker container ls'
 
 
 ##################################################################
@@ -183,3 +191,4 @@ echo """
 """ > README.md
 }
 
+export PATH="$HOME/.composer/vendor/bin:$PATH"
