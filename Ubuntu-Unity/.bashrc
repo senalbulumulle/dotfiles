@@ -6,13 +6,21 @@
 ########################################################
 
 
+## If users are using Starship
+eval "$(starship init bash)"
+
+## If users are using Laravel
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+
 export PS1="\n\n\n\n\n\[$(tput sgr0)\]\[\033[38;5;6m\][\w]\[$(tput sgr0)\]: \[$(tput sgr0)\]"
 
+
+
+##################################################################
 ## Make the Micro Editor Default to use it on Ranger File Manager
-## If you vim, uncomment it. 
-
+## If you using vim, uncomment it. 
+##################################################################
 VISUAL=micro; export VISUAL EDITOR=micro; export micro
-
 ## VISUAL=vim; export VISUAL EDITOR=vim; export vim
 
 

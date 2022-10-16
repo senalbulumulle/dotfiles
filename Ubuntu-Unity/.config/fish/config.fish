@@ -6,12 +6,37 @@ if status is-interactive
         #
         ########################################################
         
+        ## For users who are using starship
+        starship init fish | source
+
+        ## For users who are using laravel
+        export PATH="$PATH:$HOME/.config/composer/vendor/bin"
         
         ########################################################
         #	  A L I A S E S 
         #			
         ########################################################
-        
+
+
+        ########################################################
+        #	  Aliases for Docker
+        ########################################################
+        function dockerlist
+                docker container ls
+        end     
+
+        function dockerreference 
+                echo """
+################
+DOCKER REFERENCE 
+#################
+------------------------------------------------------------
+docker run -it -d --name <CONTAINER NAME> <DISTRO>  <SHELL>
+docker exec -it <CONTAINER NAME>  /bin/bash
+------------------------------------------------------------
+                
+                """
+        end
 
         ########################################################
         #	  Updates Packages

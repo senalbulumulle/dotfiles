@@ -3,26 +3,6 @@
 ########################################################  
 
 ########################################################
-#	  Aliases for Docker
-########################################################
-function dockerlist
-        docker container ls
-end     
-
-function dockerreference 
-        echo """
-################
-DOCKER REFERENCE 
-#################
-------------------------------------------------------------
-docker run -it -d --name <CONTAINER NAME> <DISTRO>  <SHELL>
-docker exec -it <CONTAINER NAME>  /bin/bash
-------------------------------------------------------------
-        
-        """
-end
-
-########################################################
 #	  Options for PHP
 ########################################################  
 
@@ -33,24 +13,23 @@ function run-php
 
          while true
                 read -l -P '''
-                        ####################################################################
-                        #                       PHP
-                        ####################################################################
-                        #
-                        #
-                        #
-                        #      Directions: 
-                        #                       After you selected the option that you
-                        #                       prefer, php will run. Press ^C to go 
-                        #                       back to the menu
-                        ####################################################################
-                        Which One? 
-
-                        a) php -S localhost:3000
-                        b) php -S 127.0.0.1:3000
-                        c) php -S localhost:4000
-                        d) php -S 127.0.0.1:4000
-                        e) Exit the Prompt 
+####################################################################
+#                       PHP
+####################################################################
+#
+#
+#
+#      Directions: 
+#                       After you selected the option that you
+#                       prefer, php will run. Press ^C to go 
+#                       back to the menu
+####################################################################
+Which One? 
+a) php -S localhost:3000
+b) php -S 127.0.0.1:3000
+c) php -S localhost:4000
+d) php -S 127.0.0.1:4000
+e) Exit the Prompt 
 
                 ''' confirm
 
@@ -96,18 +75,18 @@ function boilerplates
 
          while true
                 read -l -P '''
-                        ####################################################################
-                        #                       GENERATING A BOILERPLATE?
-                        ###################################################################
+####################################################################
+#                       GENERATING A BOILERPLATE?
+###################################################################
                         
-                        Which One? 
+Which One? 
 
-                        a) Generate C
-                        b) Generate Python
-                        c) Generate Java
-                        d) Generate HTML
-                        e) Generate README.md 
-                        f) Exit the Prompt 
+a) Generate C
+b) Generate Python
+c) Generate Java
+d) Generate HTML
+e) Generate README.md 
+f) Exit the Prompt 
 
                 ''' confirm
 
