@@ -38,6 +38,22 @@ docker exec -it <CONTAINER NAME>  /bin/bash
                 """
         end
 
+
+
+
+
+        ########################################################
+        #	  Aliases for Launching emacs
+        ########################################################
+        function emacs-alone
+                 setsid emacs
+        end
+
+        function emacs-terminal
+                 emacs --no-window-system
+        end
+
+
         ########################################################
         #	  Updates Packages
         ########################################################            
