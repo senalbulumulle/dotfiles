@@ -1,4 +1,4 @@
-#+title:  Senal's Arch Linux Configuration Scripts
+#+title:  Senal's Arco Linux Configuration Scripts
 
 ***** My Configuration Scripts for Arco Linux
 ***** NOTE:
