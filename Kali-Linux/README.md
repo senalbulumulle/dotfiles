@@ -1,6 +1,7 @@
 # Senal's Kali-Linux Configuration Scripts
 
-My Configuration Scripts for Kali-Linux
+My Configuration Scripts for Kali-Linux. Now contains Doom Emacs
+Configs. 
 
 
 
