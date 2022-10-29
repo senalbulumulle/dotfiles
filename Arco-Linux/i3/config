@@ -1,3 +1,17 @@
+################################################################
+#	THIS CONFIG FILE IS MODIFIED BASED ON ERIK DUBOIS
+#	ARCO LINUX I3 CONFIG. 
+#
+#
+#
+#
+#
+#
+#	MODIFIED BY SENAL BULUMULLE
+#
+################################################################
+
+
 ################# Start of all the settings
 
 # KEY DEFINITIONS TO REMEMBER
@@ -433,7 +447,7 @@ bindsym control+mod1+Next exec --no-startup-id conky-rotate -n
 bindsym control+mod1+Prior exec --no-startup-id conky-rotate -p
 
 # terminal
-bindsym $mod+Return exec --no-startup-id alacritty;focus
+bindsym $mod+Return exec --no-startup-id kitty;focus
 bindsym $mod+KP_Enter exec --no-startup-id alacritty;focus
 bindsym control+mod1+t exec --no-startup-id alacritty; focus
 bindsym control+mod1+Return exec --no-startup-id alacritty; focus
@@ -671,8 +685,8 @@ popup_during_fullscreen smart
 # want it
 
 for_window [class="^.*"] border pixel 2
-gaps inner 15
-gaps outer 15
+gaps inner 5
+gaps outer 5
 # smart_gaps on
 # smart_borders on
 
