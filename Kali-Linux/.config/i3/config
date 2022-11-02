@@ -32,7 +32,7 @@ font pango:Arial 0
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 
 ## This is set to nothing, just to get the window border to not show up
-font pango:Arial
+font pango:Classic Console
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
