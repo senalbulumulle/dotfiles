@@ -44,40 +44,6 @@ alias battery-info='echo -e "Battery Information\n\n" && cat /sys/class/power_su
 #			
 ########################################################
 
-
-########################################################
-#	Turns on or off Hidden Files in Apple macOS
-#	Finder
-########################################################
-function mac.hidden.files.on() {
-	defaults write com.apple.finder AppleShowAllFiles YES;
-	killall Finder
-	echo "/!\ The Hidden Files is turned on. "
-}
-
-function mac.hidden.files.off() {
-	defaults write com.apple.Finder AppleShowAllFiles NO; 
-	killall Finder
-	echo "/!\ The Hidden Files is turned off. "
-}
-
-
-
-
-
-########################################################
-#	Turns on or off Single App Mode in Apple macOS
-########################################################
-function mac.single.app.mode.on() {
-	defaults write com.apple.dock single-app -bool true;killall Dock
-}
-
-
-function mac.single.app.mode.off() {
-	defaults write com.apple.dock single-app -bool no;killall Dock
-}
-
-
 ##################################################################
 #   	This Section converts from any document files 
 #       to html
