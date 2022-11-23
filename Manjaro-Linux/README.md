@@ -14,7 +14,7 @@ My Configuration Scripts for Manjaro Linux
 
 # What is included: 
 * Neovim configuration files 			[STILL PENDING]
-* Fish configuration files				[STILL PENDING]
+* Fish configuration files
 * Micro configuration files 			[STILL PENDING]
 * Doom Emacs Configuration files		[STILL PENDING]
 * Ranger Configuration Files			[STILL PENDING]
