@@ -1,5 +1,0 @@
-#+title:  Senal's Arco Linux Configuration Scripts
-
-***** My Configuration Scripts for Arco Linux
-***** NOTE:
-These configurations are based on Erik Dubois's Arco Linux configuration files. Modified by me for my own preference and liking.
