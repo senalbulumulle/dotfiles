@@ -15,7 +15,7 @@ yay -S vscodium-bin --noconfirm
 
 
 cp .bashrc /home/$USER/ 
-cd fish /home/$USER/.config
-cd micro /home/$USER/.config
-cd ranger /home/$USER/.config
-cd neofetch /home/$USER/.config
+cp fish /home/$USER/.config
+cp micro /home/$USER/.config
+cp ranger /home/$USER/.config
+cp neofetch /home/$USER/.config
