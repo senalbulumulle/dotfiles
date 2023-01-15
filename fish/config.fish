@@ -18,7 +18,7 @@ if status is-interactive
         ########################################################            
         
         function update-packages
-                        sudo pacman -Syyu
+                        sudo dnf update && sudo dnf upgrade
         end      
 
 
