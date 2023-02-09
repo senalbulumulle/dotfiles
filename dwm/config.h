@@ -113,3 +113,18 @@ static const Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
 };
 
+#define COLOR0  "#C7EDCC"  /* background */
+#define COLOR1  "#A082BD"  /* light green */
+#define COLOR2  "#F6E5E5"  /* light purple */
+#define COLOR3  "#D9B3FF"
+#define COLOR4  "#6ECFF6"
+#define COLOR5  "#BD82A0"
+#define COLOR6  "#CCEDC7"
+#define COLOR7  "#F6F6F6"  /* foreground */
+#define COLOR8  "#737373"  /* dim */
+
+static const char *colors[][3] = {
+    /*               fg         bg         border   */
+    [SchemeNorm] = { COLOR7,    COLOR0,    COLOR1 },
+    [SchemeSel]  = { COLOR7,    COLOR2,    COLOR5 },
+};
