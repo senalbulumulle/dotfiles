@@ -113,6 +113,15 @@ static const Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
 };
 
+
+
+/*************************************************************************
+ *			------------------------
+ *			      color schemes
+ *			------------------------
+ *
+ *************************************************************************/
+
 #define COLOR0  "#C7EDCC"  /* background */
 #define COLOR1  "#A082BD"  /* light green */
 #define COLOR2  "#F6E5E5"  /* light purple */
