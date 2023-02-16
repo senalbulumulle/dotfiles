@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -118,5 +118,76 @@ alias gs='git status'
 alias gl='git log --oneline --decorate'
 alias gb='git branch'
 
+#################
+## Features
+#################
+
+function create-c-project() {
+
+#################################################################################################################
+## Files goes here 							## Directories and file names go here
+#################################################################################################################
+
+									mkdir src
+									cd src
+
+									touch header.h
+
+	echo """
+/**
+ *		-----------------------
+ *			My Project
+ *			header.h
+ *		-----------------------
+ *
+ */
+
+	""" >> header.h
 
 
+									touch README.org
+	echo """
+#+TITLE: src
+	""" >> README.org
+
+									cd ../
+	
+									touch README.org
+
+	echo """
+#+TITLE: project
+
+* Introduction 
+
+* Requirements
+
+* What is the goal of this project 
+
+* How to run the program
+
+	""" >> README.org
+
+									touch index.c
+
+	echo """
+/**
+ *		--------------------------	
+ *			My project
+ *		--------------------------
+ */
+
+ #include <stdio.h> 
+ #include <stdlib.h>
+ #include "src/header.h"
+
+ int main() {
+ 	printf("hello world");
+ }
+
+	""" >> index.c
+	
+}
+
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
