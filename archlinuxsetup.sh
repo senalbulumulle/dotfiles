@@ -12,6 +12,9 @@ sudo pacman -S --noconfirm ranger --noconfirm
 sudo pacman -S --noconfirm tint2 --noconfirm
 sudo pacman -S --noconfirm kitty --no-confirm 
 sudo pacman -S --noconfirm alacritty --noconfirm 
+sudo pacman -S --noconfirm polybar --noconfirm
+sudo pacman -S --noconfirm micro --noconfirm
+sudo pacman -S --noconfirm libvirt --noconfirm 
 sudo pacman -S discord --noconfirm
 sudo pacman -S gnome-software --noconfirm
 sudo pacman -S power-profiles-daemon
