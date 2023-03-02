@@ -18,6 +18,7 @@ sudo pacman -S libreoffice    --noconfirm
 sudo pacman -S chromium       --noconfirm
 sudo pacman -S php 		  	  --noconfirm
 sudo pacman -S python-pip     --noconfirm
+sudo pacman -S neovim         --noconfirm
 
 ## Installs the yay helper 
 git clone https://aur.archlinux.org/yay-bin
