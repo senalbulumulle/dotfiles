@@ -24,4 +24,3 @@ sudo systemctl enable gdm
 sudo systemctl enable power-profiles-daemon
 sudo gpasswd -a $USER video
 sudo systemctl reboot
-
