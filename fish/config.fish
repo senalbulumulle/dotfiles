@@ -1,34 +1,12 @@
 if status is-interactive
-        # Commands to run in interactive sessions can go here
 
-        ########################################################
-        #	  Senal's config.fish Config
-        #
-        ########################################################
+        ## If the user types in 'detect-model', it will prompt the user 
+        ## the superuser password, before showing the model name, and
+        ## the firmware version of the hardware. 
         
-        
-        ########################################################
-        #	  A L I A S E S 
-        #			
-        ########################################################
-               
+        function detect-model
+                sh /home/$USER/.config/senal-scripts/detect-model.sh
 
-        ########################################################
-        #	  Updates Packages
-        ########################################################            
-        
-        function update-packages
-                        sudo dnf update && sudo dnf upgrade
         end      
-
-
-
-
-
         
-        ########################################################
-        #	  F U N C T I O N S 
-        #	TO MAKE WORKFLOW EASIER
-        ########################################################
-
 end
