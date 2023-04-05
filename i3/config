@@ -54,6 +54,9 @@ exec --no-startup-id nitrogen --restore ../senal-wallpaper/Snake-Sunset.jpg
 # Automatically starts up polybar
 exec --no-startup-id polybar
 
+# Automatically starts up mate-wm
+exec --no-startup-id polybar
+
 # Automatically starts up lxpolkit
 exec --no-startup-id lxpolkit
 
@@ -62,12 +65,76 @@ exec --no-startup-id /usr/lib/kdeconnectd
 
 
 
+
+
+
+# ██    ██      ██████      ██          ██    ██     ███    ███     ███████
+# ██    ██     ██    ██     ██          ██    ██     ████  ████     ██
+# ██    ██     ██    ██     ██          ██    ██     ██ ████ ██     █████
+ # ██  ██      ██    ██     ██          ██    ██     ██  ██  ██     ██
+  # ████        ██████      ███████      ██████      ██      ██     ███████
+                                                                              # 
+                                                                              # 
+                                                                              # 
+                                                                              # 
+                                                                              # 
+                                                                              # 
+                                                                              # 
+                                                                              # 
+                                                                              # 
+ # ██████  ██████  ███    ██ ████████ ██████   ██████  ██
+# ██      ██    ██ ████   ██    ██    ██   ██ ██    ██ ██
+# ██      ██    ██ ██ ██  ██    ██    ██████  ██    ██ ██
+# ██      ██    ██ ██  ██ ██    ██    ██   ██ ██    ██ ██
+ # ██████  ██████  ██   ████    ██    ██   ██  ██████  ███████
+                                                                              # 
+                                                                              
+
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+
+# ██████      ██     ███████     ██████      ██           █████      ██    ██
+# ██   ██     ██     ██          ██   ██     ██          ██   ██      ██  ██
+# ██   ██     ██     ███████     ██████      ██          ███████       ████
+# ██   ██     ██          ██     ██          ██          ██   ██        ██
+# ██████      ██     ███████     ██          ███████     ██   ██        ██
+                                                                            # 
+                                                                            # 
+                                                                            # 
+                                                                            # 
+                                                                            # 
+                                                                            # 
+                                                                            # 
+                                                                            # 
+                                                                            # 
+# ███████ ██     ██ ██ ████████  ██████ ██   ██ ███████ ██████
+# ██      ██     ██ ██    ██    ██      ██   ██ ██      ██   ██
+# ███████ ██  █  ██ ██    ██    ██      ███████ █████   ██████
+     # ██ ██ ███ ██ ██    ██    ██      ██   ██ ██      ██   ██
+# ███████  ███ ███  ██    ██     ██████ ██   ██ ███████ ██   ██
+                                                                            # 
+                                                                            # 
+
+
+set $displayswitcher Mod4
+
+## This will switch to normal mode
+bindsym $displayswitcher+Shift+1 exec xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --off --output DP-1 --off --output DP-2 --off --output DP-3 --off --output DP-4 --off
+
+## This will switch to single external display mode only
+bindsym $displayswitcher+Shift+2 exec xrandr --output eDP-1 --off --output HDMI-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-1 --off --output DP-2 --off --output DP-3 --off --output DP-4 --off
+
+## This will switch to double external display mode only (Soon)
+
+
+
+
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -78,8 +145,8 @@ floating_modifier $mod
 #	
 #
 ###############################################################################
-gaps inner 0
-gaps outer 0
+gaps inner 10
+gaps outer 10
 
 
 ###############################################################################
@@ -89,8 +156,18 @@ gaps outer 0
 #
 ###############################################################################
 
-# start a terminal
-bindsym $mod+Return exec alacritty
+# Start terminals
+
+
+##############################################################################
+#----------------------------------------------------------------		
+#	Comment the default terminal and kitty, and alacritty. 
+#----------------------------------------------------------------
+##############################################################################
+
+bindsym $mod+Return exec gnome-terminal
+# bindsym $mod+Return exec kitty
+# bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -267,3 +344,9 @@ default_border pixel 1
 default_floating_border pixel 1
 
 bindsym $mod+r mode "resize"
+
+
+
+bar {
+	status_command mate-panel
+}
