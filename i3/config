@@ -161,8 +161,8 @@ floating_modifier $mod
 #	
 #
 ###############################################################################
-gaps inner 10
-gaps outer 10
+gaps inner 0
+gaps outer 0
 
 
 ###############################################################################
@@ -300,57 +300,30 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 ##	   work...
 ################################################################################################## 
 
-set $fm DisplayPort-1
-set $sm HDMI-1
+
+set $primary_output eDP-1
+set $secondary_output HDMI-1
+
+workspace 1 output $primary_output
+workspace 2 output $primary_output
+workspace 3 output $primary_output
+workspace 4 output $primary_output
+
+
+workspace 5 output $secondary_output
+workspace 6 output $secondary_output
+workspace 7 output $secondary_output
+workspace 8 output $secondary_output
+workspace 9 output $secondary_output
+workspace 10 output $secondary_output
+workspace 11 output $secondary_output
+workspace 12 output $secondary_output
 
 
 
-## This is for Display Port
-workspace 1 output $fm
-workspace 2 output $fm
-workspace 3 output $fm
-workspace 4 output $fm
-workspace 5 output $fm
-workspace 6 output $fm
-workspace 7 output $fm
-workspace 8 output $fm
-workspace 9 output $fm
-
-
-
-## This is for HDMI
-workspace 10 output $sm
-workspace 11 output $sm
-workspace 12 output $sm
-workspace 13 output $sm
-workspace 14 output $sm
-workspace 15 output $sm
-workspace 16 output $sm
-workspace 17 output $sm
-workspace 18 output $sm
-workspace 19 output $sm
-
-
-
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
-set $ws11 "11"
-set $ws12 "12"
-set $ws13 "13"
-set $ws14 "14"
-set $ws15 "15"
-set $ws16 "16"
-set $ws17 "17"
-set $ws18 "18"
-set $ws19 "19"
+exec --no-startup-id xrandr --output $primary_output --primary --auto --output $secondary_output --off
+exec --no-startup-id xrandr --output $secondary_output --primary --auto --output $primary_output --off
+exec --no-startup-id xrandr --output $primary_output --auto --output $secondary_output --off
 
 
 
