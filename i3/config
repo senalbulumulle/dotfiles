@@ -4,6 +4,7 @@
 #		This is the new version of i3 that is better than before
 #
 #               This is compatible with Senal's i3 build. 
+#		This is also compatible with the Sway WM as well
 ##################################################################################
 
 
@@ -71,7 +72,7 @@ for_window [class="Jitsi Meet"] move container to workspace $ws
 
 
 
-gaps inner 0
+gaps inner 20
 gaps outer 0
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -262,3 +263,10 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+
+
+## Workspace Assign 
+
+
+assign [class="Navigator.librewolf"] → 2
