@@ -1,5 +1,12 @@
+##              SENAL'S FISH CONFIG                     #
+##                                                      #
+##                                                      #
+##########################################################
+
+
+
 if status is-interactive
-        ## Set default editor
+        ## SET THE DEFAULT EDITOR
 
         ## For example if you want vim, replace "micro" with vim
         ## For example if you want nvim, replace "micro" with nvim
@@ -8,9 +15,10 @@ if status is-interactive
         export VISUAL="micro"
 
 
-        ## Aliases 
-
-        alias emacsnw='emacs --no-window-system'
+        ## ALIASES
+        alias emacsnw='emacs --no-window-system'                                ## Launches Senal's Emacs in the terminal instead of the window
+	alias ce='distrobox enter'                                              ## This will enter to a distrobox container
+	alias bashedit='micro /home/$USER/.bashrc'                              ## Goes directly to [/home/$USER/.bashrc]                                         
 
 
 
@@ -24,15 +32,16 @@ if status is-interactive
 
 
 
-        ## This will go to a preferred editor, "Micro" and go 
-        ## straight to /home/$USER/.config/fish/config.fish
+        
+        ## THIS WILL GO TO A PREFERRED EDITOR, "micro", AND GO
+        ## STRAIGHT TO /home/$USER/.config/fish/config.fish
 	function config-fish 
 	        micro /home/$USER/.config/fish/config.fish
 	end
 
 	## CONTAINER NEW CLONE
 	function cnc
-		bash /home/$USER/.config/fish/container-clone.sh
+                bash /home/$USER/.config/fish/create-container.sh
 	end
 
 	## CONTAINER CLONE EDIT
@@ -46,7 +55,7 @@ if status is-interactive
 		cat /home/$USER/clone-image-reference
 	end
 
-	## LIST CONTAINERS
+	## LIST CONTAINERS 
 	function cl
 		clear
 		distrobox list
