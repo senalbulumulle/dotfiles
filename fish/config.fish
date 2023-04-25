@@ -7,31 +7,28 @@ if status is-interactive
         export EDITOR="micro"   
         export VISUAL="micro"
 
-        
+
+        ## Aliases 
+
+        alias emacsnw='emacs --no-window-system'
+
+
+
         ## If the user types in 'detect-model', it will prompt the user 
         ## the superuser password, before showing the model name, and
         ## the firmware version of the hardware. 
         
-        function detect-model
+        function detectmodel 
                 sh /home/$USER/.config/senal-scripts/detect-model.sh
-        end 
+        end
 
-	
+
+
+        ## This will go to a preferred editor, "Micro" and go 
+        ## straight to /home/$USER/.config/fish/config.fish
 	function config-fish 
-		micro /home/$USER/.config/fish/config.fish
-	end	
-
-
-	## Fedora Silverblue or Kinoite
-
-	## REQUIREMENTS: 
-	##
-	#
-	#	- distrobox
-	#	- rpm-ostree upgrade
-	#	- rpm-ostree install distrobox
-	#	- systemctl reboot
-	#
+	        micro /home/$USER/.config/fish/config.fish
+	end
 
 	## CONTAINER NEW CLONE
 	function cnc
@@ -54,9 +51,4 @@ if status is-interactive
 		clear
 		distrobox list
 	end 
-
-
-	function edit
-	        emacs --no-window-system
-	end
 end
