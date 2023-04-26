@@ -4,6 +4,11 @@
 
 * Fish Config = ~.config/fish~
 ** Aliases
+
+*** ~about~
+    Shows the about screen about Senal's fish config
+
+    
 *** ~config-fish~
     This is a shortcut to micro to ~/home/$USER/.config/fish/
     
@@ -28,6 +33,5 @@
     This uses the ~distrobox~ command to list out of the containers that you created
 
     
-#+BEGIN_SRC shell
-
-#+END_SRC
+*** ~cm~
+    This uses the ~distrobox~ command to remove a container
