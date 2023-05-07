@@ -21,6 +21,10 @@ if status is-interactive
 	alias cs='distrobox stop'                                                       ## This will stop a distrobox container
         alias cm='distrobox rm'                                                         ## This will remove a distrobox container
         alias cl='clear && distrobox rm'                                                ## This will remove a distrobox container
+        alias ggp='git push origin main'                                                ## This will remove a distrobox container
+        alias ggc='git commit -m'                                                       ## This will message the git file
+        alias gga'git add'                                                              ## This will add the git file
+        alias ggd='git rm -r'                                                           ## This will delete the git file
 	alias bashedit='micro /home/$USER/.bashrc'                                      ## Goes directly to [/home/$USER/.bashrc]                                         
         alias about='clear && cat /home/$USER/.config/fish/about'                       ## Shows the about screen about Senal's Config
         alias manual='less /home/$USER/dotfiles/README.org'                             ## Shows the manual how to do things with Senal's config in general	
