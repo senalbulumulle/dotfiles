@@ -28,7 +28,7 @@ if status is-interactive
 	alias bashedit='micro /home/$USER/.bashrc'                                      ## Goes directly to [/home/$USER/.bashrc]                                         
         alias about='clear && cat /home/$USER/.config/fish/about'                       ## Shows the about screen about Senal's Config
         alias manual='less /home/$USER/dotfiles/README.org'                             ## Shows the manual how to do things with Senal's config in general	
-        alias kittyconfig='micro /home/$USER/.config/kitty/kitty.conf'                  ## Goes directory to [/home/$USER/.config/kitty/kitty.conf]
+        alias kittyconfig='micro /home/$USER/.config/kitty/kitty.conf'                  ## Goes directory to [/home/$USER/.config/kitty/kitty.conf 
 
         
         ## If the user types in 'detect-model', it will prompt the user         
