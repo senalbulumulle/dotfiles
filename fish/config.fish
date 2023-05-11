@@ -17,6 +17,7 @@ if status is-interactive
 
         ## ALIASES
         alias emacss='emacs --no-window-system'                                         ## Launches Senal's Emacs in the terminal instead of the window
+        alias cce='distrobox create'                                                    ## This will create a new distrobox container
 	alias ce='distrobox enter'                                                      ## This will enter to a distrobox container
 	alias cs='distrobox stop'                                                       ## This will stop a distrobox container
         alias cm='distrobox rm'                                                         ## This will remove a distrobox container
@@ -48,3 +49,4 @@ if status is-interactive
 	        micro /home/$USER/.config/fish/config.fish
 	end
 end
+status --is-login; and status --is-interactive; and exec byobu-launcher
