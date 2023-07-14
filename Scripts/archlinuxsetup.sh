@@ -15,3 +15,4 @@ sudo pacman -S --noconfirm libvirt
 sudo pacman -S --noconfirm github-cli
 sudo pacman -S --noconfirm git
 sudo pacman -S --noconfirm fish
+sudo pacman -S --noconfirm discord
