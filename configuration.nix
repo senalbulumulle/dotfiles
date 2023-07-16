@@ -108,6 +108,7 @@
 	gh
 	virtmanager
 	xclip
+	brave
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
