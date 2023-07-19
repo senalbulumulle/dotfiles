@@ -1,4 +1,7 @@
-Senal's dots 
+Senal's dots
+-------------
+
+OMG Senal's dotfiles are finally going to be organized for once... 
 
 
 
