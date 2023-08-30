@@ -32,3 +32,10 @@ nix-configurations
     |	.config
     --------------
     		     |
+
+
+
+
+Emacs Instruction: 
+
+cd emacs && cp -R .emacs.el /home/$USER/
