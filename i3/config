@@ -72,8 +72,8 @@ for_window [class="Jitsi Meet"] move container to workspace $ws
 
 
 
-gaps inner 40
-gaps outer 40
+gaps inner 10
+gaps outer 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
