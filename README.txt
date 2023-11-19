@@ -40,3 +40,9 @@ nix-configurations
 Emacs Instruction: 
 
 cd emacs && cp -R .emacs.el /home/$USER/
+
+
+
+
+i3 Keybinding Instruction: 
+=============================
