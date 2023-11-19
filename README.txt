@@ -46,3 +46,6 @@ cd emacs && cp -R .emacs.el /home/$USER/
 
 i3 Keybinding Instruction: 
 =============================
+
+In this section, we are going to be talking about my i3 keybindings.
+Normally the keybindings is "ALT everything".... basically...
