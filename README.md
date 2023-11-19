@@ -1,1 +1,3 @@
 # Senal dotfiles
+
+Senal's dotfiles are amazing...
