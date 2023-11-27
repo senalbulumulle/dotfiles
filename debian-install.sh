@@ -7,3 +7,7 @@ sudo apt update -y && sudo apt full-upgrade -y
 
 
 
+## This will install the virt-manager thing
+sudo apt install libvirt* -y
+sudo apt install qemu* -y
+sudo apt install virt-manager* -y
