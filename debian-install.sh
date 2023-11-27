@@ -11,3 +11,7 @@ sudo apt update -y && sudo apt full-upgrade -y
 sudo apt install libvirt* -y
 sudo apt install qemu* -y
 sudo apt install virt-manager* -y
+
+
+## Enable the virtualization services thing
+sudo systemctl enable libvirt
