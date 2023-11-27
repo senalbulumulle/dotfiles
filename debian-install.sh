@@ -15,3 +15,10 @@ sudo apt install virt-manager* -y
 
 ## Enable the virtualization services thing
 sudo systemctl enable libvirt
+
+
+
+## This will install the terminal emulators
+sudo apt install alacritty * -y
+sudo apt install kitty * -y
+sudo apt install xterm * -y
