@@ -4,3 +4,6 @@ sudo apt-get install -y meson wget build-essential ninja-build cmake-extras cmak
 
 cd /home/$USER
 
+git clone --recursive https://github.com/hyprwm/Hyprland
+cd Hyprland
+make all && sudo make install
