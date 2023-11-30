@@ -1,0 +1,1 @@
+## install-hyprland-debian.sh
