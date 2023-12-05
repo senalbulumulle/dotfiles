@@ -58,3 +58,19 @@ ALT + d
 This keybinding makes use of the rofi -show drun option allowing 
 the ability to search for applications to run and things like 
 that.
+
+
+
+Hyprland Keybinding Instruction: 
+=============================
+
+In this section, we are going to be talking about the hyprland 
+keybindings
+
+
+MOD + d
+--------
+
+This keybinding makes use of the wofi -show drun option allowing 
+the ability to search for applications to run and things like 
+that.
