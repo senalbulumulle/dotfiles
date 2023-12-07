@@ -57,8 +57,13 @@ sudo systemctl enable libvirtd.service					## Enable the service
 sudo systemctl enable libvirtd-admin.socket				## Enable the Admin Socket
 sudo systemctl enable libvirt-tcp.socket				## Enable the TCP socket 
 sudo systemctl enable libvirt-tls.socket				## Enable the TLS socket 
-sudo systemctl enable libvirt-guests.service			## Enable the Guests Service
+sudo systemctl enable libvirt-guests.service				## Enable the Guests Service
 
+
+sudo pacman -S dnsmasq --noconfirm
+
+## Enable dnsasqeu service blah blah
+sudo systemctl enable dnsmasq.service
 
 ## Install QEMU Full
 sudo pacman -S qemu-full --noconfirm
@@ -83,3 +88,11 @@ yay -S signal-desktop-bin --noconfirm
 
 ## Install pavucontrol
 sudo pacman -S pavucontrol --noconfirm
+
+
+echo """
+--------------------------------------------------------------------
+			REBOOT THE DEVICE. 
+--------------------------------------------------------------------
+
+"""
