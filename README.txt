@@ -71,6 +71,6 @@ keybindings
 MOD + d
 --------
 
-This keybinding makes use of the wofi -show drun option allowing 
+This keybinding makes use of the tofi -show drun option allowing 
 the ability to search for applications to run and things like 
 that.

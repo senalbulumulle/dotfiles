@@ -53,3 +53,23 @@ sudo apt install libgtk-3-dev -y
 sudo apt install libsystemd-dev -y
 sudo apt install xwayland -y
 sudo apt install kitty -y
+
+
+sudo apt install cmake-extras -y 
+sudo apt install cmake -y
+sudo apt install gettext -y
+sudo apt install gettext-base -y 
+sudo apt install fontconfig -y
+sudo apt install libfontconfig-dev -y
+sudo apt install libffi-dev -y 
+sudo apt install libxml2-dev -y
+sudo apt install libdrm-dev -y
+sudo apt install libxkbcommon-x11-dev -y
+sudo apt install libxkbregistry-dev -y
+sudo apt install libxkbcommon-dev -y
+sudo apt install libpixman-1-dev -y
+sudo apt install libudev-dev -y 
+sudo apt install libseat-dev -y
+sudo apt install seatd -y
+sudo apt install libxcb-dri13-dev -y
+sudo apt install libvulkan-dev -y
