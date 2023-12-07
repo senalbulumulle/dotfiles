@@ -1,5 +1,6 @@
 ## install-hyprland-debian.sh
 ## This script is used to compile and install hyprland on Debian 12 pretty much
+## THIS MIGHT BREAK LIBRARIES IN DEBIAN THO...
 
 ## The first thing to obviously do is to update the packages via APT
 sudo apt update -y && sudo apt full-upgrade -y 
