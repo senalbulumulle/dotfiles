@@ -10,6 +10,11 @@ gentoo-configurations
 Later on...
 
 
+debian-configurationds
+----------------------
+Later on...
+
+
 arch-configurations
 --------------------
 Later on...
