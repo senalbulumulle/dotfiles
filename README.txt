@@ -20,6 +20,9 @@ Later on...
 
 nix-configurations
 -----------------
+
+These are the nixos configurations
+
 |
 |--- kde-plasma-desktop
 |----
