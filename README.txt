@@ -10,7 +10,7 @@ gentoo-configurations
 Later on...
 
 
-debian-configurationds
+debian-configurations
 ----------------------
 Later on...
 
