@@ -76,7 +76,7 @@ In this section, we are going to be talking about the hyprland
 keybindings
 
 
-MOD + d
+ALT + d
 --------
 
 This keybinding makes use of the tofi -show drun option allowing 
