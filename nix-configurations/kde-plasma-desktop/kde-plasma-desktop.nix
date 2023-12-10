@@ -106,7 +106,7 @@
 	brightnessctl
 	fish
 	gh
-	virtmanager
+	virt-manager
 	xclip
 	brave
 	htop
