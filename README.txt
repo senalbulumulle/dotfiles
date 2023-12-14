@@ -1,0 +1,6 @@
+arch-configurations
+--------------------
+
+
+- kitty
+- waybar
