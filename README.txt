@@ -3,6 +3,10 @@ Senal's dots
 Senal's configuration files
 
 
+Mac Configuration Files Coming Soon
+=====================================
+
+
 
 i3 Keybinding Instruction: 
 =============================
