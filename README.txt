@@ -3,8 +3,15 @@ Senal's dots
 Senal's configuration files
 
 
+
+Windows Configuration Files Coming Soon
+========================================
+
+
 Mac Configuration Files Coming Soon
 =====================================
+
+
 
 
 
