@@ -1,85 +1,83 @@
--- Senal's Best Configuration File for Neovim --
+-- init.lua -- 
+
+-- __   ___                                
+-- /__` |__  |\ |  /\  |       \  / |  |\/| 
+-- .__/ |___ | \| /~~\ |___     \/  |  |  |  1.0
+                                         
+
+-- LAZY VIM Included
 
 
 
-
-local vim = vim
-local Plug = vim.fn['plug#']
-
-
-
-
---[[
-
---------------
-Introduction: 
---------------
-Welcome to Senal's Configuration files for lua. Basically this configuration 
-file for Neovim allows the abilty to customize neovim based on Senal's liking.
-
-This particular configuration file is designed to be ONLY be used on macOS. 
-
-The init.lua is served as a documentation mostly so the files are in different 
-locations for ease of maintainability
-
-For now, the configuration settings is all in one file here, until some kind 
-of organization will take place.
-
-]]
-
-
-
-print(":-)")									-- Put a Smile Face because why not
-
-
-
-
---[[
-
---------------
-Functions
---------------
-
-
-vim_configurations
-------------------
--- Inside this function, this function allows the ability to configure the vim keybindings for ease of use 
--- inside the neovim configuration file. 
-
-	
-]]
-
-
-
-local function vim_configurations() 
-	-- --
-	vim.opt.number 	= false		-- True = Enables the number | False = Disables the number	
-
+local function init()
+        vim.cmd("set expandtab")
+        vim.cmd("set shiftwidth=4")
+        vim.cmd("set softtabstop=4")
+        vim.cmd("set tabstop=4")
+        vim.cmd("set number")
+        vim.cmd("set relativenumber")
 end
 
 
-
-local function vim_plugins()
-	vim.call('plug#begin')
-	Plug('preservim/nerdtree', { ['on'] = 'NERDTreeToggle' })
-	Plug('vim-airline/vim-airline')
-	Plug('mhinz/vim-startify')
+init()
 
 
 
-	vim.call('plug#end')
+-- Variable set for lazy --
+
+package_one = "catppuccin/nvim"
+package_two = "nvim-treesitter/nvim-treesitter"
+package_three = "preservim/nerdtree"
+
+
+
+
+
+-- Lazy stuff--
+
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not (vim.uv or vim.loop).fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
+
+local plugins = {
+        { package_one, name = "catppuccin", priority = 1000 },
+        { package_two, name = "nvim-treesitter", priority = 1000 },
+        { package_three, name = "nerdtree", priority = 1000 }
+}
+local opts    = {}
+
+require("lazy").setup(plugins, opts)
+
+
+
+
+
+
+
+-- Plugin setups--
+local function themeSettings()
+        require("catppuccin").setup()
+        vim.cmd.colorscheme "catppuccin"
 end
 
 
+themeSettings()
 
 
-local function vim_keybindings()
-	vim.api.nvim_set_keymap('n', '<F3>', ':NERDTreeToggle .<CR>', {noremap = true})
+
+-- Keybindings --
+local function keyBindings()
+        vim.api.nvim_set_keymap('n', '<F3>', ':NERDTreeToggle .<CR>', {noremap = true})
 end
 
 
-
-
-vim_configurations()
-vim_plugins()
-vim_keybindings()
+keyBindings()
