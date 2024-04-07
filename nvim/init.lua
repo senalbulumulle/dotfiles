@@ -11,9 +11,9 @@
 
 local function init()
         vim.cmd("set expandtab")
-        vim.cmd("set shiftwidth=4")
-        vim.cmd("set softtabstop=4")
-        vim.cmd("set tabstop=4")
+        vim.cmd("set shiftwidth=1")
+        vim.cmd("set softtabstop=1")
+        vim.cmd("set tabstop=1")
         vim.cmd("set number")
         vim.cmd("set relativenumber")
 end
@@ -28,6 +28,7 @@ init()
 package_one = "catppuccin/nvim"
 package_two = "nvim-treesitter/nvim-treesitter"
 package_three = "preservim/nerdtree"
+package_four = "vim-airline/vim-airline"
 
 
 
@@ -48,10 +49,15 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+
+-- This is where you are able to add the plugins that you want. -- 
+
+
 local plugins = {
         { package_one, name = "catppuccin", priority = 1000 },
         { package_two, name = "nvim-treesitter", priority = 1000 },
-        { package_three, name = "nerdtree", priority = 1000 }
+        { package_three, name = "nerdtree", priority = 1000 },
+        { package_four, name = "vim-airline", priority = 1000 }
 }
 local opts    = {}
 
