@@ -1,8 +1,7 @@
 # SenalVim
 
 ## Introduction
-SenalVim is the best Neovim Configuration Setup designed for Senal. Unlike other Neovim Setups, SenalVim has many benefits for any use-case. 
-
+SenalVim is the best Neovim Configuration Setup designed for Senal.
 
 
 
