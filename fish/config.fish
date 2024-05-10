@@ -1,4 +1,4 @@
-## Senal's Fish config for macOS 
+## Senal's Fish config for macOS and Linux 
 
 if status is-interactive
     alias microconfig='micro $HOME/.config/micro/settings.json'
