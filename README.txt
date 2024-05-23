@@ -19,10 +19,6 @@ Sway Configuration Files Coming Soon
 This includes the configuration files for sway...
 
 
-
-
-
-
 i3 Keybinding Instruction: 
 =============================
 
@@ -35,15 +31,5 @@ ALT + d
 --------
 
 This keybinding makes use of the rofi -show drun option allowing 
-the ability to search for applications to run and things like 
-that.
-
-
-
-
-MOD + d
---------
-
-This keybinding makes use of the tofi -show drun option allowing 
 the ability to search for applications to run and things like 
 that.
