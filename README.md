@@ -12,3 +12,10 @@ This includes the configuration files including the usual setups on Windows
 =====================================
 
 This includes the configuration files including the usual setups on macOS
+
+
+
+## Sway Configuration Files Coming Soon
+=====================================
+
+This includes the configuration files for sway...
