@@ -40,12 +40,6 @@ that.
 
 
 
-Hyprland Keybinding Instruction: 
-=============================
-
-In this section, we are going to be talking about the hyprland 
-keybindings
-
 
 MOD + d
 --------
