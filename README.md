@@ -1,1 +1,1 @@
-# hello world
+# Senal's Configuration Files
