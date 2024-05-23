@@ -19,3 +19,15 @@ This includes the configuration files including the usual setups on macOS
 =====================================
 
 This includes the configuration files for sway...
+
+
+
+
+
+## i3 Keybinding Instruction: 
+=============================
+
+In this section, we are going to be talking about my i3 keybindings.
+Normally the keybindings is "ALT everything".... basically...
+
+
