@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+    <icon>Terminal</icon>
+    <name>Terminal</name>
+    <unique-id>1367866030392833-1</unique-id>
+    <command>exo-open --working-directory %f --launch TerminalEmulator</command>
+    <description></description>
+    <patterns>*</patterns>
+    <directories/>
+</action>
+<action>
+    <icon>stock_folder</icon>
+    <name>Thunar Root</name>
+    <unique-id>1367866030392883-2</unique-id>
+    <command>pkexec thunar %f</command>
+    <description>Thunar Root</description>
+    <patterns>*</patterns>
+    <directories/>
+</action>
+<action>
+    <icon>gksu-root-terminal</icon>
+    <name>Open a root terminal here</name>
+    <unique-id>1598703540615476-2</unique-id>
+    <command>pkexec  xfce4-terminal --default-working-directory=%f</command>
+    <description></description>
+    <patterns>*</patterns>
+    <directories/>
+</action>
+<action>
+    <icon>system-search</icon>
+    <name>Search</name>
+    <unique-id>1367866030392913-3</unique-id>
+    <command>catfish %f</command>
+    <description>find files and folders</description>
+    <patterns>*</patterns>
+    <directories/>
+</action>
+<action>
+    <icon>emblem-symbolic-link</icon>
+    <name>Create symlink</name>
+    <unique-id>1598703611380362-3</unique-id>
+    <command>ln -s %f %n&quot; (symlink)&quot;</command>
+    <description></description>
+    <patterns>*</patterns>
+    <directories/>
+    <other-files/>
+</action>
+<action>
+    <icon>default-user-desktop</icon>
+    <name>Set as desktop background</name>
+    <unique-id>1598703646338876-4</unique-id>
+    <command>xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s %f</command>
+    <description></description>
+    <patterns>*</patterns>
+    <image-files/>
+</action>
+<action>
+    <icon>meld</icon>
+    <name>Compare</name>
+    <unique-id>1598703765333830-5</unique-id>
+    <command>meld %F</command>
+    <description></description>
+    <patterns>*</patterns>
+    <directories/>
+    <text-files/>
+</action>
+<action>
+    <icon>application-x-archive</icon>
+    <name>Extract Archive Here</name>
+    <unique-id>1598703918895347-6</unique-id>
+    <command>xarchiver -e %N</command>
+    <description></description>
+    <patterns>*</patterns>
+    <other-files/>
+</action>
+<action>
+    <icon>folder-cd</icon>
+    <name>Mount iso</name>
+    <unique-id>1598704203521603-7</unique-id>
+    <command>pkexec mount -o loop -t iso9660 %f /mnt</command>
+    <description></description>
+    <patterns>*iso</patterns>
+    <other-files/>
+</action>
+<action>
+    <icon>vcs-normal</icon>
+    <name>Checksum</name>
+    <unique-id>1564041061059083-1</unique-id>
+    <command>gtkhash %f</command>
+    <description>Calculate checksums using GTKHash</description>
+    <patterns>*</patterns>
+    <audio-files/>
+    <image-files/>
+    <other-files/>
+    <text-files/>
+    <video-files/>
+</action>
+</actions>
