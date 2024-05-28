@@ -7,5 +7,5 @@ sudo pacman -S libvirt --noconfirm
 sudo pacman -S virt-manager --noconfirm
 
 
-sudo systemctl enable libvirt
-sudo systemctl start libvirt
+sudo systemctl enable libvirtd
+sudo systemctl start libvirtd
