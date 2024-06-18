@@ -1,1 +1,0 @@
-Smith-Pad Development Configurations
