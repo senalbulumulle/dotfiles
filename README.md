@@ -50,3 +50,9 @@ that.
 
 - Senal is finally deciding to remake his i3 config eyecandy for once,
   since all this time, Senal's i3wm config is just stock and just minimal
+
+
+
+- Senal's dotfiles will be eventually be automated using 
+	- GNU stow
+	- YADM
