@@ -41,3 +41,12 @@ Normally the keybindings is "ALT everything".... basically...
 This keybinding makes use of the rofi -show drun option allowing 
 the ability to search for applications to run and things like 
 that.
+
+
+
+
+## Updates
+
+
+- Senal is finally deciding to remake his i3 config eyecandy for once,
+  since all this time, Senal's i3wm config is just stock and just minimal
