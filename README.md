@@ -49,7 +49,9 @@ that.
 
 
 - Senal is finally deciding to remake his i3 config eyecandy for once,
-  since all this time, Senal's i3wm config is just stock and just minimal
+  since all this time, Senal's i3wm config is just stock and just minimal. 
+
+- This also includes the sway configuration as well. For the Wayland Lovers lol
 
 
 
