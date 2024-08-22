@@ -56,3 +56,4 @@ that.
 - Senal's dotfiles will be eventually be automated either
 	- GNU stow
 	- YADM
+    - or his own tool
