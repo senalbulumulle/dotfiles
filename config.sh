@@ -18,6 +18,7 @@ if status is-interactive
     alias markdown='open /Applications/MarkText.app/'
     alias l='ls -l'
     alias ll='ls -la'
+    alias lll='ls -lll'
 end
 
 
