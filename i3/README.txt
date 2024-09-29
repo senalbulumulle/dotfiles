@@ -13,6 +13,3 @@ volume-control.conf
 window-manipulation.conf
 window-resize-manipulation.conf
 workspaces.conf
-
-
-/!\ Organization will start later
