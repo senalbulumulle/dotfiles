@@ -52,10 +52,3 @@ that.
   since all this time, Senal's i3wm config is just stock and just minimal. 
 
 - This also includes the sway configuration as well. For the Wayland Lovers lol
-
-
-
-- Senal's dotfiles will be eventually be automated either
-	- GNU stow
-	- YADM
-    - or his own tool
