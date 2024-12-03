@@ -1,0 +1,15 @@
+brew install discord
+brew install fish
+brew install microsoft-edge@dev
+brew install google-chrome
+brew install firefox
+brew install vscodium
+brew install gh
+brew install kitty
+brew install micro
+brew install signal
+brew install watchman
+brew install nvim
+brew install php
+brew install tabby
+brew install mks
