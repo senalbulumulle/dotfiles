@@ -12,4 +12,3 @@ brew install watchman
 brew install nvim
 brew install php
 brew install tabby
-brew install mks
