@@ -12,3 +12,6 @@ brew install watchman
 brew install nvim
 brew install php
 brew install tabby
+brew install chatgpt
+brew install firefox
+brew install opera-gx
