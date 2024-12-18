@@ -15,3 +15,4 @@ brew install tabby
 brew install chatgpt
 brew install firefox
 brew install opera-gx
+brew install macs-fan-control
