@@ -3,7 +3,7 @@ brew install fish
 brew install microsoft-edge@dev
 brew install google-chrome
 brew install firefox
-brew install vscodium
+brew uninstall vscodium
 brew install gh
 brew install kitty
 brew install micro
@@ -17,3 +17,4 @@ brew install firefox
 brew install opera-gx
 brew install macs-fan-control
 brew install zen-browser
+brew install code-server
