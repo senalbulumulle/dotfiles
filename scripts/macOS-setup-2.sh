@@ -13,7 +13,7 @@ brew install nvim
 brew install php
 brew install tabby
 brew install chatgpt
-brew install firefox
+brew uninstall firefox
 brew install opera-gx
 brew install macs-fan-control
 brew install zen-browser
