@@ -18,4 +18,3 @@ brew install opera-gx
 brew install macs-fan-control
 brew install zen-browser
 brew install code-server
-brew install vimac
