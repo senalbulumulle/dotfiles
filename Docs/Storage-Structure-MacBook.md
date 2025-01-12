@@ -42,3 +42,6 @@ In this section, we are going to be talking about storage structure for my setup
 	- Download Manually to Storage 2 ONLY
 	- Keep the UTM.dmg file
 	- Install the UTM.app file to the VM-MAC-SLLICON folder 
+
+
+
