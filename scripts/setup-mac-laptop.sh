@@ -6,13 +6,13 @@ function uninstall() {
     brew uninstall opera-gx
     brew uninstall kitty
     brew uninstall tabby
+	brew uninstall microsoft-edge@dev
 }
 uninstall
 
 function install() {
     brew install discord
     brew install fish
-    brew install microsoft-edge@dev
     brew install google-chrome
     brew install gh
     brew install micro
