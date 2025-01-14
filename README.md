@@ -11,3 +11,9 @@ In this section, we are going to be talking about how to sync dots on the Mac
 
 1. `cd scripts/`
 2. `sh setup-mac-laptop.sh`
+
+
+
+
+## Changes
+
