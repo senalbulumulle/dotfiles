@@ -30,6 +30,18 @@ function install() {
 install
 
 
+function enableServices()
+{
+	echo "not yet"
+}
+
+
+function disableServices()
+{
+	echo "not yet"
+}
+
+
 
 function setup()
 {
