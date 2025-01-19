@@ -3,4 +3,11 @@
 
 In this section, we are going to be talking about Senal's Next Virtualization Setup
 Server, which is the next generation server. This is basically the outline of that
-is going to look like later on. 
+is going to look like later on.
+
+
+
+## Tools are going to be used 
+
+- Cockpit
+ - `sudo pacman -S cockpit` 
