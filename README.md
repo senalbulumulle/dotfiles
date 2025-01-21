@@ -36,3 +36,10 @@ Updated pin-project-lite v0.2.15 -> v0.2.16
 Updated tokio v1.42.0 -> v1.43.0
 
 ```
+
+
+## Other notes
+
+```
+ln -s /Users/$USER/dotfiles/.vimrc /Users/$USER/.vimrc
+```
