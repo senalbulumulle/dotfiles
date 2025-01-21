@@ -42,6 +42,7 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 name = "dotfiles"
 version = "0.1.0"
 dependencies = [
+ "rsync",
  "tokio",
 ]
 
@@ -86,6 +87,15 @@ name = "pin-project-lite"
 version = "0.2.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3b3cff922bd51709b605d9ead9aa71031d81447142d828eb4a6eba76fe619f9b"
+
+[[package]]
+name = "rsync"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "315be994e361c49bceccff60d28a45fe6d9545a428299396892328b1d81acafb"
+dependencies = [
+ "libc",
+]
 
 [[package]]
 name = "rustc-demangle"
