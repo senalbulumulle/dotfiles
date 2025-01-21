@@ -25,7 +25,9 @@ function install() {
     brew install zen-browser
     brew install code-server
     brew install ghostty
-    brew install rust
+    brew install rust 
+    brew install zellij
+    brew install alacritty
 }
 install
 
