@@ -9,6 +9,7 @@ function uninstall() {
     brew uninstall kitty
     brew uninstall tabby
 	brew uninstall microsoft-edge@dev
+	brew uninstall ghostty
 }
 uninstall
 
@@ -26,8 +27,9 @@ function install() {
     brew install macs-fan-control
     brew install zen-browser
     brew install code-server
-    brew install ghostty
-    brew install rust
+    brew install rust 
+    brew install zellij
+    brew install alacritty
 }
 install
 
