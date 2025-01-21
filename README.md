@@ -17,6 +17,12 @@ my dotfiles on every Mac Device. Very Efficient Indeed....
 
 
 
+## Any Suggestions to my dotfiles?
+
+
+
+## TODO
+
 
 ## Changes
 
