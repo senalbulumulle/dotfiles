@@ -28,6 +28,7 @@ function install() {
     brew install rust 
     brew install zellij
     brew install alacritty
+    brew install rustdesk
 }
 install
 
