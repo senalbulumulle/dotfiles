@@ -4,6 +4,11 @@
 Senal's own dotfiles manager
 
 
+## Installing dots on the fly
+
+```
+curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/install.sh | bash
+```
 
 ## Sync Dots on the Mac
 
@@ -42,4 +47,6 @@ Updated tokio v1.42.0 -> v1.43.0
 
 ```
 ln -s /Users/$USER/dotfiles/.vimrc /Users/$USER/.vimrc
+ln -s /Users/$USER/dotfiles/.zshrc /Users/$USER/.zshrc
+ln -s /Users/$USER/dotfiles/fish /Users/$USER/.config/fish
 ```
