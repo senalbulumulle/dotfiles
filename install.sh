@@ -3,6 +3,9 @@
 ## Allows the ability to output for testing purposes
 echo "it works"
 
+## Get macOS to get you to install Apple Developer Tools
+git
+
 
 ## This is where we are able to use brew.sh to install
 ## brew in general for macOS
