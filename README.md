@@ -6,7 +6,10 @@ Senal's own dotfiles manager
 
 ## Installing dots on the fly
 
-```
+In order to install dots on the fly, you need to use this link and paste it on the terminal
+in order to make it work
+
+``` shell
 curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/install.sh | bash
 ```
 
