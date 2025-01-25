@@ -15,7 +15,7 @@ curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/mai
 curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/setup-mac-laptop-dad.sh | bash
 ```
 
-## Sync Dots on the Mac
+## Sync Dots on the Mac (This section might be removed soon)
 
 In this section, we are going to be talking about how to sync dots on the Mac. 
 
