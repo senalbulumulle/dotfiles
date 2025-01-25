@@ -40,7 +40,7 @@ my dotfiles on every Mac Device. Very Efficient Indeed....
 
 ## TODO
 
-- Symlink the files to dotfiles to .config and others [IN PROGRESS]
+    - Symlink the files to dotfiles to .config and others [SOMEWHAT COMPLETED]
 
 
 ## Changes
