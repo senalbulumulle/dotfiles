@@ -3,7 +3,8 @@
 ## Allows the ability to output for testing purposes
 echo "it works"
 
-## Get macOS to get you to install Apple Developer Tools
+## Get macOS to get you to install Apple Developer Tools. Requires you to rerun the
+## script again
 git
 
 

@@ -8,6 +8,7 @@ function uninstall() {
     brew uninstall tabby
 	brew uninstall microsoft-edge@dev
 	brew uninstall ghostty
+	brew uninstall gpt4all
 }
 uninstall
 
@@ -30,7 +31,6 @@ function install() {
     brew install alacritty
     brew install rustdesk
     brew install hugo
-    brew install gpt4all
 } 
 install
 
