@@ -30,6 +30,7 @@ function install() {
     brew install alacritty
     brew install rustdesk
     brew install hugo
+    brew install gpt4all
 } 
 install
 
