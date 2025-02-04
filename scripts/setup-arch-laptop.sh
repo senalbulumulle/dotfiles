@@ -9,9 +9,14 @@ function updatePackages()
 updatePackages
 
 
+function uninstallApps()
+{
+	sudo pacman -Rcns visual-studio-code --noconfirm
+}
+
+
 function installApps()
 {
-	sudo pacman -S visual-studio-code --noconfirm
 	sudo pacman -S neovim --noconfirm
 }
 
