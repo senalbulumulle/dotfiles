@@ -11,6 +11,7 @@ function uninstall() {
 	brew uninstall microsoft-edge@dev
 	brew uninstall ghostty
 	brew uninstall gpt4all
+    brew uninstall zellij
 
 }
 uninstall
@@ -30,7 +31,6 @@ function install() {
     brew install zen-browser
     brew install code-server
     brew install rust 
-    brew install zellij
     brew install alacritty
     brew install vscodium
 }
