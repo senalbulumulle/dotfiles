@@ -30,7 +30,8 @@ function install() {
     brew install macs-fan-control
     brew install zen-browser
     brew install code-server
-    brew install rust 
+    brew install rust
+    brew install rustdesk
     brew install alacritty
     brew install vscodium
 }
