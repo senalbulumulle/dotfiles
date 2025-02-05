@@ -33,6 +33,7 @@ function install() {
     brew install rustdesk
     brew install hugo
     brew install vscodium
+    brew install emacs
 } 
 install
 
