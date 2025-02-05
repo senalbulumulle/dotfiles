@@ -25,15 +25,8 @@ fn symlink_zshrc()
     let _output = Command::new("ln -s /Users/$USER/dotfiles/.zshrc /Users/$USER/.zshrc").output();
 }
 
-// This is a function where you are able to symlink the aerospacerc file
-fn symlink_aerospacerc()
-{
-    let _output = Command::new("ln -s /Users/$USER/dotfiles/.aerospace.toml /Users/$USER/.aerospace.toml").output();
-}
-
 fn main() {
     println!("hello world");
     symlink_vimrc();
     symlink_zshrc();
-    symlink_aerospacerc();
 }
