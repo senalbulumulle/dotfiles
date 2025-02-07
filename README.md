@@ -55,7 +55,7 @@ Updated tokio v1.42.0 -> v1.43.0
 ```
 
 
-## Other notes
+## Symlinking
 
 ```
 ln -s /Users/$USER/dotfiles/.vimrc /Users/$USER/.vimrc
