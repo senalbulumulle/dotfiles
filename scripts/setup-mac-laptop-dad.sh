@@ -35,6 +35,7 @@ function install() {
     brew install alacritty
     brew install vscodium
     brew install emacs
+    brew install kindle
 }
 install
 
@@ -50,6 +51,12 @@ function disableServices()
 	echo "not yet"
 }
 
+
+function misc()
+{
+	softwareupdate --install-rosetta --agree-to-license
+}
+misc
 
 
 function setup()
