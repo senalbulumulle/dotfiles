@@ -4,7 +4,6 @@
 
 function uninstall() {
     brew uninstall vscodium    
-    brew uninstall firefox
     brew uninstall opera-gx
     brew uninstall kitty
     brew uninstall tabby
@@ -28,6 +27,7 @@ function install() {
     brew install php
     brew install chatgpt
     brew install macs-fan-control
+    brew install firefox
     brew install zen-browser
     brew install code-server
     brew install rust
