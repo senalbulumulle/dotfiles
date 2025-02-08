@@ -11,3 +11,7 @@ The best configuration ever.
 List of Files
 
 - example.lua
+- init.lua
+- keybindings.lua
+- lazy.lua
+- options.lua
