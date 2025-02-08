@@ -1,7 +1,6 @@
 ## setup-mac-laptop
 
 function uninstall() {
-    brew uninstall vscodium    
     brew uninstall firefox
     brew uninstall opera-gx
     brew uninstall kitty
@@ -9,6 +8,7 @@ function uninstall() {
 	brew uninstall microsoft-edge@dev
 	brew uninstall ghostty
 	brew uninstall gpt4all
+    brew uninstall zellij
 
 }
 uninstall
@@ -28,12 +28,12 @@ function install() {
     brew install zen-browser
     brew install code-server
     brew install rust 
-    brew install zellij
     brew install alacritty
     brew install rustdesk
     brew install hugo
     brew install vscodium
     brew install emacs
+    brew install libreoffice
 } 
 install
 
