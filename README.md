@@ -26,8 +26,9 @@ curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/mai
 
 ### Install Senal's Dad's setup files for mac laptop
 
-`curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/setup-mac-laptop-dad.sh | bash`
-
+```
+curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/setup-mac-laptop-dad.sh | bash`
+```
 
 ## Sync Dots on the Mac (This section might be removed soon)
 
