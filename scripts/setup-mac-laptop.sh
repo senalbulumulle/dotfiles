@@ -34,6 +34,7 @@ function install() {
     brew install vscodium
     brew install emacs
     brew install libreoffice
+    brew install tree
 } 
 install
 
