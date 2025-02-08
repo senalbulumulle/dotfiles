@@ -63,3 +63,10 @@ ln -s /Users/$USER/dotfiles/.zshrc /Users/$USER/.zshrc
 ln -f /Users/$USER/dotfiles/.emacs /Users/$USER/.emacs
 ln -s /Users/$USER/dotfiles/fish /Users/$USER/.config/fish
 ```
+
+
+## Symlinking
+
+```
+ln -s /Users/$USER/dotfiles/nvim /Users/$USER/.config/nvim
+```
