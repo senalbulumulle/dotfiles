@@ -3,6 +3,13 @@
 
 Senal's own dotfiles manager
 
+## Introduction
+Senal's wonderful dotfiles manager allows the ability to get inspired and 
+get creative and be innovative with talent. 
+
+With Senal's dotfiles manager, you realize the organization of setups that
+Senal has will definitely makes you want to do something.
+
 
 ## Installing dots on the fly
 
