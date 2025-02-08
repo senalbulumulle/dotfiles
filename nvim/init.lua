@@ -3,4 +3,5 @@
 
 
 
-require("example")
+-- print hello world --
+print("Hello, World!")
