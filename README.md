@@ -51,18 +51,6 @@ my dotfiles on every Mac Device. Very Efficient Indeed....
     - Symlink the files to dotfiles to .config and others [SOMEWHAT COMPLETED]
 
 
-## Changes
-
-- Updated Cargo Packages
-
-```
-Updated miniz_oxide v0.8.2 -> v0.8.3
-Updated pin-project-lite v0.2.15 -> v0.2.16
-Updated tokio v1.42.0 -> v1.43.0
-
-```
-
-
 ## Symlinking
 
 ```
