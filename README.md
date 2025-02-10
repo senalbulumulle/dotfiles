@@ -30,6 +30,14 @@ curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/mai
 curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/setup-mac-laptop-dad.sh | bash`
 ```
 
+
+### ThinkPad-T480 Setup
+
+#### Minimal Setup
+```
+curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/ThinkPad-T480/01.sh | bash`
+```
+
 ## Sync Dots on the Mac (This section might be removed soon)
 
 In this section, we are going to be talking about how to sync dots on the Mac. 
