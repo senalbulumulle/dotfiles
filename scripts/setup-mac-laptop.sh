@@ -9,6 +9,7 @@ function uninstall() {
 	brew uninstall ghostty
 	brew uninstall gpt4all
     brew uninstall zellij
+    brew uninstall blender
 
 }
 uninstall
