@@ -27,9 +27,9 @@
   (load-theme 'doom-one t))
 
 ;; Evil mode (Vim keybindings)
-(use-package evil
-  :init (setq evil-want-C-u-scroll t)
-  :config (evil-mode 1))
+;;(use-package evil
+;;  :init (setq evil-want-C-u-scroll t)
+;;  :config (evil-mode 1))
 
 ;; Auto-completion
 (use-package company
