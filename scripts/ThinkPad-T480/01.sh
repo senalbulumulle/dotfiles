@@ -2,6 +2,10 @@
 ## setup minimal setup as a dedicated writing machine
 
 
+
+## Why, when I'm studying or writing books down, I use the ThinkPad T480. 
+
+
 function updatePackages()
 {
 	sudo pacman -Syyu --noconfirm
