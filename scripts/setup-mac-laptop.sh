@@ -3,7 +3,6 @@
 function uninstall() {
     brew uninstall firefox
     brew uninstall opera-gx
-    brew uninstall kitty
     brew uninstall tabby
 	brew uninstall microsoft-edge@dev
 	brew uninstall ghostty
@@ -30,12 +29,14 @@ function install() {
     brew install code-server
     brew install rust 
     brew install alacritty
+    brew install kitty
     brew install rustdesk
     brew install hugo
     brew install vscodium
     brew install emacs
     brew install libreoffice
     brew install tree
+    brew install mpv
 } 
 install
 
