@@ -1,5 +1,5 @@
 ## setup-laptop-thinkpad-t480
-## setup minimal setup 
+## setup minimal setup as a dedicated writing machine
 
 
 function updatePackages()
