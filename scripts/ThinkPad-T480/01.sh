@@ -26,6 +26,7 @@ function installApps()
     sudo pacman -S dmenu --noconfirm
     sudo pacman -S emacs --noconfirm
     sudo pacman -S github-cli --noconfirm
+    sudo pacman -S git --noconfirm
 }
 
 
