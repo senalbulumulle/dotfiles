@@ -37,6 +37,8 @@ function install() {
     brew install libreoffice
     brew install tree
     brew install mpv
+    brew install wacom-tablet
+
 } 
 install
 
