@@ -2,7 +2,9 @@
 ## setup minimal setup as a dedicated writing machine
 
 
+## TASKS:
 
+## - Make a command in dmenu that allows to use other devices to write stuff remotely
 
 
 
