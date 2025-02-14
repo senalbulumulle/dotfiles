@@ -20,3 +20,4 @@ git clone https://github.com/senalbulumulle/dotfiles
 
 
 
+## Symlink the files
