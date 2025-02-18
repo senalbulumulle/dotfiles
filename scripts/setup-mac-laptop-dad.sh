@@ -3,14 +3,14 @@
 ## These scripts are designed specifically for my dad, with some more additions
 
 function uninstall() {
-    brew uninstall vscodium    
-    brew uninstall opera-gx
-    brew uninstall kitty
-    brew uninstall tabby
+	brew uninstall vscodium    
+	brew uninstall opera-gx
+	brew uninstall kitty
+	brew uninstall tabby
 	brew uninstall microsoft-edge@dev
 	brew uninstall ghostty
 	brew uninstall gpt4all
-    brew uninstall zellij
+	brew uninstall zellij
 
 }
 uninstall
@@ -36,6 +36,8 @@ function install() {
     brew install vscodium
     brew install emacs
     brew install kindle
+    brew install ollama
+    brew install exo
 }
 install
 

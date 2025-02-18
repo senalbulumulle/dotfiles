@@ -13,3 +13,4 @@ table of contents.
 # Table of Contents
 
 ## Configuring Git
+## Symlinking Configuration Files
