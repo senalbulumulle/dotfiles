@@ -11,6 +11,32 @@ With Senal's dotfiles manager, you realize the organization of setups that
 Senal has will definitely makes you want to do something.
 
 
+
+## List 
+
+```shell
+total 104
+-rw-r--r--  1 senal  staff   5.1K Feb 10 13:03 Cargo.lock
+-rw-r--r--  1 senal  staff   130B Feb 10 13:03 Cargo.toml
+-rw-r--r--  1 senal  staff   1.9K Feb 10 18:58 README.md
+drwxr-xr-x  6 senal  staff   192B Feb 19 16:36 _Docs/
+drwxr-xr-x  5 senal  staff   160B Feb 14 12:01 _Docs-Dad/
+drwxr-xr-x  3 senal  staff    96B Feb 10 13:03 _Wallpapers/
+-rw-r--r--  1 senal  staff    16K Jan 14 11:35 dotfiles-logo.png
+-rw-r--r--  1 senal  staff   597B Feb 10 13:03 install.sh
+drwxr-xr-x  4 senal  staff   128B Feb 14 11:10 kitty/
+drwxr-xr-x  5 senal  staff   160B Feb 10 13:03 nvim/
+-rw-r--r--  1 senal  staff   176B Feb 10 13:03 push.ps1
+-rw-r--r--  1 senal  staff   175B Jan 14 11:35 push.sh
+drwxr-xr-x  9 senal  staff   288B Feb 14 15:18 scripts/
+drwxr-xr-x  7 senal  staff   224B Feb 10 13:03 src/
+drwxr-xr-x@ 5 senal  staff   160B Jan 22 18:57 target/
+drwxr-xr-x  2 senal  staff    64B Feb 13 19:09 themes/
+-rw-r--r--  1 senal  staff    68B Feb 10 13:03 update-docs.sh
+-rw-r--r--  1 senal  staff    70B Feb 10 13:03 update-scripts.sh
+
+```
+
 ## Installing dots on the fly
 
 In order to install dots on the fly, you need to use this link and paste it on the terminal
