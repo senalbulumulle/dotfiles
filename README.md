@@ -12,7 +12,8 @@ Senal has will definitely makes you want to do something.
 
 
 
-## List 
+## List Total Files
+
 
 ```shell
 total 104
@@ -38,6 +39,28 @@ drwxr-xr-x   2 senal  staff    64B Feb 13 19:09 themes/
 
 ```
 
+
+## List 
+
+```
+total 16
+drwxr-xr-x  2 senal  staff    64B Feb 22 14:15 completions/
+drwxr-xr-x  2 senal  staff    64B Feb 22 14:15 conf.d/
+-rw-r--r--  1 senal  staff   486B Feb 22 14:16 config.fish
+-rw-r--r--  1 senal  staff   1.3K Feb 22 14:15 fish_variables
+drwxr-xr-x  4 senal  staff   128B Feb 22 14:15 functions/
+drwxr-xr-x  2 senal  staff    64B Feb 22 14:16 scripts/
+```
+
+
+
+
+
+
+
+
+
+
 ## Installing dots on the fly
 
 In order to install dots on the fly, you need to use this link and paste it on the terminal
@@ -58,12 +81,30 @@ curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/mai
 ```
 
 
+
+
+
+
+
+
+
+
+
 ### ThinkPad-T480 Setup
 
 #### Minimal Setup
 ```
 curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/ThinkPad-T480/01.sh | bash`
 ```
+
+
+
+
+
+
+
+
+
 
 ## Sync Dots on the Mac (This section might be removed soon)
 
@@ -77,13 +118,19 @@ my dotfiles on every Mac Device. Very Efficient Indeed....
 
 
 
+
+
+
+
+
+
+
+
+
 ## Any Suggestions to my dotfiles?
 
 
 
-## TODO
-
-    - Symlink the files to dotfiles to .config and others [SOMEWHAT COMPLETED]
 
 
 ## Symlinking
