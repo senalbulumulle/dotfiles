@@ -66,13 +66,20 @@ drwxr-xr-x  2 senal  staff    64B Feb 22 14:16 scripts/
 In order to install dots on the fly, you need to use this link and paste it on the terminal
 in order to make it work
 
+
+
+
+### Install Setup on MacBook = Kinda Stable
+
 ``` shell
 curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/install.sh | bash
 ```
 
+
 ### Install Senal's setup files for mac laptop
 
 `curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/setup-mac-laptop.sh | bash`
+
 
 ### Install Senal's Dad's setup files for mac laptop
 
