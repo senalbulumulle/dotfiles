@@ -54,6 +54,13 @@ drwxr-xr-x  2 senal  staff    64B Feb 22 14:16 scripts/
 
 
 
+# Kitty Config
+
+```
+total 104
+-rw-r--r--  1 senal  staff    48K Feb 13 19:09 kitty.conf
+-rw-r--r--  1 senal  staff   334B Feb 13 19:09 senal.conf
+```
 
 
 
