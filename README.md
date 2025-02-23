@@ -12,19 +12,19 @@ Senal has will definitely makes you want to do something.
 
 
 
-## List Total Files
+# List of Files
 
 
 ```shell
 total 104
 -rw-r--r--   1 senal  staff   5.1K Feb 10 13:03 Cargo.lock
 -rw-r--r--   1 senal  staff   130B Feb 10 13:03 Cargo.toml
--rw-r--r--   1 senal  staff   2.9K Feb 19 16:44 README.md
+-rw-r--r--   1 senal  staff   3.4K Feb 22 14:26 README.md
 drwxr-xr-x   6 senal  staff   192B Feb 19 16:36 _Docs/
 drwxr-xr-x   5 senal  staff   160B Feb 14 12:01 _Docs-Dad/
 drwxr-xr-x   3 senal  staff    96B Feb 10 13:03 _Wallpapers/
 -rw-r--r--   1 senal  staff    16K Jan 14 11:35 dotfiles-logo.png
-drwx------   7 senal  staff   224B Feb 22 14:15 fish/
+drwx------   8 senal  staff   256B Feb 22 14:16 fish/
 -rw-r--r--   1 senal  staff   597B Feb 10 13:03 install.sh
 drwxr-xr-x   4 senal  staff   128B Feb 14 11:10 kitty/
 drwxr-xr-x   5 senal  staff   160B Feb 10 13:03 nvim/
@@ -40,7 +40,7 @@ drwxr-xr-x   2 senal  staff    64B Feb 13 19:09 themes/
 ```
 
 
-## List 
+# Fish Config
 
 ```
 total 16
@@ -51,6 +51,7 @@ drwxr-xr-x  2 senal  staff    64B Feb 22 14:15 conf.d/
 drwxr-xr-x  4 senal  staff   128B Feb 22 14:15 functions/
 drwxr-xr-x  2 senal  staff    64B Feb 22 14:16 scripts/
 ```
+
 
 
 
