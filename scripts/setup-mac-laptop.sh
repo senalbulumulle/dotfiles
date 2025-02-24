@@ -38,6 +38,7 @@ function install() {
 	brew install tree
 	brew install mpv
 	brew install wacom-tablet
+	brew install alt-tab
 
 } 
 install
@@ -56,8 +57,8 @@ function disableServices()
 
 
 
-function setup()
-{
-	cd ../setup-mac-laptop-config && cp -R fish /Users/senal/.config/ && cp -R micro /Users/senal/.config/
-}
-setup
+# function setup()
+# {
+# 	cd ../setup-mac-laptop-config && cp -R fish /Users/senal/.config/ && cp -R micro /Users/senal/.config/
+# }
+# setup

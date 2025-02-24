@@ -61,8 +61,8 @@ function misc()
 misc
 
 
-function setup()
-{
-    cd ../setup-mac-laptop-config && cp -R fish /Users/senal/.config/ && cp -R micro /Users/senal/.config/
-}
-setup
+# function setup()
+# {
+#     cd ../setup-mac-laptop-config && cp -R fish /Users/senal/.config/ && cp -R micro /Users/senal/.config/
+# }
+# setup

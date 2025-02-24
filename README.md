@@ -64,6 +64,17 @@ total 104
 
 
 
+# Neovim Config
+
+```
+total 16
+-rw-r--r--  1 senal  staff    76B Feb 22 13:23 init.lua
+drwxr-xr-x  3 senal  staff    96B Feb 10 13:03 lua/
+-rw-r--r--  1 senal  staff   210B Feb 10 13:03 readme
+```
+
+
+
 
 
 
