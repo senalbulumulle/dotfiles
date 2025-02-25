@@ -75,7 +75,22 @@ drwxr-xr-x  3 senal  staff    96B Feb 10 13:03 lua/
 
 
 
+# Scripts files
 
+```
+total 56
+drwxr-xr-x  3 senal  staff    96B Feb 10 18:49 ThinkPad-T480/
+drwxr-xr-x  3 senal  staff    96B Feb 12 17:23 ThinkPad-X41/
+-rw-r--r--  1 senal  staff   2.0K Feb 20 22:02 configure-yabai.sh
+-rw-r--r--  1 senal  staff   373B Feb 10 13:03 setup-arch-laptop.sh
+-rw-r--r--  1 senal  staff   412B Feb 10 13:03 setup-arch-server.sh
+-rw-r--r--  1 senal  staff   441B Feb 10 13:03 setup-arch-vm-pc-setup.sh
+-rw-r--r--  1 senal  staff   1.2K Feb 24 11:56 setup-mac-laptop-dad.sh
+-rw-r--r--  1 senal  staff     0B Feb 25 16:45 setup-mac-laptop-with-shortcuts-ultimate-install.sh
+-rw-r--r--  1 senal  staff    60B Feb 25 16:45 setup-mac-laptop-with-shortcuts-ultimate.sh
+-rw-r--r--  1 senal  staff   1.1K Feb 25 16:43 setup-mac-laptop.sh
+
+```
 
 
 
