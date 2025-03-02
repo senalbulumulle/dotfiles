@@ -133,6 +133,9 @@ curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/mai
 
 ### ThinkPad-T480 Setup
 
+For the ThinkPad T480, the ThinkPad T480 is used as a "dedicated" creating writing
+machine
+
 #### Minimal Setup
 ```
 curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/ThinkPad-T480/01.sh | bash`
