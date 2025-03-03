@@ -3,7 +3,6 @@
 --  Based on LazyVim --
 --
 require("senal.keybindings")
-require("senal.lazy")
 print("hello world")
 
 
