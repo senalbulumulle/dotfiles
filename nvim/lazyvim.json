@@ -1,6 +1,28 @@
 {
   "extras": [
-
+    "lazyvim.plugins.extras.editor.telescope",
+    "lazyvim.plugins.extras.formatting.biome",
+    "lazyvim.plugins.extras.formatting.black",
+    "lazyvim.plugins.extras.formatting.prettier",
+    "lazyvim.plugins.extras.linting.eslint",
+    "lazyvim.plugins.extras.lsp.neoconf",
+    "lazyvim.plugins.extras.lsp.none-ls",
+    "lazyvim.plugins.extras.ui.alpha",
+    "lazyvim.plugins.extras.ui.dashboard-nvim",
+    "lazyvim.plugins.extras.ui.edgy",
+    "lazyvim.plugins.extras.ui.indent-blankline",
+    "lazyvim.plugins.extras.ui.mini-animate",
+    "lazyvim.plugins.extras.ui.mini-indentscope",
+    "lazyvim.plugins.extras.ui.mini-starter",
+    "lazyvim.plugins.extras.ui.smear-cursor",
+    "lazyvim.plugins.extras.ui.treesitter-context",
+    "lazyvim.plugins.extras.util.chezmoi",
+    "lazyvim.plugins.extras.util.gitui",
+    "lazyvim.plugins.extras.util.octo",
+    "lazyvim.plugins.extras.util.project",
+    "lazyvim.plugins.extras.util.rest",
+    "lazyvim.plugins.extras.util.startuptime",
+    "lazyvim.plugins.extras.vscode"
   ],
   "install_version": 8,
   "news": {
