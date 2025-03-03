@@ -1,7 +1,4 @@
 -- Senal's Neovim Config --
---
---  Based on LazyVim --
---
 require("senal.keybindings")
 print("hello world")
 
