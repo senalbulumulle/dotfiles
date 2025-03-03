@@ -12,8 +12,18 @@ Still a work in progress
 
 List of Files
 
-- example.lua
-- init.lua
-- keybindings.lua
-- lazy.lua
-- options.lua
+
+
+
+
+
+
+-----------------------------------------------
+		Instructions
+-----------------------------------------------
+
+
+
+
+Go back to the main readme file to read instructions on how to 
+symlink the neovim config to the .config directory.
