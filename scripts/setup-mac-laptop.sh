@@ -9,7 +9,7 @@ function uninstall() {
 	brew uninstall gpt4all
 	brew uninstall zellij
 	brew uninstall blender
-
+	brew uninstall aerospace
 }
 uninstall
 
