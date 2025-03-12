@@ -41,6 +41,7 @@ function install() {
 	brew install mpv
 	brew install alt-tab
 	brew install utm
+	brew install loop
 
 } 
 install
