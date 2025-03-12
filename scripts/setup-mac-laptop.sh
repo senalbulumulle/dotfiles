@@ -40,6 +40,7 @@ function install() {
 	brew install tree
 	brew install mpv
 	brew install alt-tab
+	brew install utm
 
 } 
 install
