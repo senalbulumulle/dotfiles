@@ -43,6 +43,8 @@ function install() {
 	brew install utm
 	brew install loop
 	brew install ollama
+	brew install arduino-ide
+	brew install arduino-cli
 } 
 install
 
