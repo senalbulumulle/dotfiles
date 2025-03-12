@@ -11,7 +11,7 @@ function uninstall() {
 	brew uninstall blender
 	brew uninstall aerospace
 	brew uninstall wacom-tablet
-
+	brew uninstall emacs
 }
 uninstall
 
@@ -35,7 +35,7 @@ function install() {
 	brew install rustdesk
 	brew install hugo
 	brew install vscodium
-	brew install emacs
+	brew install --cask emacs
 	brew install libreoffice
 	brew install tree
 	brew install mpv
