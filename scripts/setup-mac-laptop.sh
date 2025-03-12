@@ -42,7 +42,7 @@ function install() {
 	brew install alt-tab
 	brew install utm
 	brew install loop
-
+	brew install ollama
 } 
 install
 
