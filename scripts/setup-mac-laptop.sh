@@ -10,6 +10,8 @@ function uninstall() {
 	brew uninstall zellij
 	brew uninstall blender
 	brew uninstall aerospace
+	brew uninstall wacom-tablet
+
 }
 uninstall
 
@@ -37,7 +39,6 @@ function install() {
 	brew install libreoffice
 	brew install tree
 	brew install mpv
-	brew install wacom-tablet
 	brew install alt-tab
 
 } 
