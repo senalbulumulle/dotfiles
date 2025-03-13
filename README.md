@@ -18,24 +18,24 @@ Senal has will definitely makes you want to do something.
 ```shell
 total 152
 -rw-r--r--   1 senal  staff   2.6K Mar 12 13:54 .emacs
-drwxr-xr-x  14 senal  staff   448B Mar 13 10:07 .git/
+drwxr-xr-x  14 senal  staff   448B Mar 13 11:29 .git/
 -rw-r--r--   1 senal  staff    42B Mar 12 13:54 .gitignore
 -rw-r--r--   1 senal  staff     1B Mar 12 13:54 .vimrc
 -rw-r--r--   1 senal  staff    42B Mar 12 13:54 .zprofile
 -rw-r--r--   1 senal  staff   330B Mar 12 13:54 .zshrc
 -rw-r--r--   1 senal  staff   5.1K Mar 12 13:54 Cargo.lock
 -rw-r--r--   1 senal  staff   130B Mar 12 13:54 Cargo.toml
--rw-r--r--   1 senal  staff   4.7K Mar 13 10:05 README.md
+-rw-r--r--   1 senal  staff   4.8K Mar 13 10:07 README.md
 drwxr-xr-x   6 senal  staff   192B Mar 12 13:54 _Docs/
 drwxr-xr-x   5 senal  staff   160B Mar 12 13:54 _Docs-Dad/
 drwxr-xr-x   3 senal  staff    96B Mar 12 13:54 _Wallpapers/
 drwxr-xr-x   2 senal  staff    64B Mar 13 10:02 backups/
 -rw-r--r--   1 senal  staff    16K Mar 12 13:54 dotfiles-logo.png
-drwxr-xr-x   6 senal  staff   192B Mar 12 13:54 fish/
+drwxr-xr-x   6 senal  staff   192B Mar 13 11:27 fish/
 drwxr-xr-x   3 senal  staff    96B Mar 12 13:54 i3/
 -rw-r--r--   1 senal  staff   597B Mar 12 13:54 install.sh
 drwxr-xr-x   4 senal  staff   128B Mar 12 13:54 kitty/
-drwxr-xr-x   5 senal  staff   160B Mar 13 10:07 micro/
+drwxr-xr-x   6 senal  staff   192B Mar 13 10:07 micro/
 drwxr-xr-x   5 senal  staff   160B Mar 12 15:29 nvim/
 -rw-r--r--   1 senal  staff   176B Mar 12 13:54 push.ps1
 -rw-r--r--   1 senal  staff   175B Mar 12 13:54 push.sh
