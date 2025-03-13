@@ -1,0 +1,10 @@
+total 48
+drwxr-xr-x  3 senal  staff    96B Mar 12 13:54 ThinkPad-T480/
+drwxr-xr-x  3 senal  staff    96B Mar 12 13:54 ThinkPad-X41/
+-rw-r--r--  1 senal  staff   2.0K Mar 12 13:54 configure-yabai.sh
+-rw-r--r--  1 senal  staff     0B Mar 13 09:55 readme
+-rw-r--r--  1 senal  staff   373B Mar 12 13:54 setup-arch-laptop.sh
+-rw-r--r--  1 senal  staff   412B Mar 12 13:54 setup-arch-server.sh
+-rw-r--r--  1 senal  staff   441B Mar 12 13:54 setup-arch-vm-pc-setup.sh
+-rw-r--r--  1 senal  staff   1.2K Mar 12 13:54 setup-mac-laptop-dad.sh
+-rw-r--r--  1 senal  staff   1.2K Mar 12 19:17 setup-mac-laptop.sh
