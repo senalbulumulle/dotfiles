@@ -45,6 +45,7 @@ function install() {
 	brew install ollama
 	brew install arduino-ide
 	brew install arduino-cli
+	brew install npm
 } 
 install
 
