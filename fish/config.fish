@@ -11,11 +11,8 @@ if status is-interactive
         alias m='micro'
         alias lsl='tree'
         alias markdown='open /Applications/MarkText.app/'
-        alias ppinspodman='brew install podman && brew install podman-desktop'
-        alias ppunsdocker='brew uninstall docker && brew uninstall docker-desktop && brew cleanup --prune all'
-        alias ppinsdocker='brew install docker && brew install docker'
-        alias ppunspodman='brew uninstall podman && brew uninstall podman-desktop && brew cleanup --prune all'
         alias createtemplate='sh scripts/create-template.sh'
+        alias organizefbext='sh scripts/organize-folders-file-extensions.sh'
 end
 
 
