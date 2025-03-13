@@ -17,30 +17,32 @@ Senal has will definitely makes you want to do something.
 
 ```shell
 total 152
--rw-r--r--   1 senal  staff   2.6K Feb 11 10:29 .emacs
-drwxr-xr-x  15 senal  staff   480B Mar  6 13:34 .git/
--rw-r--r--   1 senal  staff    42B Feb 10 13:03 .gitignore
--rw-r--r--   1 senal  staff     1B Mar  4 10:03 .vimrc
--rw-r--r--   1 senal  staff    42B Feb 10 13:03 .zprofile
--rw-r--r--   1 senal  staff   330B Feb 10 13:03 .zshrc
--rw-r--r--   1 senal  staff   5.1K Feb 25 14:23 Cargo.lock
--rw-r--r--   1 senal  staff   130B Feb 10 13:03 Cargo.toml
--rw-r--r--   1 senal  staff   4.3K Mar  6 13:34 README.md
-drwxr-xr-x   6 senal  staff   192B Feb 19 16:36 _Docs/
-drwxr-xr-x   5 senal  staff   160B Feb 14 12:01 _Docs-Dad/
-drwxr-xr-x   3 senal  staff    96B Feb 10 13:03 _Wallpapers/
--rw-r--r--   1 senal  staff    16K Jan 14 11:35 dotfiles-logo.png
-drwx------   6 senal  staff   192B Mar  4 07:53 fish/
--rw-r--r--   1 senal  staff   597B Feb 10 13:03 install.sh
-drwxr-xr-x   4 senal  staff   128B Feb 14 11:10 kitty/
-drwxr-xr-x   5 senal  staff   160B Mar  4 15:11 nvim/
--rw-r--r--   1 senal  staff   176B Feb 10 13:03 push.ps1
--rw-r--r--   1 senal  staff   175B Jan 14 11:35 push.sh
-drwxr-xr-x  10 senal  staff   320B Mar  2 10:36 scripts/
-drwxr-xr-x   7 senal  staff   224B Feb 10 13:03 src/
-drwxr-xr-x@  5 senal  staff   160B Jan 22 18:57 target/
--rw-r--r--   1 senal  staff    68B Feb 10 13:03 update-docs.sh
--rw-r--r--   1 senal  staff    70B Feb 10 13:03 update-scripts.sh
+-rw-r--r--   1 senal  staff   2.6K Mar 12 13:54 .emacs
+drwxr-xr-x  14 senal  staff   448B Mar 13 10:07 .git/
+-rw-r--r--   1 senal  staff    42B Mar 12 13:54 .gitignore
+-rw-r--r--   1 senal  staff     1B Mar 12 13:54 .vimrc
+-rw-r--r--   1 senal  staff    42B Mar 12 13:54 .zprofile
+-rw-r--r--   1 senal  staff   330B Mar 12 13:54 .zshrc
+-rw-r--r--   1 senal  staff   5.1K Mar 12 13:54 Cargo.lock
+-rw-r--r--   1 senal  staff   130B Mar 12 13:54 Cargo.toml
+-rw-r--r--   1 senal  staff   4.7K Mar 13 10:05 README.md
+drwxr-xr-x   6 senal  staff   192B Mar 12 13:54 _Docs/
+drwxr-xr-x   5 senal  staff   160B Mar 12 13:54 _Docs-Dad/
+drwxr-xr-x   3 senal  staff    96B Mar 12 13:54 _Wallpapers/
+drwxr-xr-x   2 senal  staff    64B Mar 13 10:02 backups/
+-rw-r--r--   1 senal  staff    16K Mar 12 13:54 dotfiles-logo.png
+drwxr-xr-x   6 senal  staff   192B Mar 12 13:54 fish/
+drwxr-xr-x   3 senal  staff    96B Mar 12 13:54 i3/
+-rw-r--r--   1 senal  staff   597B Mar 12 13:54 install.sh
+drwxr-xr-x   4 senal  staff   128B Mar 12 13:54 kitty/
+drwxr-xr-x   5 senal  staff   160B Mar 13 10:07 micro/
+drwxr-xr-x   5 senal  staff   160B Mar 12 15:29 nvim/
+-rw-r--r--   1 senal  staff   176B Mar 12 13:54 push.ps1
+-rw-r--r--   1 senal  staff   175B Mar 12 13:54 push.sh
+drwxr-xr-x  12 senal  staff   384B Mar 13 10:06 scripts/
+drwxr-xr-x   7 senal  staff   224B Mar 12 13:54 src/
+-rw-r--r--   1 senal  staff    68B Mar 12 13:54 update-docs.sh
+-rw-r--r--   1 senal  staff    70B Mar 12 13:54 update-scripts.sh
 
 ```
 
