@@ -180,7 +180,7 @@ my dotfiles on every Mac Device. Very Efficient Indeed....
 
 
 
-## Symlinking
+## Symlinking (macOS)
 
 ```
 ln -s /Users/$USER/dotfiles/.vimrc /Users/$USER/.vimrc
@@ -190,8 +190,16 @@ ln -s /Users/$USER/dotfiles/fish /Users/$USER/.config/fish
 ```
 
 
-## Symlinking
+## Symlinking (macOS)
 
 ```
 ln -s /Users/$USER/dotfiles/nvim /Users/$USER/.config/nvim
+```
+
+
+
+## Symlinking (macOS) 
+
+```
+ln -s /Users/$USER/dotfiles/micro /Users/$USER/.config/micro
 ```
