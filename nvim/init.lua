@@ -1,6 +1,8 @@
 -- Senal's Neovim Config --
+
+-- Requiring files --
 require("senal.keybindings")
-print("hello world")
+
 
 
 shiftwidth = 2;
