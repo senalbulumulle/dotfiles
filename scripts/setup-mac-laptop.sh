@@ -12,6 +12,7 @@ function uninstall() {
 	brew uninstall aerospace
 	brew uninstall wacom-tablet
 	brew uninstall emacs
+	brew uninstall ollama
 }
 uninstall
 
