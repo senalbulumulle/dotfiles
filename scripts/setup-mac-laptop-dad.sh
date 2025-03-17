@@ -16,29 +16,29 @@ function uninstall() {
 uninstall
 
 function install() {
-    brew install discord
-    brew install fish
-    brew install google-chrome
-    brew install gh
-    brew install micro
-    brew install signal
-    brew install watchman
-    brew install nvim
-    brew install php
-    brew install chatgpt
-    brew install macs-fan-control
-    brew install firefox
-    brew install zen-browser
-    brew install code-server
-    brew install rust
-    brew install rustdesk
-    brew install alacritty
-    brew install vscodium
-    brew install emacs
-    brew install kindle
-    brew install ollama
-    brew install exo
-    brew install --cask adobe-acrobat-reader
+        brew install discord
+        brew install fish
+        brew install google-chrome
+        brew install gh
+        brew install micro
+        brew install signal
+        brew install watchman
+        brew install nvim
+        brew install php
+        brew install chatgpt
+        brew install macs-fan-control
+        brew install firefox
+        brew install zen-browser
+        brew install code-server
+        brew install rust
+        brew install rustdesk
+        brew install alacritty
+        brew install vscodium
+        brew install emacs
+        brew install kindle
+        brew install ollama
+        brew install exo
+        brew install --cask adobe-acrobat-reader
 }
 install
 
