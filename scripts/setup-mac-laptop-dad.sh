@@ -38,6 +38,7 @@ function install() {
     brew install kindle
     brew install ollama
     brew install exo
+    brew install --cask adobe-acrobat-reader
 }
 install
 
