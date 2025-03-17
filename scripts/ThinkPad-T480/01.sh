@@ -21,12 +21,14 @@ function uninstallApps()
 
 function installApps()
 {
-	sudo pacman -S neovim --noconfirm
-    sudo pacman -S i3 --noconfirm
-    sudo pacman -S dmenu --noconfirm
-    sudo pacman -S emacs --noconfirm
-    sudo pacman -S github-cli --noconfirm
-    sudo pacman -S git --noconfirm
+        sudo pacman -S neovim --noconfirm
+        sudo pacman -S i3 --noconfirm
+        sudo pacman -S dmenu --noconfirm
+        sudo pacman -S emacs --noconfirm
+        sudo pacman -S github-cli --noconfirm
+        sudo pacman -S git --noconfirm
+        sudo pacman -S emacs --noconfirm
+        sudo pacman -S polybar --noconfirm
 }
 
 
