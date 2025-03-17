@@ -27,9 +27,9 @@
   (load-theme 'doom-one t))
 
 ;; Evil mode (Vim keybindings)
-;;(use-package evil
-;;  :init (setq evil-want-C-u-scroll t)
-;;  :config (evil-mode 1))
+(use-package evil
+  :init (setq evil-want-C-u-scroll t)
+  :config (evil-mode 1))
 
 ;; Auto-completion
 (use-package company
@@ -74,8 +74,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   '(org-superstar magit ivy flycheck company doom-themes yaml-mode web-mode vertico vc-use-package rust-mode php-mode markdown-mode marginalia lua-mode julia-mode helpful go-mode evil-collection elixir-mode ef-themes corfu)))
+ '(package-selected-packages nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
