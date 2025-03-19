@@ -1,5 +1,8 @@
 -- Thanks to https://github.com/faerryn/plogins.nvim --
 
+-- TODO: 
+--
+-- - Organize the plugins as variables in a sense for now
 
 local function manage_plugins()
         local plugins = {
@@ -12,13 +15,22 @@ local function manage_plugins()
             ["https://github.com/tpope/vim-sleuth.git"]     = {},
             ["https://github.com/tpope/vim-unimpaired.git"] = {},
             ["https://github.com/tpope/vim-vinegar.git"]    = {},
-    
+   
+
+
+
+
+
+            -- Used for setting up configs here --
             ["https://github.com/navarasu/onedark.nvim.git"] = {
                 packadd_hook = function()
                     vim.cmd([[colorscheme onedark]])
                 end,
             },
-    
+   
+
+
+            -- Used for setting up configs here --
             ["https://github.com/nvim-lualine/lualine.nvim.git"] = {
                 packadd_hook = function()
                     require("lualine").setup({
@@ -31,13 +43,19 @@ local function manage_plugins()
                     })
                 end,
             },
-    
+   
+            -- Used for setting up configs here --
             ["https://github.com/lewis6991/gitsigns.nvim.git"] = {
                 packadd_hook = function()
                     require("gitsigns").setup()
                 end,
             },
-    
+   
+
+
+
+
+            -- Used for setting up configs here --
             ["https://github.com/nvim-treesitter/nvim-treesitter.git"] = {
                 packadd_hook = function()
                     require("nvim-treesitter.configs").setup({
