@@ -4,7 +4,6 @@
 require("senal.keybindings")
 
 
-
 shiftwidth = 2;
 softtabstop = -1;
 
