@@ -13,6 +13,7 @@ function uninstall() {
 	brew uninstall wacom-tablet
 	brew uninstall emacs
 	brew uninstall ollama
+	brew uninstall vscodium
 }
 uninstall
 
@@ -34,8 +35,8 @@ function install() {
 	brew install alacritty
 	brew install kitty
 	brew install rustdesk
+	brew install vscodium@insiders
 	brew install hugo
-	brew install vscodium
 	brew install --cask emacs
 	brew install libreoffice
 	brew install tree
@@ -47,21 +48,14 @@ function install() {
 	brew install arduino-ide
 	brew install arduino-cli
 	brew install npm
+	brew install wget
 } 
 install
 
 
-function enableServices()
-{
-	echo "not yet"
-}
 
 
-function disableServices()
-{
-	echo "not yet"
-}
-
+ 
 
 
 # function setup()
