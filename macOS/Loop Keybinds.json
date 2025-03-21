@@ -1,0 +1,165 @@
+{
+  "actions" : [
+    {
+      "keybind" : [
+        5,
+        4
+      ],
+      "direction" : "AlmostMaximize"
+    },
+    {
+      "keybind" : [
+        49
+      ],
+      "direction" : "Maximize"
+    },
+    {
+      "keybind" : [
+        36
+      ],
+      "direction" : "Center"
+    },
+    {
+      "keybind" : [
+        126
+      ],
+      "name" : "Top Cycle",
+      "direction" : "Cycle",
+      "cycle" : [
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "TopHalf"
+        },
+        {
+          "direction" : "TopThird",
+          "keybind" : [
+
+          ]
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "TopTwoThirds"
+        }
+      ]
+    },
+    {
+      "direction" : "Cycle",
+      "keybind" : [
+        125
+      ],
+      "name" : "Bottom Cycle",
+      "cycle" : [
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "BottomHalf"
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "BottomThird"
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "BottomTwoThirds"
+        }
+      ]
+    },
+    {
+      "direction" : "Cycle",
+      "name" : "Right Cycle",
+      "cycle" : [
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "RightHalf"
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "RightThird"
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "RightTwoThirds"
+        }
+      ],
+      "keybind" : [
+        124
+      ]
+    },
+    {
+      "direction" : "Cycle",
+      "keybind" : [
+        123
+      ],
+      "name" : "Left Cycle",
+      "cycle" : [
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "LeftHalf"
+        },
+        {
+          "direction" : "LeftThird",
+          "keybind" : [
+
+          ]
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "LeftTwoThirds"
+        }
+      ]
+    },
+    {
+      "keybind" : [
+        123,
+        126
+      ],
+      "direction" : "TopLeftQuarter"
+    },
+    {
+      "direction" : "TopRightQuarter",
+      "keybind" : [
+        126,
+        124
+      ]
+    },
+    {
+      "direction" : "BottomRightQuarter",
+      "keybind" : [
+        125,
+        124
+      ]
+    },
+    {
+      "keybind" : [
+        123,
+        125
+      ],
+      "direction" : "BottomLeftQuarter"
+    }
+  ],
+  "version" : "1.2.0",
+  "triggerKey" : [
+    58,
+    59,
+    55
+  ]
+}
