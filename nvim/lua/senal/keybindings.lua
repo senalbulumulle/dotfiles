@@ -10,7 +10,3 @@ vim.g.mapleader = " "
 -- How you able to do that, just simply use <space> and then pv to go the file
 -- manager
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-
-
-
--- more stuff later on --
