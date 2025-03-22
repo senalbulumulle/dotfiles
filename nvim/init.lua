@@ -2,7 +2,7 @@
 
 -- Requiring files --
 require("senal.keybindings")
-
+require("senal.plugins")
 
 shiftwidth = 2;
 softtabstop = -1;
