@@ -10,3 +10,7 @@ vim.g.mapleader = " "
 -- How you able to do that, just simply use <space> and then pv to go the file
 -- manager
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+
+
+-- Allows the ability to indent the code --
+vim.keymap.set("n", "<leader>is", "=", { desc = "Indent selected block" })
