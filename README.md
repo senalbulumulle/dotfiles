@@ -187,19 +187,6 @@ ln -s /Users/$USER/dotfiles/.vimrc /Users/$USER/.vimrc
 ln -s /Users/$USER/dotfiles/.zshrc /Users/$USER/.zshrc
 ln -f /Users/$USER/dotfiles/.emacs /Users/$USER/.emacs
 ln -s /Users/$USER/dotfiles/fish /Users/$USER/.config/fish
-```
-
-
-## Symlinking (macOS)
-
-```
 ln -s /Users/$USER/dotfiles/nvim /Users/$USER/.config/nvim
-```
-
-
-
-## Symlinking (macOS) 
-
-```
 ln -s /Users/$USER/dotfiles/micro /Users/$USER/.config/micro
 ```
