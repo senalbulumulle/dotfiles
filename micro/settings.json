@@ -6,6 +6,6 @@
     ],
     "pluginrepos": [],
     "scrollbar": true,
-    "statusline": false,
-    "tabsize": 8
+    "statusline": true,
+    "tabsize": 4
 }
