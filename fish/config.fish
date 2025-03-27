@@ -14,7 +14,7 @@ if status is-interactive
         alias createtemplate='sh scripts/create-template.sh'
         alias organizefbext='sh scripts/01-organize-folders-file-extensions.sh'
 end
-
+        
 
 
 # The compose binary has been installed into /usr/local/bin but it is not in the 
