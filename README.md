@@ -188,6 +188,32 @@ ln -s /Users/$USER/dotfiles/.vimrc /Users/$USER/.vimrc
 ln -s /Users/$USER/dotfiles/.zshrc /Users/$USER/.zshrc
 ln -f /Users/$USER/dotfiles/.emacs /Users/$USER/.emacs
 ln -s /Users/$USER/dotfiles/fish /Users/$USER/.config/fish
-ln -s /Users/$USER/dotfiles/nvim /Users/$USER/.config/nvim
 ln -s /Users/$USER/dotfiles/micro /Users/$USER/.config/micro
+```
+
+
+
+# SymLinking Neovim Config on macOS
+
+## Symlinking (macOS) Senal's Neovim Official Config
+```
+rm -rf /Users/$USER/.local/nvim
+ln -s /Users/$USER/dotfiles/nvim /Users/$USER/.config/nvim
+```
+
+
+
+
+## Symlinking (macOS) AstroNvim Config
+```
+rm -rf /Users/$USER/.local/nvim
+ln -s /Users/$USER/dotfiles/AstroNvim /Users/$USER/.config/nvim
+```
+
+
+
+## Symlinking (macOS) NvChad Config
+```
+rm -rf /Users/$USER/.local/nvim
+ln -s /Users/$USER/dotfiles/AstroNvim /Users/$USER/.config/nvim
 ```
