@@ -96,103 +96,37 @@ drwxr-xr-x  3 senal  staff    96B Feb 12 17:23 ThinkPad-X41/
 
 ```
 
-
-
-
-## Installing dots on the fly
-
-In order to install dots on the fly, you need to use this link and paste it on the terminal
-in order to make it work
-
-
-
-
-### Install Setup on MacBook = Kinda Stable
-
-``` shell
-curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/install.sh | bash
-```
-
-
-### Install Senal's setup files for mac laptop
-
-`curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/setup-mac-laptop.sh | bash`
-
-
-### Install Senal's Dad's setup files for mac laptop
-
-```
-curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/setup-mac-laptop-dad.sh | bash`
-```
-
-
-
-
-
-
-
-
-
-
-
-### ThinkPad-T480 Setup
-
-For the ThinkPad T480, the ThinkPad T480 is used as a "dedicated" creating writing
-machine
-
-#### Minimal Setup
-```
-curl -s https://raw.githubusercontent.com/senalbulumulle/dotfiles/refs/heads/main/scripts/ThinkPad-T480/01.sh | bash`
-```
-
-
-
-
-
-
-
-
-
-
-## Sync Dots on the Mac (This section might be removed soon)
-
-In this section, we are going to be talking about how to sync dots on the Mac. 
-
-Syncing dots on the mac, the way that I made, makes it efficient to sync
-my dotfiles on every Mac Device. Very Efficient Indeed....
-
-1. `cd scripts/`
-2. `sh setup-mac-laptop.sh`
-
-
-
-
-
-
-
-
-
-
-
-
-## Any Suggestions to my dotfiles?
-
-
-
-
-
-## Symlinking (macOS)
+# SymLinking .vimrc Config on macOS 🔗
 
 ```
 ln -s /Users/$USER/dotfiles/.vimrc /Users/$USER/.vimrc
+```
+
+
+# SymLinking .zshrc Config on macOS 🔗
+```
 ln -s /Users/$USER/dotfiles/.zshrc /Users/$USER/.zshrc
+```
+
+
+# SymLinking emacs Config on macOS 🔗
+```
 ln -f /Users/$USER/dotfiles/.emacs /Users/$USER/.emacs
+```
+
+# SymLinking Fish Config on macOS 🔗
+```
 ln -s /Users/$USER/dotfiles/fish /Users/$USER/.config/fish
+```
+
+
+# SymLinking Micro Config on macOS 🔗
+```
 ln -s /Users/$USER/dotfiles/micro /Users/$USER/.config/micro
 ```
 
 
- 
+
 # SymLinking Neovim Config on macOS 🔗
 
 ## Symlinking (macOS) Senal's Neovim Official Config
