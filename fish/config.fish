@@ -12,7 +12,7 @@ if status is-interactive
         alias lsl='tree'
         alias markdown='open /Applications/MarkText.app/'
         alias createtemplate='sh scripts/create-template.sh'
-        alias organizefbext='sh scripts/organize-folders-file-extensions.sh'
+        alias organizefbext='sh scripts/01-organize-folders-file-extensions.sh'
 end
 
 
