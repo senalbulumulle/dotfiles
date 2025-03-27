@@ -16,33 +16,34 @@ Senal has will definitely makes you want to do something.
 
 
 ```shell
-total 152
+
+total 128
 -rw-r--r--   1 senal  staff   2.4K Mar 19 12:00 .emacs
-drwxr-xr-x  14 senal  staff   448B Mar 20 01:17 .git/
--rw-r--r--   1 senal  staff    42B Mar 17 12:46 .gitignore
+drwxr-xr-x  14 senal  staff   448B Mar 27 10:31 .git/
+-rw-r--r--   1 senal  staff    74B Mar 22 00:18 .gitignore
 -rw-r--r--   1 senal  staff     1B Mar 12 13:54 .vimrc
 -rw-r--r--   1 senal  staff    42B Mar 12 13:54 .zprofile
 -rw-r--r--   1 senal  staff   330B Mar 12 13:54 .zshrc
 -rw-r--r--   1 senal  staff   5.1K Mar 17 14:54 Cargo.lock
 -rw-r--r--   1 senal  staff   130B Mar 12 13:54 Cargo.toml
--rw-r--r--   1 senal  staff   4.8K Mar 13 11:29 README.md
-drwxr-xr-x   7 senal  staff   224B Mar 19 11:31 _Docs/
-drwxr-xr-x   5 senal  staff   160B Mar 12 13:54 _Docs-Dad/
+-rw-r--r--   1 senal  staff   3.3K Mar 27 10:34 README.md
+drwxr-xr-x   3 senal  staff    96B Mar 21 15:48 Ubuntu-Linux/
 drwxr-xr-x   3 senal  staff    96B Mar 12 13:54 _Wallpapers/
 -rw-r--r--   1 senal  staff    16K Mar 12 13:54 dotfiles-logo.png
 drwxr-xr-x   6 senal  staff   192B Mar 13 11:27 fish/
 drwxr-xr-x   3 senal  staff    96B Mar 19 11:59 i3/
 -rw-r--r--   1 senal  staff   597B Mar 12 13:54 install.sh
 drwxr-xr-x   4 senal  staff   128B Mar 12 13:54 kitty/
-drwxr-xr-x   6 senal  staff   192B Mar 13 10:07 micro/
-drwxr-xr-x   6 senal  staff   192B Mar 20 00:47 nvim/
+drwxr-xr-x   8 senal  staff   256B Mar 21 18:31 macOS/
+drwxr-xr-x   5 senal  staff   160B Mar 26 12:30 micro/
+drwxr-xr-x   6 senal  staff   192B Mar 26 12:46 nvim/
 -rw-r--r--   1 senal  staff   176B Mar 12 13:54 push.ps1
 -rw-r--r--   1 senal  staff   175B Mar 12 13:54 push.sh
 drwxr-xr-x  11 senal  staff   352B Mar 17 13:39 scripts/
-drwxr-xr-x   7 senal  staff   224B Mar 12 13:54 src/
--rw-r--r--   1 senal  staff    68B Mar 12 13:54 update-docs.sh
--rw-r--r--   1 senal  staff    70B Mar 12 13:54 update-scripts.sh
+drwxr-xr-x   7 senal  staff   224B Mar 23 18:04 src/
+
 ```
+
 
 
 # Fish Config
