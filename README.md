@@ -50,12 +50,10 @@ drwxr-xr-x   7 senal  staff   224B Mar 23 18:04 src/
 
 ```
 total 16
-drwxr-xr-x  2 senal  staff    64B Feb 22 14:15 completions/
-drwxr-xr-x  2 senal  staff    64B Feb 22 14:15 conf.d/
--rw-r--r--  1 senal  staff   486B Feb 22 14:16 config.fish
--rw-r--r--  1 senal  staff   1.3K Feb 22 14:15 fish_variables
-drwxr-xr-x  4 senal  staff   128B Feb 22 14:15 functions/
-drwxr-xr-x  2 senal  staff    64B Feb 22 14:16 scripts/
+-rw-r--r--  1 senal  staff   1.1K Mar 27 10:31 config.fish
+-rw-r--r--  1 senal  staff   1.3K Mar 13 11:27 fish_variables
+drwxr-xr-x  4 senal  staff   128B Mar 26 12:30 functions/
+drwxr-xr-x  4 senal  staff   128B Mar 27 10:29 scripts/
 ```
 
 
