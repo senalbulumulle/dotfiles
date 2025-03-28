@@ -21,8 +21,10 @@ end
 require "lazy_setup"
 require "polish"
 
+vim.opt.tabstop = 8 -- Set the width of a tab character
+vim.opt.shiftwidth = 8 -- Set the number of spaces to use for each step of indentation
+vim.opt.expandtab = true -- Use spaces instead of tabs
 
 
-vim.opt.tabstop = 4       -- Set the width of a tab character
-vim.opt.shiftwidth = 4    -- Set the number of spaces to use for each step of indentation
-vim.opt.expandtab = true  -- Use spaces instead of tabs
+
+vim.api.nvim_set_keymap('n', '<D-s>', ':w<CR>', { noremap = true, silent = true })
