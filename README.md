@@ -129,7 +129,7 @@ ln -s /Users/$USER/dotfiles/micro /Users/$USER/.config/micro
 
 ## Symlinking (macOS) Senal's Neovim Official Config
 ```
-rm -rf /Users/$USER/.local/nvim
+rm -rf /Users/$USER/.local/share/nvim
 rm -rf /Users/$USER/.config/nvim
 ln -s /Users/$USER/dotfiles/nvim /Users/$USER/.config/nvim
 ```
@@ -139,7 +139,7 @@ ln -s /Users/$USER/dotfiles/nvim /Users/$USER/.config/nvim
 
 ## Symlinking (macOS) AstroNvim Config
 ```
-rm -rf /Users/$USER/.local/nvim
+rm -rf /Users/$USER/.local/share/nvim
 rm -rf /Users/$USER/.config/nvim
 ln -s /Users/$USER/dotfiles/AstroNvim /Users/$USER/.config/nvim
 ```
@@ -148,7 +148,7 @@ ln -s /Users/$USER/dotfiles/AstroNvim /Users/$USER/.config/nvim
 
 ## Symlinking (macOS) NvChad Config
 ```
-rm -rf /Users/$USER/.local/nvim
+rm -rf /Users/$USER/.local/share/nvim
 rm -rf /Users/$USER/.config/nvim
 ln -s /Users/$USER/dotfiles/AstroNvim /Users/$USER/.config/nvim
 ```
