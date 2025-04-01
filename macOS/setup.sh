@@ -51,15 +51,3 @@ function install() {
 	brew install wget
 } 
 install
-
-
-
-
- 
-
-
-# function setup()
-# {
-# 	cd ../setup-mac-laptop-config && cp -R fish /Users/senal/.config/ && cp -R micro /Users/senal/.config/
-# }
-# setup
