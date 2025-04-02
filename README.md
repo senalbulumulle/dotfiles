@@ -1,4 +1,6 @@
-# Senal's Configuration Files
+<center>
+<img src="./senal-dotfiles.png">
+</center>>
 
 
 Senal's own dotfiles manager
