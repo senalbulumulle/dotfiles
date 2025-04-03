@@ -38,6 +38,7 @@ function install() {
 	brew install vscodium@insiders
 	brew install hugo
 	brew install --cask emacs
+	brew install --cask neovide
 	brew install libreoffice
 	brew install tree
 	brew install mpv
