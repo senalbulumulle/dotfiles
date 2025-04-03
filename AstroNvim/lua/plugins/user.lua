@@ -10,6 +10,11 @@ return {
   },
 
   -- == Plugin Overrides ==
+  --
+  -- This is where the snacks.nvim takes place. This allows the ability 
+  -- to show the "dashboard" and the customizations can take place here
+  --
+  --
   {
     "folke/snacks.nvim",
     opts = {
