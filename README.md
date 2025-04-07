@@ -47,6 +47,10 @@ ln -s /Users/$USER/dotfiles/micro /Users/$USER/.config/micro
 # SymLinking Neovim Config on macOS 🔗
 
 ## Symlinking (macOS) Senal's Neovim Official Config
+
+This is Senal's Official NEOVIM Config
+
+
 ```
 rm -rf /Users/$USER/.local/share/nvim
 rm -rf /Users/$USER/.config/nvim
