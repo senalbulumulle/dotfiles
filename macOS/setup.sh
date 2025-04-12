@@ -46,6 +46,7 @@ function install() {
 	brew install utm
 	brew install loop
 	brew install --cask ollama
+	brew install --cask ranger
 	brew install arduino-ide
 	brew install arduino-cli
 	brew install npm
