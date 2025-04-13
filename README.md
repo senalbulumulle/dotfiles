@@ -73,5 +73,5 @@ ln -s /Users/$USER/dotfiles/AstroNvim /Users/$USER/.config/nvim
 ```
 rm -rf /Users/$USER/.local/share/nvim
 rm -rf /Users/$USER/.config/nvim
-ln -s /Users/$USER/dotfiles/AstroNvim /Users/$USER/.config/nvim
+ln -s /Users/$USER/dotfiles/NvChad /Users/$USER/.config/nvim
 ```
