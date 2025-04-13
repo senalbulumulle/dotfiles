@@ -65,6 +65,12 @@ ln -s /Users/$USER/dotfiles/nvim /Users/$USER/.config/nvim
 
 
 ## Symlinking (macOS) AstroNvim Config
+
+Notices: 
+
+- There are some minor bugs on this build, just to let you know 
+
+
 ```
 rm -rf /Users/$USER/.local/share/nvim
 rm -rf /Users/$USER/.config/nvim
