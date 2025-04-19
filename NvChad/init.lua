@@ -35,3 +35,12 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+
+
+vim.opt.tabstop = 8 -- Set the width of a tab character
+vim.opt.shiftwidth = 8 -- Set the number of spaces to use for each step of indentation
+vim.opt.expandtab = true -- Use spaces instead of tabs
+
+
+-- vim.api.nvim_set_keymap('n', '<D-s>', ':w<CR>', { noremap = true, silent = true })
