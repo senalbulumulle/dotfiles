@@ -6,8 +6,9 @@
 
 
 
-This branch is used to store configuration files for macOS on Apple Sllicon
+This branch is used to store configuration files for macOS on Apple Sllicon.
 
+Senal's Configuration files are used for his poweruser :-)
 
 
 
