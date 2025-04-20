@@ -9,6 +9,8 @@ function downloadRepo()
         git clone https://github.com/stevearc/aerial.nvim
         git clone https://github.com/rcarriga/nvim-dap-ui
         git clone https://github.com/folke/which-key.nvim
+        git clone https://github.com/MunifTanjim/nui.nvim
+
 }
 downloadRepo
 
