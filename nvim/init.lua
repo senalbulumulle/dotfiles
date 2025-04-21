@@ -5,6 +5,7 @@
 
 -- Requiring files here --
 require("senal.keybindings")
+require("senal.otherkeybindings")
 
 -- Require Files for custom programs in neovim --
 -- require custom programs here --
