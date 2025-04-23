@@ -5,3 +5,5 @@
 
 
 
+-- Nvim-tree setup
+require("nvim-tree")
