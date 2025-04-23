@@ -7,3 +7,6 @@
 
 -- Nvim-tree setup, this is where we are able to require nvim-tree
 require("nvim-tree")
+
+
+
