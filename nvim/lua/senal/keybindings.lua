@@ -19,7 +19,3 @@ vim.keymap.set("n", "<leader>is", "=", { desc = "Indent selected block" })
 
 -- Disables highlight after searching using ESC --
 vim.keymap.set('n', '<Esc>', ':nohlsearch<CR>', { silent = true })
-
-
-
-
