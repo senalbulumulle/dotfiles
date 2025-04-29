@@ -1,7 +1,7 @@
 # dotfiles
 
 
-## macos-apple-sllicon
+## macos-apple-sllicon dad
 
 
 
