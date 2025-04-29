@@ -33,6 +33,7 @@ function install() {
 	brew install macs-fan-control
 	brew install zen-browser
 	brew install code-server
+	brew install visual-studio-code
 	brew install rust 
 	brew install alacritty
 	brew install kitty
