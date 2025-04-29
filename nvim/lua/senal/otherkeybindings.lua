@@ -6,8 +6,9 @@
 
 
 -- Nvim-tree setup, this is where we are able to require nvim-tree
-require("nvim-tree")
+-- require("nvim-tree") --
 
 -- Aerial setup, this is where we are able to require the aerial
-require("aerial")
+-- require("aerial") --
+
 
