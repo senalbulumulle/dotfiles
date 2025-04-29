@@ -1,0 +1,3 @@
+-- No VIM Mode for NEOVIM --
+--
+-- This is a complete separate config file with everything included in the box --
