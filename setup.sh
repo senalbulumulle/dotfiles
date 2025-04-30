@@ -15,7 +15,7 @@ function uninstall() {
 	brew uninstall emacs
 	brew uninstall ollama
 	brew uninstall vscodium
-    	brew install vscodium@insiders
+    	brew uninstall vscodium@insiders
 }
 uninstall
 
