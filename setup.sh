@@ -39,6 +39,7 @@ function install() {
 	brew install kitty
 	brew install rustdesk
 	brew install visual-studio-code
+	brew install --cask cursor
 	brew install hugo
 	brew install ranger
 	brew install --cask emacs
