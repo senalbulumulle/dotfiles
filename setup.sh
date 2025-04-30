@@ -16,6 +16,7 @@ function uninstall() {
 	brew uninstall ollama
 	brew uninstall vscodium
     brew uninstall vscodium@insiders
+    brew uninstall hugo
 }
 uninstall
 
@@ -39,7 +40,6 @@ function install() {
 	brew install kitty
 	brew install rustdesk
 	brew install visual-studio-code
-    brew install hugo
 	brew install --cask emacs
 	brew install --cask neovide
 	brew install libreoffice
