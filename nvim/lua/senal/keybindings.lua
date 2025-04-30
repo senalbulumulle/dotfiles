@@ -22,4 +22,8 @@ vim.keymap.set('n', '<Esc>', ':nohlsearch<CR>', { silent = true })
 
 
 -- Selects one word --
-vim.keymap.set('n', '<space>uio', 'uio', { noremap = true, silent = true })
+vim.keymap.set('n', 'uio', 'uio', { noremap = true, silent = true })
+
+
+-- Make it select one line --
+vim.keymap.set('n', 'uioo', 'V', { noremap = true, silent = true })
