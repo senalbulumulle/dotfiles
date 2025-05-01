@@ -7,6 +7,7 @@
 require("senal.keybindings")
 require("senal.otherkeybindings")
 require("senal.customcommands")
+require("senal.customui")
 
 shiftwidth = 2
 softtabstop = -1
