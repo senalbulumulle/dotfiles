@@ -10,6 +10,7 @@ function downloadRepo()
         git clone https://github.com/rcarriga/nvim-dap-ui
         git clone https://github.com/folke/which-key.nvim
         git clone https://github.com/MunifTanjim/nui.nvim
+        git clone https://github.com/nvim-telescope/telescope.nvim
 
 }
 downloadRepo
