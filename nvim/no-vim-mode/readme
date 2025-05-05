@@ -1,0 +1,5 @@
+no-vim-mode
+
+This mode allows the ability to use no-vim-mode in neovim. Which 
+disables the vim keybindings functionality. It is possible to 
+make neovim more like "neonovim"....
