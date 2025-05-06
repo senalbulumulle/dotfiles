@@ -8,6 +8,8 @@ require("senal.keybindings")
 require("senal.otherkeybindings")
 require("senal.customcommands")
 require("senal.customui")
+require("senal.peek")                                                   -- Source: https://github.com/toppair/peek.nvim  --
+
 
 shiftwidth = 2
 softtabstop = -1
