@@ -56,6 +56,9 @@ function install() {
 	brew install arduino-cli
 	brew install npm
 	brew install wget
+	brew install flutter
+	brew install sdl2 sdl2_ttf
+        brew install deno
 } 
 install
 
