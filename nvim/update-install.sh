@@ -10,6 +10,7 @@ function downloadRepo()
 	cd nvim-dap-ui && git pull && cd ../
 	cd telescope.nvim && git pull && cd ../
 	cd which-key.nvim && git pull && cd ../
+	cd peek.nvim && git pull && cd ../
 }
 
 downloadRepo
