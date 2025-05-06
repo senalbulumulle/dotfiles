@@ -12,6 +12,7 @@ function downloadRepo()
         git clone https://github.com/MunifTanjim/nui.nvim
         git clone https://github.com/nvim-telescope/telescope.nvim
         git clone https://github.com/MunifTanjim/nui.nvim
+        git clone https://github.com/toppair/peek.nvim
 
 }
 downloadRepo
