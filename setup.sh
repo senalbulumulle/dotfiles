@@ -2,6 +2,7 @@
 
 
 function uninstall() {
+        brew uninstall --cask karabiner-elements
 	brew uninstall firefox
 	brew uninstall opera-gx
 	brew uninstall tabby
