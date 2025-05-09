@@ -1,29 +1,25 @@
 -- keybindings --
--- These keybindings are verryyyyy usefullllll
 
--- this for space
---
-vim.g.mapleader = " "
+-- Leader key setup
+vim.g.mapleader = " " -- Set space as leader key
 
+-- Basic keybindings
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex) -- File explorer
+vim.keymap.set("n", "<Esc>", ":nohlsearch<CR>", { silent = true }) -- Clear search highlights
 
--- Gets into the file manager vim file manager. This may change in the future 
--- How you able to do that, just simply use <space> and then pv to go the file
--- manager
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+-- Better window navigation
+vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move to left window" })
+vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move to window below" })
+vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move to window above" })
+vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Move to right window" })
 
+-- Better text selection
+vim.keymap.set("n", "uio", "viw", { desc = "Select word under cursor" })
+vim.keymap.set("n", "uioo", "V", { desc = "Select current line" })
+
+-- Better indentation
+vim.keymap.set("v", "<", "<gv", { desc = "Indent left" })
+vim.keymap.set("v", ">", ">gv", { desc = "Indent right" })
 
 -- Allows the ability to indent the code --
 vim.keymap.set("n", "<leader>is", "=", { desc = "Indent selected block" })
-
-
-
--- Disables highlight after searching using ESC --
-vim.keymap.set('n', '<Esc>', ':nohlsearch<CR>', { silent = true })
-
-
--- Selects one word --
-vim.keymap.set('n', 'uio', 'uio', { noremap = true, silent = true })
-
-
--- Make it select one line --
-vim.keymap.set('n', 'uioo', 'V', { noremap = true, silent = true })
