@@ -59,7 +59,9 @@ function install() {
 	brew install wget
 	brew install flutter
 	brew install sdl2 sdl2_ttf
-        brew install deno
+    brew install deno
+	brew install docker
+	brew install colima
 } 
 install
 
