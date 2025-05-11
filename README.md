@@ -44,6 +44,15 @@ ln -s /Users/$USER/dotfiles/micro /Users/$USER/.config/micro
 
 
 
+```
+# SymLinking Kitty Config on macOS 🔗
+ln -s /Users/$USER/dotfiles/kitty /Users/$USER/.config/kitty
+```
+
+
+
+
+
 
 
 ## List of Files 
