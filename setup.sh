@@ -2,7 +2,7 @@
 
 
 function uninstall() {
-        brew uninstall --cask karabiner-elements
+	brew uninstall --cask karabiner-elements
 	brew uninstall firefox
 	brew uninstall opera-gx
 	brew uninstall tabby
@@ -16,7 +16,7 @@ function uninstall() {
 	brew uninstall emacs
 	brew uninstall ollama
 	brew uninstall vscodium
-    	brew uninstall vscodium@insiders
+	brew uninstall vscodium@insiders
 }
 uninstall
 
@@ -35,7 +35,7 @@ function install() {
 	brew install zen-browser
 	brew install code-server
 	brew install visual-studio-code
-	brew install rust 
+	brew install rust
 	brew install alacritty
 	brew install kitty
 	brew install rustdesk
@@ -59,9 +59,8 @@ function install() {
 	brew install wget
 	brew install flutter
 	brew install sdl2 sdl2_ttf
-    brew install deno
+	brew install deno
 	brew install docker
 	brew install colima
-} 
+}
 install
-
