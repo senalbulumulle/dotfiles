@@ -34,3 +34,11 @@ rm -rf /Users/$USER/.local/share/nvim
 rm -rf /Users/$USER/.config/nvim
 ln -s /Users/$USER/dotfiles/NvChad /Users/$USER/.config/nvim
 ```
+
+
+
+## Symlinking (macOS) kickstart.nvim Config
+```
+rm -rf /Users/$USER/.local/share/nvim
+rm -rf /Users/$USER/.config/nvim
+ln -s /Users/$USER/dotfiles/kickstart.nvim /Users/$USER/.config/nvim
