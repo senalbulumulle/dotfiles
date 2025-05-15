@@ -62,5 +62,6 @@ function install() {
 	brew install deno
 	brew install docker
 	brew install colima
+	brew install --cask godot
 }
 install
