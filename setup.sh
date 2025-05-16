@@ -63,5 +63,6 @@ function install() {
 	brew install docker
 	brew install colima
 	brew install --cask godot
+	brew install azure-cli
 }
 install
