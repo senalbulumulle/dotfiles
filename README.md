@@ -1,7 +1,6 @@
 <center>
 <img src="./senal-dotfiles.png">
-</center>>
-
+</center>
 
 Senal's own dotfiles manager
 
