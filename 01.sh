@@ -29,6 +29,8 @@ function installApps()
         sudo pacman -S git --noconfirm
         sudo pacman -S emacs --noconfirm
         sudo pacman -S polybar --noconfirm
+        sudo pacman -S xorg-xinit --noconfirm
+        sudo pacman -S xorg --noconfirm
 }
 
 
@@ -36,3 +38,7 @@ function enableServices()
 {
 	echo "enable services"	
 }
+
+
+
+echo "exec i3" > ~/.xinitrc
