@@ -17,7 +17,7 @@ function uninstallApps()
 {
 	echo "none"
 }
-
+uninstallApps
 
 function installApps()
 {
@@ -31,14 +31,16 @@ function installApps()
         sudo pacman -S polybar --noconfirm
         sudo pacman -S xorg-xinit --noconfirm
         sudo pacman -S xorg --noconfirm
+        sudo pacman -S git --noconfirm
+        sudo pacman -S github-cli --noconfirm
 }
-
+installApps
 
 function enableServices()
 {
 	echo "enable services"	
 }
-
+enableServices
 
 
 echo "exec i3" > ~/.xinitrc
