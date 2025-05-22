@@ -97,6 +97,4 @@ drwxr-xr-x   3 senal  staff    96B Apr  3 22:15 Ubuntu-Linux/
 # News:
 
 
-5/11/2025
 
-Is this just me or I'm just having "organize" obsessions...
