@@ -1,6 +1,6 @@
 ## setup.sh
 
-
+## This is where we make a function called uninstall() which uninstalls the packages via Brew
 function uninstall() {
 	brew uninstall --cask karabiner-elements
 	brew uninstall firefox
@@ -20,6 +20,20 @@ function uninstall() {
 }
 uninstall
 
+## This is where we make a function called installCask which installs the cask packages via Brew
+function installCask() {
+	brew install --cask cursor
+	brew install --cask emacs
+	brew install --cask neovide
+	brew install --cask ollama
+	brew install --cask ranger
+	brew install --cask godot
+	brew install --cask mactex
+}
+installCask
+
+
+## This is where we make a function called install which installs the packages via Brew
 function install() {
 	brew install discord
 	brew install fish
@@ -40,19 +54,14 @@ function install() {
 	brew install kitty
 	brew install rustdesk
 	brew install visual-studio-code
-	brew install --cask cursor
 	brew install hugo
 	brew install ranger
-	brew install --cask emacs
-	brew install --cask neovide
 	brew install libreoffice
 	brew install tree
 	brew install mpv
 	brew install alt-tab
 	brew install utm
 	brew install loop
-	brew install --cask ollama
-	brew install --cask ranger
 	brew install arduino-ide
 	brew install arduino-cli
 	brew install npm
@@ -62,7 +71,6 @@ function install() {
 	brew install deno
 	brew install docker
 	brew install colima
-	brew install --cask godot
 	brew install azure-cli
 }
 install
