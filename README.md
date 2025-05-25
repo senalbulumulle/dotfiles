@@ -8,8 +8,6 @@ Senal's own dotfiles manager
 Senal's wonderful dotfiles manager allows the ability to get inspired and 
 get creative and be innovative with talent. 
 
-With Senal's dotfiles manager, you realize the organization of setups that
-Senal has will definitely makes you want to do something like productive...
 
 
 # SymLinking .vimrc Config on macOS 🔗
