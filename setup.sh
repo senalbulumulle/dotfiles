@@ -17,6 +17,7 @@ function uninstall() {
 	brew uninstall ollama
 	brew uninstall vscodium
 	brew uninstall vscodium@insiders
+	brew uninstall loop
 }
 uninstall
 
@@ -61,7 +62,6 @@ function install() {
 	brew install mpv
 	brew install alt-tab
 	brew install utm
-	brew install loop
 	brew install arduino-ide
 	brew install arduino-cli
 	brew install npm
