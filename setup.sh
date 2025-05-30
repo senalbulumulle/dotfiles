@@ -72,5 +72,6 @@ function install() {
 	brew install docker
 	brew install colima
 	brew install azure-cli
+	brew install fswatch
 }
 install
