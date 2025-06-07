@@ -21,6 +21,7 @@ function uninstall() {
 	brew uninstall visual-studio-code
 	brew uninstall code-server
   brew uninstall hugo
+  brew install deno
 }
 uninstall
 
