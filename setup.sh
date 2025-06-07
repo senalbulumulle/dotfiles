@@ -19,6 +19,7 @@ function uninstall() {
 	brew uninstall vscodium@insiders
 	brew uninstall loop
 	brew uninstall visual-studio-code
+	brew uninstall code-server
 }
 uninstall
 
@@ -49,7 +50,6 @@ function install() {
 	brew install chatgpt
 	brew install macs-fan-control
 	brew install zen-browser
-	brew install code-server
 	brew install rust
 	brew install alacritty
 	brew install kitty
