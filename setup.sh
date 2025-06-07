@@ -20,6 +20,7 @@ function uninstall() {
 	brew uninstall loop
 	brew uninstall visual-studio-code
 	brew uninstall code-server
+  brew uninstall hugo
 }
 uninstall
 
