@@ -20,8 +20,11 @@ function uninstall() {
 	brew uninstall loop
 	brew uninstall visual-studio-code
 	brew uninstall code-server
-  brew uninstall hugo
-  brew uninstall deno
+  	brew uninstall hugo
+  	brew uninstall deno
+	brew uninstall flutter
+	brew uninstall alt-tab
+	brew uninstall sdl2 sdl2_ttf
 }
 uninstall
 
@@ -56,21 +59,15 @@ function install() {
 	brew install alacritty
 	brew install kitty
 	brew install rustdesk
-	brew install visual-studio-code
-	brew install hugo
 	brew install ranger
 	brew install libreoffice
 	brew install tree
 	brew install mpv
-	brew install alt-tab
 	brew install utm
 	brew install arduino-ide
 	brew install arduino-cli
 	brew install npm
 	brew install wget
-	brew install flutter
-	brew install sdl2 sdl2_ttf
-	brew install deno
 	brew install docker
 	brew install colima
 	brew install azure-cli
