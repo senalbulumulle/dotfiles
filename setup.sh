@@ -25,6 +25,7 @@ function uninstall() {
 	brew uninstall flutter
 	brew uninstall alt-tab
 	brew uninstall sdl2 sdl2_ttf
+	brew uninstall mactex
 }
 uninstall
 
@@ -36,7 +37,6 @@ function installCask() {
 	brew install --cask ollama
 	brew install --cask ranger
 	brew install --cask godot
-	brew install --cask mactex
 }
 installCask
 
