@@ -1,9 +1,0 @@
-[package]
-name = "dotfiles"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-rsync = "0.1.2"
-symlink = "0.1.0"
-tokio = "1.42.0"
