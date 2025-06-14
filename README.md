@@ -5,8 +5,8 @@
 Senal's own dotfiles manager
 
 ## Introduction
-Senal's wonderful dotfiles manager allows the ability to get inspired and 
-get creative and be innovative with talent. 
+Senal's wonderful dotfiles manager allows the ability to get inspired and
+get creative and be innovative with talent.
 
 
 
@@ -56,7 +56,7 @@ ln -s /Users/$USER/dotfiles/kitty /Users/$USER/.config/kitty
 
 
 
-## List of Files 
+## List of Files
 
 
 ``` shell
@@ -98,5 +98,4 @@ drwxr-xr-x   3 senal  staff    96B Apr  3 22:15 Ubuntu-Linux/
 
 # News:
 
-
-
+- Soon maybe my dotfiles may be managed by AI tools....
