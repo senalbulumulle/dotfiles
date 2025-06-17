@@ -37,6 +37,7 @@ function installCask() {
 	brew install --cask ollama
 	brew install --cask ranger
 	brew install --cask godot
+	brew install --cask streamlabs
 }
 installCask
 
