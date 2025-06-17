@@ -27,3 +27,6 @@ vim.keymap.set('n', 'uio', 'uio', { noremap = true, silent = true })
 
 -- Make it select one line --
 vim.keymap.set('n', 'uioo', 'V', { noremap = true, silent = true })
+
+-- VISUAL mode: 0999 to select all
+vim.keymap.set('v', '0999', 'ggVG', { noremap = true, desc = 'Select all in visual mode' })
