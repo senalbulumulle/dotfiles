@@ -44,6 +44,7 @@ installCask
 
 ## This is where we make a function called install which installs the packages via Brew
 function install() {
+	brew install qemu
 	brew install discord
 	brew install fish
 	brew install google-chrome
