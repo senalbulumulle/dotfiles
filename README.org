@@ -6,3 +6,13 @@
 Welcome to Senal's dotfiles repository, the official repository of typical Senal's habitat.
 
 
+
+* The .'s
+
+#+BEGIN_SRC shell
+  .emacs.d
+  .tmux.conf
+  .vimrc
+  .zprofile
+  .zshrc
+#+END_SRC
