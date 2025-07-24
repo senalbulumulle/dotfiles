@@ -1,0 +1,8 @@
+#+TITLE: Senal's own dotfiles manager
+
+
+* Introduction
+
+Welcome to Senal's dotfiles repository, the official repository of typical Senal's habitat.
+
+
