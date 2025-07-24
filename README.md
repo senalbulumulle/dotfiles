@@ -2,11 +2,24 @@
 <img src="./senal-dotfiles.png">
 </center>
 
-Senal's own dotfiles manager
+# Introduction
 
-## Introduction
-Senal's wonderful dotfiles manager allows the ability to get inspired and
-get creative and be innovative with talent.
+Welcome to Senal's dotfiles repository, the official repository of typical Senal's habitat.
+
+
+
+# The .'s
+
+
+``` shell
+.emacs.d
+.tmux.conf
+.vimrc
+.zprofile
+.zshrc
+```
+
+
 
 
 ## List of Files
