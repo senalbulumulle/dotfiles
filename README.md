@@ -9,53 +9,6 @@ Senal's wonderful dotfiles manager allows the ability to get inspired and
 get creative and be innovative with talent.
 
 
-
-# SymLinking .vimrc Config on macOS 🔗
-
-```
-ln -s /Users/$USER/dotfiles/.vimrc /Users/$USER/.vimrc
-```
-
-
-# SymLinking .zshrc Config on macOS 🔗
-
-```
-ln -s /Users/$USER/dotfiles/.zshrc /Users/$USER/.zshrc
-```
-
-
-# SymLinking emacs Config on macOS 🔗
-
-```
-ln -f /Users/$USER/dotfiles/.emacs /Users/$USER/.emacs
-```
-
-# SymLinking Fish Config on macOS 🔗
-
-```
-ln -s /Users/$USER/dotfiles/fish /Users/$USER/.config/fish
-```
-
-
-# SymLinking Micro Config on macOS 🔗
-
-```
-ln -s /Users/$USER/dotfiles/micro /Users/$USER/.config/micro
-```
-
-
-# SymLinking Kitty Config on macOS 🔗
-
-```
-ln -s /Users/$USER/dotfiles/kitty /Users/$USER/.config/kitty
-```
-
-
-
-
-
-
-
 ## List of Files
 
 
