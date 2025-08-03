@@ -1,1 +1,0 @@
-/Users/senal/.fzf/shell/key-bindings.fish
