@@ -16,3 +16,10 @@ Welcome to Senal's dotfiles repository, the official repository of typical Senal
   .zprofile
   .zshrc
 #+END_SRC
+
+
+
+
+* .emacs.d
+This is where Senal's emacs setup is. The best emacs setup with the focus on performance and modernization
+of emacs
