@@ -22,4 +22,17 @@ Welcome to Senal's dotfiles repository, the official repository of typical Senal
 
 * .emacs.d
 This is where Senal's emacs setup is. The best emacs setup with the focus on performance and modernization
-of emacs
+of emacs. 
+
+** Compatibility
+
+*** Windows 
+- Still working on it.
+
+
+*** macOS
+Works
+
+
+*** Linux 
+Works
