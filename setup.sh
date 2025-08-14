@@ -39,6 +39,7 @@ function installCask() {
 	brew install --cask godot
 	brew install --cask streamlabs
         brew install --cask obs
+        brew install --cask webull
 }
 installCask
 
