@@ -40,6 +40,7 @@ function installCask() {
 	brew install --cask streamlabs
         brew install --cask obs
         brew install --cask webull
+        brew install --cask microsoft-teams
 }
 installCask
 
