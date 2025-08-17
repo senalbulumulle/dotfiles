@@ -9,4 +9,4 @@ Welcome to Senal's dotfiles repository, the official repository of typical Senal
 
 # Branches
 
-Each branch is specified for different platforms for Senal's dotfiles.
+Each branch is specified for different platforms and OS's for Senal's dotfiles.
