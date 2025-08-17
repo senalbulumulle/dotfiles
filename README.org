@@ -36,3 +36,10 @@ Works
 
 *** Linux 
 Works
+
+
+
+
+* NEWS:
+- Windows configurations for Senal's dotfiles will be released very soon. But it will take time
+  for configurations and logic for dotfile management to happen on Windows
