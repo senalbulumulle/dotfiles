@@ -77,5 +77,6 @@ function install() {
 	brew install colima
 	brew install azure-cli
 	brew install fswatch
+	brew install pybind11
 }
 install
