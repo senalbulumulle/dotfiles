@@ -26,6 +26,11 @@ function uninstall() {
 	brew uninstall alt-tab
 	brew uninstall sdl2 sdl2_ttf
 	brew uninstall mactex
+
+
+	## --- Machine Learning Tools -- ##
+
+
 }
 uninstall
 
@@ -41,6 +46,20 @@ function installCask() {
         brew install --cask obs
         brew install --cask webull
         brew install --cask microsoft-teams
+	brew install --cask utm
+	brew install --cask parallels
+
+
+
+	
+	## --- Machine Learning Tools -- ##
+
+
+	brew install --cask anaconda
+
+
+
+
 }
 installCask
 
