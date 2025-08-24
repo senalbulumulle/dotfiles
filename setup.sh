@@ -20,8 +20,8 @@ function uninstall() {
 	brew uninstall loop
 	brew uninstall visual-studio-code
 	brew uninstall code-server
-  	brew uninstall hugo
-  	brew uninstall deno
+	brew uninstall hugo
+	brew uninstall deno
 	brew uninstall flutter
 	brew uninstall alt-tab
 	brew uninstall sdl2 sdl2_ttf
@@ -43,15 +43,15 @@ function installCask() {
 	brew install --cask ranger
 	brew install --cask godot
 	brew install --cask streamlabs
-        brew install --cask obs
-        brew install --cask webull
-        brew install --cask microsoft-teams
+	brew install --cask obs
+	brew install --cask webull
+	brew install --cask microsoft-teams
 	brew install --cask utm
 	brew install --cask parallels
 
 
 
-	
+
 	## --- Machine Learning Tools -- ##
 
 
