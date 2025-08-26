@@ -13,6 +13,7 @@ if status is-interactive
         alias markdown='open /Applications/MarkText.app/'
         alias createtemplate='sh scripts/create-template.sh'
         alias organizefbext='sh scripts/01-organize-folders-file-extensions.sh'
+        alias lvim='/Users/senal/.local/bin/lvim'
 end
         
 
