@@ -15,6 +15,14 @@ function uninstall() {
   brew uninstall ollama
   brew uninstall vscodium
   brew uninstall vscodium@insiders
+  brew uninstall visual-studio-code
+  brew uninstall libreoffice
+  brew uninstall alacritty
+  brew uninstall kitty 
+  brew uninstall arduino-ide
+  brew uninstall arduino-cli
+  brew uninstall loop
+  brew uninstall flutter
 }
 uninstall
 
@@ -43,25 +51,16 @@ function install() {
   brew install macs-fan-control
   brew install zen-browser
   brew install code-server
-  brew install visual-studio-code
   brew install rust 
-  brew install alacritty
-  brew install kitty
   brew install rustdesk
-  brew install visual-studio-code
   brew install hugo
   brew install ranger
-  brew install libreoffice
   brew install tree
   brew install mpv
   brew install alt-tab
   brew install utm
-  brew install loop
-  brew install arduino-ide
-  brew install arduino-cli
   brew install npm
   brew install wget
-  brew install flutter
   brew install sdl2 sdl2_ttf
   brew install deno
 } 
