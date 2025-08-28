@@ -2,7 +2,6 @@
 
 
 function uninstall() {
-  brew uninstall firefox
   brew uninstall opera-gx
   brew uninstall tabby
   brew uninstall microsoft-edge@dev
@@ -19,8 +18,19 @@ function uninstall() {
 }
 uninstall
 
+
+function installCask() {
+  brew install --cask cursor
+  brew install --cask emacs 
+  brew install --cask neovide
+  brew install --cask ollama
+  brew install --cask ranger
+}
+installCask
+
 function install() {
   brew install discord
+  brew install firefox
   brew install fish
   brew install google-chrome
   brew install gh
@@ -39,19 +49,14 @@ function install() {
   brew install kitty
   brew install rustdesk
   brew install visual-studio-code
-  brew install --cask cursor
   brew install hugo
   brew install ranger
-  brew install --cask emacs
-  brew install --cask neovide
   brew install libreoffice
   brew install tree
   brew install mpv
   brew install alt-tab
   brew install utm
   brew install loop
-  brew install --cask ollama
-  brew install --cask ranger
   brew install arduino-ide
   brew install arduino-cli
   brew install npm
