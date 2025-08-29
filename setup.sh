@@ -63,6 +63,7 @@ function install() {
   brew install wget
   brew install sdl2 sdl2_ttf
   brew install deno
+  brew install solidity
 } 
 install
 
