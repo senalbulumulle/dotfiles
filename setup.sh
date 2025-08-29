@@ -97,5 +97,6 @@ function install() {
 	brew install azure-cli
 	brew install fswatch
 	brew install pybind11
+        brew install solidity
 }
 install
