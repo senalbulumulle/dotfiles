@@ -48,8 +48,7 @@ function installCask() {
 	brew install --cask microsoft-teams
 	brew install --cask utm
 	brew install --cask parallels
-
-
+        brew install --cask obsidian
 
 
 	## --- Machine Learning Tools -- ##
