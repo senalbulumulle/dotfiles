@@ -14,19 +14,4 @@ if status is-interactive
         alias createtemplate='sh scripts/create-template.sh'
         alias organizefbext='sh scripts/01-organize-folders-file-extensions.sh'
         alias lvim='/Users/senal/.local/bin/lvim'
-end
-        
-
-
-# The compose binary has been installed into /usr/local/bin but it is not in the 
-# system path. You should add it manually if you want to use compose from cli.
-
-
-
-
-# How to use Compose
-# Run podman compose up (podman CLI v4.7.0+) or docker-compose in a 
-# directory with a compose.yaml. Podman Desktop will automatically 
-# detect the Compose deployment and show it in the container list.'
-# 
-# $ podman compose up
+end 
