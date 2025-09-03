@@ -14,3 +14,8 @@ Each branch is specified for different platforms and OS's for Senal's dotfiles.
 ## debian-sid-linux-arm
 ## windows-arm
 ## macos-apple-sllicon
+
+
+
+
+# Tools that Senal uses
