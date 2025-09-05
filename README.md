@@ -16,4 +16,5 @@ Contents:
 
 
 -> [Kitty](kitty/) -> Kitty Config [In Progress]
+
 -> [vimrc](vimrc/) -> Gamini's vim config [In Progress]
