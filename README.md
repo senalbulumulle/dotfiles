@@ -20,4 +20,5 @@ Each branch is specified for different platforms and OS's for Senal's dotfiles.
 # Contents
 
 [kitty](kitty/) -> Kitty Config
+
 [fish](fish/) -> Fish Config
