@@ -1,6 +1,5 @@
 ## setup.sh
 
-
 function uninstall() {
   brew uninstall opera-gx
   brew uninstall tabby
@@ -18,7 +17,7 @@ function uninstall() {
   brew uninstall visual-studio-code
   brew uninstall libreoffice
   brew uninstall alacritty
-  brew uninstall kitty 
+  brew uninstall kitty
   brew uninstall arduino-ide
   brew uninstall arduino-cli
   brew uninstall loop
@@ -26,10 +25,9 @@ function uninstall() {
 }
 uninstall
 
-
 function installCask() {
   brew install --cask cursor
-  brew install --cask emacs 
+  brew install --cask emacs
   brew install --cask neovide
   brew install --cask ollama
   brew install --cask ranger
@@ -51,7 +49,7 @@ function install() {
   brew install macs-fan-control
   brew install zen-browser
   brew install code-server
-  brew install rust 
+  brew install rust
   brew install rustdesk
   brew install hugo
   brew install ranger
@@ -64,6 +62,11 @@ function install() {
   brew install sdl2 sdl2_ttf
   brew install deno
   brew install solidity
-} 
+}
 install
 
+## In this function, this is where the script sets up lazyVIM for my dad.
+function lazyVIM() {
+  git clone https://github.com/LazyVim/starter ~/.config/nvim
+}
+lazyVIM
