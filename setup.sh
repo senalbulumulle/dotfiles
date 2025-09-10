@@ -67,6 +67,9 @@ install
 
 ## In this function, this is where the script sets up lazyVIM for my dad.
 function lazyVIM() {
+  cd /Users/$USER/.config/
+  rm -rf nvim
+  cd
   git clone https://github.com/LazyVim/starter ~/.config/nvim
 }
 lazyVIM
