@@ -48,7 +48,7 @@ function installCask() {
 	brew install --cask microsoft-teams
 	brew install --cask utm
 	brew install --cask parallels
-        brew install --cask obsidian
+	brew install --cask obsidian
 
 
 	## --- Machine Learning Tools -- ##
@@ -96,6 +96,6 @@ function install() {
 	brew install azure-cli
 	brew install fswatch
 	brew install pybind11
-        brew install solidity
+	brew install solidity
 }
 install
