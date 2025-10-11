@@ -7,3 +7,6 @@ using AI models.
 
 - kitty
 - waybar
+- i3
+- gtk-4.0
+- gtk-3.0
