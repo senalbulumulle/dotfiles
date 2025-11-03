@@ -1,5 +1,5 @@
 <center>
-<img src="./senal-dotfiles.png">
+<img src="./png/senal-dotfiles.png">
 </center>
 
 # Introduction
