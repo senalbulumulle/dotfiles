@@ -13,6 +13,19 @@ Welcome to Senal's dotfiles repository, the official repository of typical Senal
 
 # Contents
 
-[kitty](kitty/) -> Kitty Config
+- Fish Config
+- Kitty Config
 
-[fish](fish/) -> Fish Config
+
+
+## Fish Config
+
+Content Later
+
+
+## Kitty Config
+
+Content Later
+
+
+
