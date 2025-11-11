@@ -20,12 +20,10 @@ Welcome to Senal's dotfiles repository, the official repository of typical Senal
 
 ## Fish Config
 
-Content Later
-
+In this section, we are going to be talking about my fish config. My Fish config
+is so organized that you get inspired to be organized and not messy.
 
 ## Kitty Config
 
-Content Later
-
-
-
+In this section, we are going to be talking about my kitty config. My kitty config
+is so organized that you get inspired to be organized and not messy.
