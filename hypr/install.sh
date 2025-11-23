@@ -39,6 +39,7 @@ sudo pacman -S pipewire-pulse --noconfirm
 sudo pacman -S pipewire-alsa --noconfirm
 sudo pacman -S wireplumber --noconfirm
 
-
-
-
+clear
+echo "ABOUT TO SHUTDOWN IN 5 SECONDS"
+sleep 5
+sudo reboot
