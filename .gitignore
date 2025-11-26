@@ -1,7 +1,2 @@
 micro/buffers
-
-
-# Added by cargo
-
-/target
 nvim/plugin/packer_compiled.lua
