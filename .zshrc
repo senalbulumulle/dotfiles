@@ -1,4 +1,15 @@
-## Allows the ability to turn on macOS single window mode on
+## SENAL'S ZSHRC FILE
+#
+#
+#  THIS CONFIGURATION FILE IS SENAL'S CONFIGURATION FILE OF .ZSHRC
+#  FILE FOR HIS PRODUCITIVITY AND WORKFLOW IN MACOS AND LINUX LIKE 
+#  OS
+#
+#
+#
+
+
+
+
 alias mswmo="defaults write com.apple.dock single-app-mode -bool TRUE && killall Dock"
-## Allows the ability to turn off macOS single window mode off
 alias mswmoo="defaults write com.apple.dock single-app-mode -bool FALSE && killall Dock"
