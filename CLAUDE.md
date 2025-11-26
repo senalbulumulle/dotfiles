@@ -4,52 +4,63 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a personal dotfiles repository containing shell configurations, editor settings, window manager configurations, and utility scripts for macOS and Linux environments.
+This is a personal dotfiles repository containing shell configurations, window manager setups, editor settings, and utility scripts for macOS and Linux environments.
 
 ## Repository Structure
 
-- **fish/** - Fish shell configuration with custom prompt, aliases, and utility scripts
-- **i3/** - i3 window manager configuration (Linux)
-- **conf/** - Terminal multiplexer configs (.tmux.conf)
-- **micro/** - Micro editor settings and keybindings
-- **lxde/** - LXDE desktop environment placeholders
-- **c/, cpp/, php/, py/** - Programming language workspace directories (currently empty placeholders)
-- **shell-scripts/** - General purpose shell scripts
-- **png/** - Repository assets and images
+- **fish/** - Fish shell configuration with custom prompt and utility scripts
+  - `config.fish` - Main configuration with aliases for editor configs and tools
+  - `functions/fish_prompt.fish` - Custom prompt with git integration, vi-mode indicators, virtual environment display, and battery status
+  - `scripts/01-organize-folders-file-extensions.sh` - File organization utility
+- **i3/** - i3 window manager setup with C-based configuration system
+  - `configuration.c` - C source for generating i3 config
+  - `Makefile` - Build commands: `make compile`, `make sendit`, `make clean`
+  - `install.sh` - Arch Linux dependency installer for i3
+- **hypr/** - Hyprland Wayland compositor setup
+  - `configuration.c` - C source for generating Hyprland config
+  - `Makefile` - Build commands (same structure as i3)
+  - `install.sh` - Arch Linux dependency installer for Hyprland
+  - `toggle-monitors.sh` - Monitor configuration utility
+- **conf/** - Terminal multiplexer configuration (.tmux.conf)
+- **micro/** - Micro editor settings.json and bindings.json
 - Root level dotfiles: .emacs, .vimrc, .zshrc, .zprofile
 
 ## Key Configurations
 
-### Fish Shell (fish/)
+### Fish Shell
 
-The main Fish configuration is in `fish/config.fish` with:
-- Cross-platform aliases for macOS and Linux
-- Editor shortcuts (microconfig, vimconfig, fishconfig, zshconfig)
-- Tool aliases (v for nvim, m for micro, lsl for tree)
-- Custom prompt defined in `fish/functions/fish_prompt.fish` with git integration, vi-mode indicators, virtual environment display, and battery status
+Main config at `fish/config.fish` with interactive mode aliases:
+- Editor config shortcuts: `microconfig`, `vimconfig`, `bashconfig`, `fishconfig`, `zshconfig`
+- Editor shortcuts: `v` (nvim), `m` (micro), `lvim` (LunarVim at ~/.local/bin/lvim)
+- Utilities: `lsl` (tree), `markdown` (MarkText.app), `organizefbext` (file organizer script)
 
-### i3 Window Manager (i3/)
+Custom prompt in `fish/functions/fish_prompt.fish` displays:
+- User@hostname with color coding (red for root, yellow for user; cyan for SSH, blue for local)
+- Current path, time, vi-mode indicator, virtual environment, git status, battery level
+- Background jobs list
+- Two-line format with Unicode box drawing characters
 
-- Standard i3 config with Mod4 (Super/Windows key) as modifier
-- The `i3/index.c` file appears to be a placeholder or build system stub (currently outputs empty string)
-- The README mentions using "organization syntaxes from C" but implementation details are minimal
+### Zsh
 
-### Zsh (.zshrc)
+Minimal configuration in `.zshrc` with macOS-specific aliases:
+- `mswmo` - Enable single-app mode (hide other apps)
+- `mswmoo` - Disable single-app mode
 
-Minimal Zsh configuration with macOS-specific aliases:
-- `mswmo` - Enable macOS single-app mode
-- `mswmoo` - Disable macOS single-app mode
+### i3/Hyprland Window Managers
+
+Both use a C-based configuration approach:
+1. Edit `configuration.c` to define settings
+2. Run `make compile` to build (generates `a.out`)
+3. Run `make sendit` to execute and generate config
+4. Run `make clean` to remove compiled binary
+
+Install scripts (`install.sh`) use `pacman --noconfirm` for Arch Linux dependency installation. The hyprland install script will automatically reboot after 5 seconds.
 
 ### Utility Scripts
 
-- `fish/scripts/01-organize-folders-file-extensions.sh` - File organization script that creates directories by file type (svg, iso, mp3, jpg, dmg, jpeg, zip, pdf) and moves matching files into them
+`fish/scripts/01-organize-folders-file-extensions.sh` - Creates directories for common file types (svg, iso, mp3, jpg, dmg, jpeg, zip, pdf) and moves matching files into them. Run from the directory containing files to organize.
 
 ## Platform Support
 
-This repository supports both macOS and Linux (primarily referenced for i3 window manager). The Fish config is designed to work cross-platform with `status is-interactive` checks.
-
-## Notes
-
-- The README mentions Kitty terminal config, but no Kitty configuration files are present in the repository
-- Programming language directories (c/, cpp/, php/, py/) are currently empty placeholders with .gitkeep files
-- The i3 configuration mentions GCC/G++ as dependencies but the actual C-based organization system is not fully implemented
+- **macOS**: Primary platform for Fish and Zsh configs
+- **Linux (Arch)**: i3 and Hyprland configurations with pacman-based installers
