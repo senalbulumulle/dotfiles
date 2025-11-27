@@ -26,6 +26,13 @@ In this section, we are going to be talking about my kitty config.
 My kitty config is so organized that you get inspired to be organized 
 and not messy.
 
+
+
+## Tmux Config
+
+In this section, we are going to be talking about my tmux config
+
+
 ## i3 Config
 
 In this section, we are going to be talking about my i3 config. 
