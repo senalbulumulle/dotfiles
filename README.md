@@ -60,3 +60,11 @@ So the dependencies that you have to make sure that are installed are:
 - G++
 
 And so on...
+
+
+
+
+## Micro Config
+
+In this section, we are going to be talking about my favorite micro
+config. Since I love the micro editor
