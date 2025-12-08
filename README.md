@@ -7,6 +7,36 @@
 Welcome to Senal's dotfiles repository, the official repository 
 of typical Senal's habitat.
 
+
+```shell
+
+-rw-r--r--@  1 senal  staff   2.4K Oct 25 07:58 .emacs
+drwxr-xr-x@  3 senal  staff    96B Oct 25 07:58 .emacs.d/
+drwxr-xr-x  16 senal  staff   512B Dec  7 04:44 .git/
+-rw-r--r--@  1 senal  staff    46B Nov 26 15:38 .gitignore
+-rw-r--r--@  1 senal  staff     1B Oct 25 07:58 .vimrc
+-rw-r--r--@  1 senal  staff    42B Oct 25 07:58 .zprofile
+-rw-r--r--@  1 senal  staff   353B Nov 26 15:38 .zshrc
+drwxr-xr-x@  3 senal  staff    96B Nov  3 05:52 c/
+-rw-r--r--@  1 senal  staff   3.1K Nov 26 15:42 CLAUDE.md
+drwxr-xr-x@  3 senal  staff    96B Nov  3 06:28 conf/
+drwxr-xr-x@  3 senal  staff    96B Nov  3 05:52 cpp/
+drwxr-xr-x@  7 senal  staff   224B Nov  2 12:43 fish/
+drwxr-xr-x@  6 senal  staff   192B Nov 26 15:38 hypr/
+drwxr-xr-x@  5 senal  staff   160B Nov 22 10:14 i3/
+drwxr-xr-x@  4 senal  staff   128B Nov 26 15:38 lxde/
+drwxr-xr-x@  4 senal  staff   128B Oct 25 07:58 micro/
+drwxr-xr-x@  3 senal  staff    96B Nov  3 05:52 php/
+drwxr-xr-x@  4 senal  staff   128B Nov  3 05:53 png/
+drwxr-xr-x@  3 senal  staff    96B Nov  3 05:52 py/
+-rw-r--r--@  1 senal  staff   1.5K Dec  6 07:15 README.md
+drwxr-xr-x@  3 senal  staff    96B Oct 25 07:58 shell-scripts/
+
+
+```
+
+
+
 # Contents
 
 - [Fish Config](#fish-config)
