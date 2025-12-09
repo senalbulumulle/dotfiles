@@ -98,3 +98,14 @@ And so on...
 
 In this section, we are going to be talking about my favorite micro
 config. Since I love the micro editor
+
+
+
+
+## NEOVIM Config 
+
+In this section, we are going to be talking about my other favorite
+neovim based editor a.k.a SenalVIM
+
+1. `git clone https://github.com/senalbulumulle/senalvim`
+2. `cd senalvim`
