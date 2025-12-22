@@ -8,5 +8,5 @@
 
 int main()
 {
-	system("echo 'hello'");
+	system("");
 }
