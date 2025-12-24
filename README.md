@@ -21,3 +21,12 @@ List of Configuration Files
 ------------------------------
 
 - dwm
+
+
+
+
+
+Hardware Specs on the ThinkPad T480
+----------------------------------------
+
+- 8 GB RAM
