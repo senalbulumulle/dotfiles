@@ -1,5 +1,5 @@
 <center>
-<img src="./png/senal-dotfiles.png" alt="Senal Dotfiles Logo">
+<img src="./branding/senal-dotfiles.png" alt="Senal Dotfiles Logo">
 </center>
 
 # Introduction
