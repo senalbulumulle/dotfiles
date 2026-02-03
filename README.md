@@ -16,3 +16,9 @@ of typical Senal's habitat. Work Smarter Always and Not Harder
 ## Tools
 
 
+
+
+## Updates
+
+
+### new neovim configurations on senalvim i guess... 
