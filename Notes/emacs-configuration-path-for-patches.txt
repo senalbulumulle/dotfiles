@@ -1,0 +1,19 @@
+emacs-configuration-path-for-patches.txt
+
+This documentation talks about the different paths for the emacs configuration
+file patches that I did
+
+
+
+* spacemacs *
+
+In this section, we are going to be talking about the paths that Senal has
+modified on his dotfiles 
+
+
+** The startup file to edit  **
+
+.emacs.d/core/core-spacemacs-buffer.el
+
+
+
