@@ -21,9 +21,20 @@ of typical Senal's habitat. Work Smarter Always and Not Harder
 ## Updates
 
 
+### senal command is coming soon
+
+With the senal command, similar to stow, allows the ability to 
+utilize senal's dotfiles with one command to: 
+
+- --sync
+- --pick
+
 ### new neovim configurations on senalvim i guess...
 
-### new color schemes of brown for the following configurations
+### brand new configuration files that are complete and beautiful
+
+Finally, with Senal's dotfiles, he is finally going to reconfigure
+the entire ecosystem of his dotfiles lol
 
 > soon! 
 
@@ -33,3 +44,5 @@ of typical Senal's habitat. Work Smarter Always and Not Harder
 - dunst
 - i3bar
 - waybar
+
+
