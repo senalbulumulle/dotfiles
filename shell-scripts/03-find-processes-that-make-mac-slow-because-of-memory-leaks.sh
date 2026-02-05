@@ -31,17 +31,17 @@ echo
 
 # Get memory stats (works on macOS)
 if command -v vm_stat >/dev/null 2>&1; then
-  # Calculate total and free memory
-  TOTAL_MEM=$(sysctl -n hw.memsize)
-  TOTAL_MEM_GB=$((TOTAL_MEM / 1024 / 1024 / 1024))
-  
+        # Calculate total and free memory
+        TOTAL_MEM=$(sysctl -n hw.memsize)
+        TOTAL_MEM_GB=$((TOTAL_MEM / 1024 / 1024 / 1024))
+
   # Get memory pressure info (macOS 10.9+)
   if command -v memory_pressure >/dev/null 2>&1; then
-    echo "Memory Pressure Status:"
-    memory_pressure 2>/dev/null | head -n 5 || echo "  (Unable to get memory pressure info)"
-    echo
+          echo "Memory Pressure Status:"
+          memory_pressure 2>/dev/null | head -n 5 || echo "  (Unable to get memory pressure info)"
+          echo
   fi
-  
+
   echo "Total Physical Memory: ${TOTAL_MEM_GB} GB"
   echo
 fi
@@ -57,21 +57,21 @@ echo
 # Use ps to get memory info, sorted by RSS
 # Format: PID, %CPU, %MEM, RSS (in KB), TIME, COMMAND
 ps aux | awk -v min_mb="$MIN_MEMORY_MB" '
-  NR == 1 {
-    # Print header
-    printf "%-8s %6s %6s %10s %12s %s\n", "PID", "%CPU", "%MEM", "RSS (MB)", "TIME", "COMMAND"
-    next
-  }
-  {
-    rss_mb = $6 / 1024  # Convert KB to MB
-    if (rss_mb >= min_mb) {
-      printf "%-8s %6.1f %6.1f %10.1f %12s %s\n", $2, $3, $4, rss_mb, $10, $11
-      for (i = 12; i <= NF; i++) {
-        printf " %s", $i
-      }
-      printf "\n"
-    }
-  }
+NR == 1 {
+        # Print header
+        printf "%-8s %6s %6s %10s %12s %s\n", "PID", "%CPU", "%MEM", "RSS (MB)", "TIME", "COMMAND"
+        next
+}
+{
+        rss_mb = $6 / 1024  # Convert KB to MB
+        if (rss_mb >= min_mb) {
+                printf "%-8s %6.1f %6.1f %10.1f %12s %s\n", $2, $3, $4, rss_mb, $10, $11
+                for (i = 12; i <= NF; i++) {
+                        printf " %s", $i
+                }
+        printf "\n"
+}
+}
 ' | sort -k4 -rn | head -n "$((TOP_N + 1))"
 
 echo
@@ -85,18 +85,18 @@ echo "(High CPU usage can also cause slowdowns)"
 echo
 
 ps aux | awk '
-  NR == 1 {
-    printf "%-8s %6s %6s %10s %12s %s\n", "PID", "%CPU", "%MEM", "RSS (MB)", "TIME", "COMMAND"
-    next
-  }
-  {
-    rss_mb = $6 / 1024
-    printf "%-8s %6.1f %6.1f %10.1f %12s %s\n", $2, $3, $4, rss_mb, $10, $11
-    for (i = 12; i <= NF; i++) {
-      printf " %s", $i
-    }
-    printf "\n"
-  }
+NR == 1 {
+        printf "%-8s %6s %6s %10s %12s %s\n", "PID", "%CPU", "%MEM", "RSS (MB)", "TIME", "COMMAND"
+        next
+}
+{
+        rss_mb = $6 / 1024
+        printf "%-8s %6.1f %6.1f %10.1f %12s %s\n", $2, $3, $4, rss_mb, $10, $11
+        for (i = 12; i <= NF; i++) {
+                printf " %s", $i
+        }
+printf "\n"
+}
 ' | sort -k2 -rn | head -n "$((TOP_N + 1))"
 
 echo
@@ -111,30 +111,30 @@ echo
 
 # Get processes with high memory that have been running for a while
 ps -eo pid,etime,rss,comm,args | awk -v min_mb="$MIN_MEMORY_MB" '
-  NR == 1 {
-    printf "%-8s %12s %10s %-20s %s\n", "PID", "ELAPSED", "RSS (MB)", "COMMAND", "ARGS"
-    next
-  }
-  {
-    rss_mb = $3 / 1024
-    if (rss_mb >= min_mb) {
-      # Check if elapsed time contains hours or days
-      if ($2 ~ /-/ || $2 ~ /:/) {
-        # Parse time: format is [[DD-]HH:]MM:SS or HH:MM:SS
-        split($2, time_parts, /[-:]/)
-        has_days = ($2 ~ /-/)
-        has_hours = (length(time_parts) >= 3)
-        
-        if (has_days || (has_hours && length(time_parts) >= 3)) {
-          printf "%-8s %12s %10.1f %-20s", $1, $2, rss_mb, $4
-          for (i = 5; i <= NF; i++) {
-            printf " %s", $i
-          }
-          printf "\n"
-        }
-      }
-    }
-  }
+NR == 1 {
+        printf "%-8s %12s %10s %-20s %s\n", "PID", "ELAPSED", "RSS (MB)", "COMMAND", "ARGS"
+        next
+}
+{
+        rss_mb = $3 / 1024
+        if (rss_mb >= min_mb) {
+                # Check if elapsed time contains hours or days
+                if ($2 ~ /-/ || $2 ~ /:/) {
+                        # Parse time: format is [[DD-]HH:]MM:SS or HH:MM:SS
+                        split($2, time_parts, /[-:]/)
+                        has_days = ($2 ~ /-/)
+                        has_hours = (length(time_parts) >= 3)
+
+                        if (has_days || (has_hours && length(time_parts) >= 3)) {
+                                printf "%-8s %12s %10.1f %-20s", $1, $2, rss_mb, $4
+                                for (i = 5; i <= NF; i++) {
+                                        printf " %s", $i
+                                }
+                        printf "\n"
+                }
+}
+}
+}
 ' | head -n "$TOP_N"
 
 echo
