@@ -29,7 +29,6 @@ utilize senal's dotfiles with one command to:
 - --sync
 - --pick
 
-### new neovim configurations on senalvim i guess...
 
 ### brand new configuration files that are complete and beautiful
 
