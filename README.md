@@ -26,7 +26,17 @@ With senal wallpapers for macOS, you will sure you get one the following things
 ### How does it work
 
 putting the senal wallpapers as the default wallpaper pack of macOS is complicated
-as it seems for obvious reasons...
+as it seems for obvious reasons..., however, the best way to use the wallpapers
+is to use it in the path, which will come with automation scripts to do that for
+you:
+
+`/Library/Desktop Pictures/`
+
+
+
+`/System/Library/Desktop Pictures`
+
+> This particular path is considered SIP-protected
 
 ## senal command is coming soon
 
