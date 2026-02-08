@@ -25,7 +25,8 @@ With senal wallpapers for macOS, you will sure you get one the following things
 
 ### How does it work
 
-soon will be written lol
+putting the senal wallpapers as the default wallpaper pack of macOS is complicated
+as it seems for obvious reasons...
 
 ## senal command is coming soon
 
