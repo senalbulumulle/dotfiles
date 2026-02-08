@@ -23,6 +23,10 @@ With senal wallpapers for macOS, you will sure you get one the following things
 - Productivity
 
 
+### How does it work
+
+soon will be written lol
+
 ## senal command is coming soon
 
 With the senal command, similar to stow, allows the ability to 
