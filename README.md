@@ -8,20 +8,12 @@ Welcome to Senal's dotfiles repository, the official repository
 of typical Senal's habitat. Work Smarter Always and Not Harder
 
 
-## Table of Contents
-
-- [Overview](#overview)
 
 
-## Tools
+# Updates
 
 
-
-
-## Updates
-
-
-### senal wallpapers for macOS coming soon
+## senal wallpapers for macOS coming soon
 
 With senal wallpapers for macOS, you will sure you get one the following things
 
@@ -31,7 +23,7 @@ With senal wallpapers for macOS, you will sure you get one the following things
 - Productivity
 
 
-### senal command is coming soon
+## senal command is coming soon
 
 With the senal command, similar to stow, allows the ability to 
 utilize senal's dotfiles with one command to: 
@@ -40,7 +32,7 @@ utilize senal's dotfiles with one command to:
 - --pick
 
 
-### brand new configuration files that are complete and beautiful
+## brand new configuration files that are complete and beautiful
 
 Finally, with Senal's dotfiles, he is finally going to reconfigure
 the entire ecosystem of his dotfiles lol
