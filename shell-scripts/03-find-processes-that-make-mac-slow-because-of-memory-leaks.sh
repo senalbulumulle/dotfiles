@@ -138,30 +138,3 @@ NR == 1 {
 ' | head -n "$TOP_N"
 
 echo
-
-###############################################################################
-# Recommendations
-###############################################################################
-
-echo "=== Recommendations ==="
-echo
-echo "If you see processes using excessive memory:"
-echo "  1. Try quitting the application normally first"
-echo "  2. If that doesn't work, you can force quit:"
-echo "     kill <PID>              # Graceful termination"
-echo "     kill -9 <PID>           # Force quit (use as last resort)"
-echo "  3. Or use Activity Monitor (GUI):"
-echo "     open -a 'Activity Monitor'"
-echo
-echo "⚠️  WARNING:"
-echo "  - Do NOT terminate system processes (kernel_task, WindowServer, etc.)"
-echo "  - Do NOT terminate processes you don't recognize without researching them"
-echo "  - Some processes may restart automatically if terminated"
-echo
-echo "Common culprits for memory leaks:"
-echo "  - Web browsers (Chrome, Safari, Firefox) with many tabs"
-echo "  - Development tools (Xcode, VS Code, Docker)"
-echo "  - Electron apps (Slack, Discord, etc.)"
-echo "  - Background services that haven't been restarted in a while"
-echo
-
