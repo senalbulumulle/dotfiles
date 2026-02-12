@@ -1,0 +1,14 @@
+ssh-windows-guide
+
+In this documentation, we are going to be talking about how 
+to use ssh into windows for productivity and workflow. 
+
+
+
+Starting the service: 
+
+1. Run as admin
+2. Start-Service sshd
+3. Set-Service -Name sshd -StartupType Automatic
+4. New-NetFirewallRule -Name sshd -DisplayName "OpenSSH Server (sshd)" -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
+5. ipconfig
