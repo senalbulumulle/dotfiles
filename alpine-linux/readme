@@ -26,3 +26,12 @@ on top of a live Arch Linux iso environment.
 - make sure that Firefox is pre-installed on the live-iso
 - cd to /tmp only
 - download the apk static from wiki/ Bootstrapping_Alpine_Linux
+
+
+
+
+TODOs i guess...
+
+- Make a complete script to automatically install my setup of alpine linux 
+  on a live environment
+
