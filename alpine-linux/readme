@@ -17,3 +17,5 @@ on top of a live Arch Linux iso environment.
 - install the balenaetcher or use the command to flash the usb stick
 - make sure to connect to the WiFi
 - make sure that Firefox is pre-installed on the live-iso
+- cd to /tmp only
+- download the apk static from wiki/ Bootstrapping_Alpine_Linux
