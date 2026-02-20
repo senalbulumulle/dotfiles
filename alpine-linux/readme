@@ -13,7 +13,7 @@ Well, we are going to be talking about that here. Well, basically
 how I do is the bootstrapping method of installing alpine linux
 on top of a live Arch Linux iso environment.
 
-
-1. downloaded the CachyOS (Arch Based) distribution
-2. make sure to connect to the WiFi
-3. make sure that Firefox is pre-installed on the live-iso
+- downloaded the CachyOS (Arch Based) distribution
+- install the balenaetcher or use the command to flash the usb stick
+- make sure to connect to the WiFi
+- make sure that Firefox is pre-installed on the live-iso
