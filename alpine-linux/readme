@@ -2,3 +2,13 @@ alpine-linux
 
 These scripts are used for configuring alpine linux with 
 my dotfiles
+
+
+
+
+How does the installation work?
+
+
+Well, we are going to be talking about that here. Well, basically
+how I do is the bootstrapping method of installing alpine linux
+on top of a live Arch Linux iso environment.
