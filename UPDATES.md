@@ -1,6 +1,9 @@
 # Updates
 
+## Stow like features is merging to main
 
+> This allows the ability to utilize stow like features
+> and sync the dotfiles smarter
 
 
 `/System/Library/Desktop Pictures`
