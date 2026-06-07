@@ -21,7 +21,7 @@ configs that I used will be merged from those branches.
 
 # Features
 
-## Fan Control Systems
+## Fan Control Systems (not completed yet)
 
 The feature in my dotfiles is the fan control systems. It is basically
 a GUI allowing the ability to view the entire detail of what the fan 
