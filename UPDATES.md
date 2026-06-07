@@ -2,13 +2,14 @@
 
 ## Stow like features is merging to main
 
-> This allows the ability to utilize stow like features
-> and sync the dotfiles smarter
+The stow like features is in this branch "next-gen-dot-manager-ultimate"
+mind you, this is not stable at all. Since the branch is semi vibe coded
 
 
-`/System/Library/Desktop Pictures`
 
-> This particular path is considered SIP-protected
+
+
+The stow feature is in the different branch
 
 ## senal command is coming soon
 
