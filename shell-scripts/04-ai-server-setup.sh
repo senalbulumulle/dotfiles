@@ -22,7 +22,6 @@ updatePackages
 function ai_tools_install()
 {
         yay -S ollama-bin --noconfirm
-
 }
 
 ai_tools_install
