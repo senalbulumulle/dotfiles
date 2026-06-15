@@ -1,10 +1,15 @@
 # Updates
 
+
+## I would not use the next-gen-dot-manager-ultimate branch 
+
+Right now, that branch is completely unstable, and it is likely that this branch
+will be removed anytime soon. 
+
 ## Stow like features is merging to main
 
 The stow like features is in this branch "next-gen-dot-manager-ultimate"
-mind you, this is not stable at all. Since the branch is semi vibe coded
-
+mind you, this is not stable at all. Since the branch is semi vibe coded.
 
 
 
