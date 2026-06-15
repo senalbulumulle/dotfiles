@@ -15,4 +15,6 @@ brew install zed
 brew install cursor
 brew install vscodium
 brew install zoom
+brew install appcleaner
+
 
