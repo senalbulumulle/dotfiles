@@ -1,0 +1,137 @@
+#!/bin/bash
+
+PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
+
+# ── Colors ─────────────────────────────────────────────────────────────────
+BAR_COLOR=0xe01c1c1e    # near-black, slight transparency
+ITEM_BG=0xff2c2c2e
+WHITE=0xffececec
+GREY=0xff636366
+BLUE=0xff0a84ff
+GREEN=0xff32d74b
+YELLOW=0xffffcc00
+RED=0xffff453a
+ORANGE=0xffff9f0a
+
+# ── Bar ────────────────────────────────────────────────────────────────────
+sketchybar --bar \
+  height=32 \
+  position=top \
+  sticky=on \
+  padding_left=10 \
+  padding_right=10 \
+  color=$BAR_COLOR \
+  shadow=off
+
+# ── Defaults ───────────────────────────────────────────────────────────────
+sketchybar --default \
+  padding_left=5 \
+  padding_right=5 \
+  icon.font="Hack Nerd Font:Regular:15.0" \
+  label.font="SF Pro Text:Semibold:13.0" \
+  icon.color=$WHITE \
+  label.color=$WHITE \
+  icon.padding_left=4 \
+  icon.padding_right=4 \
+  label.padding_left=4 \
+  label.padding_right=4
+
+# ── Left — Spaces ──────────────────────────────────────────────────────────
+for i in {1..9}; do
+  sketchybar --add space space.$i left \
+    --set space.$i \
+      associated_space=$i \
+      icon=$i \
+      icon.font="SF Pro Text:Bold:12.0" \
+      icon.padding_left=8 \
+      icon.padding_right=8 \
+      label.drawing=off \
+      background.drawing=on \
+      background.color=$ITEM_BG \
+      background.corner_radius=5 \
+      background.height=22 \
+      icon.highlight_color=$BLUE \
+      script="$PLUGIN_DIR/spaces.sh" \
+    --subscribe space.$i mouse.clicked
+done
+
+sketchybar --add item space_separator left \
+  --set space_separator \
+    icon="│" \
+    icon.font="SF Pro Text:Light:18.0" \
+    icon.color=$GREY \
+    label.drawing=off \
+    padding_left=4 \
+    padding_right=4
+
+# ── Left — Front App ───────────────────────────────────────────────────────
+sketchybar --add item front_app left \
+  --set front_app \
+    icon=" " \
+    icon.font="Hack Nerd Font:Regular:15.0" \
+    icon.color=$BLUE \
+    label.font="SF Pro Text:Semibold:13.0" \
+    label.color=$WHITE \
+    script="$PLUGIN_DIR/front_app.sh" \
+  --subscribe front_app front_app_switched
+
+# ── Center — Clock ─────────────────────────────────────────────────────────
+sketchybar --add item clock center \
+  --set clock \
+    icon="󰥔" \
+    icon.color=$BLUE \
+    update_freq=10 \
+    script="$PLUGIN_DIR/clock.sh"
+
+# ── Right — Items (added right→left: first = rightmost) ───────────────────
+
+# Battery (rightmost)
+sketchybar --add item battery right \
+  --set battery \
+    update_freq=30 \
+    script="$PLUGIN_DIR/battery.sh" \
+  --subscribe battery system_woke power_source_change
+
+# Separator
+sketchybar --add item sep_r right \
+  --set sep_r \
+    icon="│" \
+    icon.font="SF Pro Text:Light:18.0" \
+    icon.color=$GREY \
+    label.drawing=off \
+    padding_left=2 \
+    padding_right=2
+
+# CPU
+sketchybar --add item cpu right \
+  --set cpu \
+    icon="󰻟" \
+    icon.color=$YELLOW \
+    update_freq=4 \
+    script="$PLUGIN_DIR/cpu.sh"
+
+# Memory
+sketchybar --add item memory right \
+  --set memory \
+    icon="󰍛" \
+    icon.color=$GREEN \
+    update_freq=4 \
+    script="$PLUGIN_DIR/memory.sh"
+
+# Separator
+sketchybar --add item sep_r2 right \
+  --set sep_r2 \
+    icon="│" \
+    icon.font="SF Pro Text:Light:18.0" \
+    icon.color=$GREY \
+    label.drawing=off \
+    padding_left=2 \
+    padding_right=2
+
+# Volume
+sketchybar --add item volume right \
+  --set volume \
+    script="$PLUGIN_DIR/volume.sh" \
+  --subscribe volume volume_change
+
+sketchybar --update
