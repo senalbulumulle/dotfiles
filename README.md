@@ -16,3 +16,10 @@ and some of those configurations are based from the linux distribution's
 configuration files, but it is archived for my use-cases, if I need to 
 port the files to the main branch. Who knows if the linux distributions
 configs that I used will be merged from those branches.
+
+
+
+# News: 
+
+
+- nixos configuration dotfiles is arriving soon 
