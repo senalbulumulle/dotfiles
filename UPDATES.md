@@ -1,6 +1,12 @@
 # Updates
 
 
+## The nixos configuration is arriving soon
+
+The official nixos configuration is arriving soon. Tested on my minimal
+ThinkPad T480 setup
+
+
 ## I would not use the next-gen-dot-manager-ultimate branch 
 
 Right now, that branch is completely unstable, and it is likely that this branch
