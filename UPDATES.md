@@ -4,7 +4,8 @@
 ## The nixos configuration is arriving soon
 
 The official nixos configuration is arriving soon. Tested on my minimal
-ThinkPad T480 setup
+ThinkPad T480 setup, which is going to be used as an ultimate productive
+writing setup for me.
 
 
 ## I would not use the next-gen-dot-manager-ultimate branch 
