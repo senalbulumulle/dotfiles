@@ -22,4 +22,5 @@ configs that I used will be merged from those branches.
 # News: 
 
 
-- nixos configuration dotfiles is arriving soon 
+- nixos configuration dotfiles is arriving soon
+- alpine linux dotfiles coming soon
