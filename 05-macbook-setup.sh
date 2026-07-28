@@ -141,7 +141,7 @@ brew install --cask zed
 brew install --cask zoom
 
 ## Mac App Store apps (requires `mas`, run `mas signin` first)
-mas install 1631624924 # Final Cut Pro
-mas install 361285480  # Keynote
-mas install 361309726  # Pages
-mas install 497799835  # Xcode
+#mas install 1631624924 # Final Cut Pro
+#mas install 361285480  # Keynote
+#mas install 361309726  # Pages
+#mas install 497799835  # Xcode
