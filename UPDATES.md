@@ -1,13 +1,6 @@
 # Updates
 
 
-## The nixos configuration is arriving soon
-
-The official nixos configuration is arriving soon. Tested on my minimal
-ThinkPad T480 setup, which is going to be used as an ultimate productive
-writing setup for me.
-
-
 ## I would not use the next-gen-dot-manager-ultimate branch 
 
 Right now, that branch is completely unstable, and it is likely that this branch
@@ -17,9 +10,6 @@ will be removed anytime soon.
 
 The stow like features is in this branch "next-gen-dot-manager-ultimate"
 mind you, this is not stable at all. Since the branch is semi vibe coded.
-
-
-
 
 The stow feature is in the different branch
 
