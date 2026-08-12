@@ -1,5 +1,5 @@
-## macbook-setup.sh
-
+#!/usr/bin/env bash
+## 01-install-packages.sh
 
 ## This script is the latest one, which sets up everything on my
 ## macboooook proooooo

@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #
-# 03-find-processes-that-make-mac-slow-because-of-memory-leaks.sh
+# find-memory-hogs-macos.sh
 #
 # Find processes using excessive memory that might be causing your Mac to slow down.
 # Helps identify potential memory leaks and resource hogs.
 #
 # Usage:
-#   ./03-find-processes-that-make-mac-slow-because-of-memory-leaks.sh
+#   ./find-memory-hogs-macos.sh
 #
 # Notes:
 # - This script NEVER terminates any processes. It only shows information.

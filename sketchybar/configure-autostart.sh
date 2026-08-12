@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 ## configure-autostart.sh
 
 ## Configures macOS to start sketchybar automatically at login.

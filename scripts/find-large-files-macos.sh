@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #
-# 02-find-large-files-mac.sh
+# find-large-files-macos.sh
 #
 # Find the largest directories and files so you can decide what to delete manually.
 #
 # Usage:
-#   ./02-find-large-files-mac.sh            # scan your home folder (default)
-#   ./02-find-large-files-mac.sh /path     # scan a specific folder
+#   ./find-large-files-macos.sh            # scan your home folder (default)
+#   ./find-large-files-macos.sh /path     # scan a specific folder
 #
 # Notes:
 # - This script NEVER deletes anything. It only shows sizes and paths.
@@ -16,7 +16,7 @@
 set -euo pipefail
 
 TARGET_DIR="${1:-$HOME}"
-TOP_N="${TOP_N:-20}"   # You can override: TOP_N=30 ./02-find-large-files-mac.sh
+TOP_N="${TOP_N:-20}"   # You can override: TOP_N=30 ./find-large-files-macos.sh
 MIN_FILE_SIZE="${MIN_FILE_SIZE:-50M}" # Only show files bigger than this
 
 if [ ! -d "$TARGET_DIR" ]; then

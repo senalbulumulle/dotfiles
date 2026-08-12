@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 ## 01-install-claude.sh
 
 ## Installs Claude Code for the current user, then again for root so the

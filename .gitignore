@@ -1,2 +1,7 @@
+# OS noise
+.DS_Store
+
+# Editor state that should never be committed
+# (these paths exist on other branches of this repo)
 micro/buffers
 nvim/plugin/packer_compiled.lua
