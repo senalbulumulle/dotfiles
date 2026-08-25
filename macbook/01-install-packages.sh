@@ -70,6 +70,8 @@ brew install podman
 brew install protobuf
 brew install pybind11
 brew install python-tk@3.14
+brew install node
+brew install qemu
 brew install ranger
 brew install raylib
 brew install rust
@@ -97,15 +99,17 @@ brew install x86_64-elf-grub
 brew install xmrig
 brew install xterm
 brew install yajl
+brew install yt-dlp
 brew install zellij
 brew install zig
-brew install sketchybar
 
 ## GUI apps / casks
 brew install --cask alacritty
 brew install --cask android-platform-tools
 brew install --cask appcleaner
+brew install --cask balenaetcher
 brew install --cask blackhole-2ch
+brew install --cask boring-notch
 brew install --cask brave-browser
 brew install --cask brave-browser@nightly
 brew install --cask chatgpt
