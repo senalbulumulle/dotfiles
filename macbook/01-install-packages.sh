@@ -9,7 +9,6 @@ brew tap felixkratz/formulae
 
 ## CLI tools / formulae
 brew install automake
-brew install azure-cli
 brew install bash
 brew install binutils
 brew install bitcoin
