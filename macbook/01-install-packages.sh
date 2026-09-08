@@ -107,13 +107,8 @@ brew install --cask alacritty
 brew install --cask android-platform-tools
 brew install --cask appcleaner
 brew install --cask balenaetcher
-brew install --cask blackhole-2ch
-brew install --cask boring-notch
 brew install --cask brave-browser
-brew install --cask brave-browser@nightly
-brew install --cask chatgpt
 brew install --cask claude-code
-brew install --cask codex
 brew install --cask cursor
 brew install --cask cursor-cli
 brew install --cask discord@canary
@@ -127,7 +122,6 @@ brew install --cask kitty
 brew install --cask loop
 brew install --cask macs-fan-control
 brew install --cask microsoft-teams
-brew install --cask mochi-diffusion
 brew install --cask obsidian
 brew install --cask puremac
 brew install --cask rustdesk
