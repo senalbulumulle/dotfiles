@@ -2,6 +2,7 @@
 
 
 brew install cmake
+brew install rust
 
 brew install --cask gh
 brew install --cask cursor
