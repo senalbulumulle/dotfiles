@@ -23,3 +23,7 @@ and some of those configurations are based from the linux distribution's
 configuration files, but it is archived for my use-cases, if I need to 
 port the files to the main branch. Who knows if the linux distributions
 configs that I used will be merged from those branches.
+
+
+In other words, the branches, were used in main, and moved to other branches
+in case of my decision to look after them. 
