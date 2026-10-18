@@ -26,4 +26,9 @@ configs that I used will be merged from those branches.
 
 
 In other words, the branches, were used in main, and moved to other branches
-in case of my decision to look after them. 
+in case of my decision to look after them.
+
+
+
+
+# Neovim Configuration
