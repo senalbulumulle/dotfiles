@@ -30,5 +30,17 @@ in case of my decision to look after them.
 
 
 
+# i3 Configuration
+
+```shell
+SUPER D or ALT D = Search Function
+```
+
+```shell
+SUPER E or ALT E = Exit i3 
+```
+
+
+
 
 # Neovim Configuration
