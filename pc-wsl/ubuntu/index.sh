@@ -5,6 +5,8 @@ sudo apt upgrade -y
 sudo apt install git -y
 sudo apt install fish -y
 sudo apt install micro -y
+sudo apt install firefox -y
+
 
 ## Setting up the git configurations
 ## ! Uncomment the the lines to configure git credentials.
