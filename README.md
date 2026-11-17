@@ -10,7 +10,7 @@ of typical Senal's habitat. Work Smarter Always and Not Harder
 
 ## Website
 
-[Senal Rocks](https://senal.rocks)
+Website not available right now at the moment
 
 # Features
 
