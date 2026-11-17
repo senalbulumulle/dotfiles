@@ -1,0 +1,13 @@
+## SETUP SCRIPT
+
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install git -y
+sudo apt install fish -y
+sudo apt install micro -y
+
+## Setting up the git configurations
+## ! Uncomment the the lines to configure git credentials.
+
+#git config --global user.name ""
+#git config --global user.email ""
