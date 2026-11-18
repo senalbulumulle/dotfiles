@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "settings": {
+    "subnet": "192.168.1.0/24",
+    "probe_port": 22,
+    "poll_interval_sec": 5,
+    "ssh_user": "",
+    "wol_broadcast": "255.255.255.255",
+    "agent_port": 8421
+  },
+  "boxes": [],
+  "services": []
+}
