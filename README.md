@@ -8,11 +8,20 @@ Welcome to Senal's dotfiles repository, the official repository
 of typical Senal's habitat. Work Smarter Always and Not Harder
 
 
+
+# (NEW) WSL Linux shell scripts
+
+BRAND NEW UPDATE to the dotfiles, introducing my WSL Linux Scripts. Here are the features
+
+- Out of the box configurations of my workflow on WSL Linux and Windows
+- My WSL Ubuntu Linux Configurations for WSL
+- My WSL Arch Linux Configurations for WSL
+
+
 ## Website
 
 Website not available right now at the moment
 
-# Features
 
 
 # Notices on other branches
