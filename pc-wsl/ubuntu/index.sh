@@ -19,13 +19,10 @@ sudo apt install micro -y
 
 
 ## Setting up claude code (user)
-
-## Setting up claude code (root)
-
-
+curl -fsSL https://claude.ai/install.sh | bash
 
 
 ## Setting up Codex CLI (user)
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
 
-## Setting up Codex CLI (root)
 
