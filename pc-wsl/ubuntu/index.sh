@@ -21,3 +21,11 @@ sudo apt install micro -y
 ## Setting up claude code (user)
 
 ## Setting up claude code (root)
+
+
+
+
+## Setting up Codex CLI (user)
+
+## Setting up Codex CLI (root)
+
