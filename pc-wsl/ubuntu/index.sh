@@ -15,3 +15,9 @@ sudo apt install micro -y
 
 #git config --global user.name ""
 #git config --global user.email ""
+
+
+
+## Setting up claude code (user)
+
+## Setting up claude code (root)
