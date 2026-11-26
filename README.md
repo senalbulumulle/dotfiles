@@ -9,6 +9,15 @@ of typical Senal's habitat. Work Smarter Always and Not Harder
 
 
 
+# (NEW) CONFIG FOLDERS PORTED FROM (v111) branch coming soon
+
+BRAND NEW UPDATE to the dotfiles, which contains the folders ported from the v111 branch to 
+the main branch. Just to let you know, for these folders, these folders contain folders that
+are going to be used for configuring dotfiles for each of the Linux distributions that I use.
+
+However, these folders containing scripts will be also updated from the original scripts from
+v111 to this main branch.
+
 # (NEW) WSL Linux shell scripts
 
 BRAND NEW UPDATE to the dotfiles, introducing my WSL Linux Scripts. Here are the features
