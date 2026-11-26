@@ -1,3 +1,3 @@
 brew install claude-code
 brew install codex
-brew install gemini
+brew install gemini-cli
