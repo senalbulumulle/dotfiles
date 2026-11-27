@@ -1,1 +1,0 @@
-"""Box control API — fleet persistence, LAN discovery, and host probes."""
